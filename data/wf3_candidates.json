@@ -1,0 +1,74 @@
+[
+ {
+  "title": "The enduring role of contracts for difference in risk management and market creation for renewables",
+  "authors": "Philipp Beiter, Jérôme Guillet, Lena Kitzing, et al.",
+  "year": "2023",
+  "doi": "10.1038/s41560-023-01401-w",
+  "url": "https://www.nature.com/articles/s41560-023-01401-w",
+  "openAccess": true,
+  "pdfUrl": "https://www.osti.gov/servlets/purl/2281535",
+  "topicRelevance": "high",
+  "oneLineThesis": "Contracts for difference remain a durable, low-cost instrument for managing investment risk and creating markets for renewables, and will stay central to renewable deployment even as power markets mature.",
+  "venue": "Nature Energy (journal code: nenergy; ISSN 2058-7546)"
+ },
+ {
+  "title": "Policy credibility is a key component for an effective and efficient EU Emissions Trading System",
+  "authors": "Beatriz Gaitan, et al.",
+  "year": "2024",
+  "doi": "10.1038/s41560-024-01545-3",
+  "url": "https://www.nature.com/articles/s41560-024-01545-3",
+  "openAccess": true,
+  "pdfUrl": "https://www.nature.com/articles/s41560-024-01545-3.pdf",
+  "topicRelevance": "high",
+  "oneLineThesis": "The effectiveness and efficiency of the EU Emissions Trading System hinge less on instrument mechanics than on the long-run credibility of the policy commitment behind it.",
+  "venue": "Nature Energy (journal code: nenergy; ISSN 2058-7546)"
+ },
+ {
+  "title": "The expansion of natural gas infrastructure puts energy transitions at risk",
+  "authors": "Claudia Kemfert, Fabian Präger, Hanna Brauers, et al.",
+  "year": "2022",
+  "doi": "10.1038/s41560-022-01060-3",
+  "url": "https://www.nature.com/articles/s41560-022-01060-3",
+  "openAccess": true,
+  "pdfUrl": "https://www.nature.com/articles/s41560-022-01060-3.pdf",
+  "topicRelevance": "high",
+  "oneLineThesis": "Continued build-out of natural gas infrastructure creates stranded-asset and carbon-lock-in risks that undermine, rather than bridge, the clean energy transition.",
+  "venue": "Nature Energy (journal code: nenergy; ISSN 2058-7546)"
+ },
+ {
+  "title": "Rapid fuel switching from coal to natural gas through effective carbon pricing",
+  "authors": "I. A. Grant Wilson, Iain Staffell",
+  "year": "2018",
+  "doi": "10.1038/s41560-018-0109-0",
+  "url": "https://www.nature.com/articles/s41560-018-0109-0",
+  "openAccess": true,
+  "pdfUrl": "https://research.birmingham.ac.uk/files/47119287/Wilson_Staffell_Rapid_fuel_switching_accepted.pdf",
+  "topicRelevance": "high",
+  "oneLineThesis": "A sufficiently high and credible carbon price can drive rapid coal-to-gas fuel switching in power systems, delivering near-term emissions cuts faster than capacity build-out alone.",
+  "venue": "Nature Energy (journal code: nenergy; ISSN 2058-7546)"
+ },
+ {
+  "title": "Scientific discovery in the age of artificial intelligence",
+  "authors": "Hanchen Wang, Tianfan Fu, Yuanqi Du, Wenhao Gao, Kexin Huang, Ziming Liu, Payal Chandak, Shengchao Liu, Peter Van Katwyk, Andreea Deac, Anima Anandkumar, Karianne Bergen, Carla P. Gomes, Shirley Ho, Pushmeet Kohli, Joan Lasenby, Jure Leskovec, Tie-Yan Liu, Arjun Manrai, Debora Marks, Bharath Ramsundar, Le Song, Jimeng Sun, Jian Tang, Petar Velickovic, Max Welling, Linfeng Zhang, Connor W. Coley, Yoshua Bengio, Marinka Zitnik",
+  "year": "2023",
+  "doi": "10.1038/s41586-023-06221-2",
+  "url": "https://www.nature.com/articles/s41586-023-06221-2",
+  "openAccess": false,
+  "pdfUrl": "https://www.semanticscholar.org/paper/Scientific-discovery-in-the-age-of-artificial-Wang-Fu/f08060425aa8a212d74185ee23a08329b89abcd2",
+  "topicRelevance": "high",
+  "oneLineThesis": "AI (self-supervised, geometric and generative deep learning) is becoming a general engine of scientific discovery across domains, reshaping how hypotheses are generated, experiments designed, and large datasets interpreted. [Article-type note: labelled a Review Article in Nature v620, but functions as the field-defining forward-looking overview of AI-for-science.]",
+  "venue": "Nature (flagship journal; ISSN 0028-0836; article DOIs use the 10.1038/s41586-... prefix). Sub-journals such as Nature Energy, Nature Computational Science, Nature Reviews Electrical Engineering, Nature Climate Change and Nature Reviews Materials are EXCLUDED from this list per the \"main/flagship journal\" scope."
+ },
+ {
+  "title": "Deep learning and process understanding for data-driven Earth system science",
+  "authors": "Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim Denzler, Nuno Carvalhais, Prabhat",
+  "year": "2019",
+  "doi": "10.1038/s41586-019-0912-1",
+  "url": "https://www.nature.com/articles/s41586-019-0912-1",
+  "openAccess": false,
+  "pdfUrl": "https://pure.mpg.de/pubman/item/item_3029184_9/component/file_3282959/BGC3001P.pdf",
+  "topicRelevance": "high",
+  "oneLineThesis": "Hybrid modelling that fuses deep learning with physical process understanding is the path forward for data-driven Earth-system science, including climate and the energy-relevant geophysical predictions underpinning renewables. [Confirmed Perspective, Nature v566; foundational for AI weather/climate-energy work.]",
+  "venue": "Nature (flagship journal; ISSN 0028-0836; article DOIs use the 10.1038/s41586-... prefix). Sub-journals such as Nature Energy, Nature Computational Science, Nature Reviews Electrical Engineering, Nature Climate Change and Nature Reviews Materials are EXCLUDED from this list per the \"main/flagship journal\" scope."
+ }
+]

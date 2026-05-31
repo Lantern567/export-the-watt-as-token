@@ -1,0 +1,280 @@
+[
+ {
+  "journal": "Nature (flagship journal; ISSN 0028-0836; article DOIs use the 10.1038/s41586-... prefix). Sub-journals such as Nature Energy, Nature Computational Science, Nature Reviews Electrical Engineering, Nature Climate Change and Nature Reviews Materials are EXCLUDED from this list per the \"main/flagship journal\" scope.",
+  "houseStyle": "DEFINITION (from Nature's \"Other types of submissions\"/Formatting guide): A Perspective is one of Nature's secondary/review-type articles. It \"provides a forum for authors to discuss models and ideas from a personal viewpoint\" and is \"more forward-looking and/or speculative than Review articles, and may take a narrower field of view.\" It is opinion-driven and thesis-forward, but still scholarly and fully referenced. (Reviews, by contrast, survey recent developments in a field with an educational, balanced, non-speculative stance.)\n\nLENGTH / WORD LIMIT: Nature groups Reviews and Perspectives together in its formatting guidance and assigns length per the page budget rather than a single hard cap. In practice, flagship-Nature Perspectives/Reviews run roughly 3,000-6,000 words of main text (Nature's typical Review/Perspective body is around 4,000-6,000 words; some references give ~3,000 words for the more focused Perspective format and ~6,000 for full Reviews). There is no Methods section. Authors should confirm the exact word allocation with the editor on commissioning, since it is set case by case.\n\nABSTRACT / SUMMARY: Unstructured, single-paragraph abstract with no subheadings and no in-text citations, ~150 words (Nature caps abstracts at ~150 words; some Review/Perspective summaries run up to ~200 words). Should be accessible to a broad, interdisciplinary readership and state the central argument plainly. No \"Introduction\" heading is used; the piece opens directly.\n\nREFERENCES: Reference list is capped (commonly ~50 references for Reviews/Perspectives in flagship Nature; the exact cap is set on commissioning). DISTINCTIVE REQUIREMENT: for Reviews and Perspectives, authors must write a single bold sentence beneath each of the most important/relevant references (roughly the top 5-10% of the reference list) explaining the significance of that work to the field.\n\nDISPLAY ITEMS: A small number of figures/tables/boxes (commonly up to ~6 display items; conceptual/schematic figures are strongly encouraged to summarise frameworks, mechanisms or future directions). Boxes (~200-500 words, may contain illustrations, tables or equations, with subheadings/bullets allowed) are encouraged for self-contained background or definitions.\n\nCOMMISSIONING / PEER REVIEW: Most Reviews and Perspectives are COMMISSIONED by the editors. Unsolicited proposals are accepted but must be pre-pitched: authors submit a 1-2 page synopsis outlining the scope, the proposed organisation/structure, an example figure, and a list of recent key publications, so editors can judge fit before any full draft. Perspectives are peer-reviewed (refereed), like other primary Nature content.\n\nWHAT EDITORS LOOK FOR: a genuinely novel, forward-looking thesis or framework (not a neutral literature survey); timeliness and broad cross-disciplinary interest to Nature's general readership; a clear, accessible narrative argument with the author's distinct viewpoint; balanced treatment that still acknowledges counter-arguments and open problems; a concrete outlook on future directions; and authority/standing of the authors in the field. Speculation is permitted but must be clearly signposted and evidence-anchored.\n\nNOTE ON ARTICLE-TYPE DISAMBIGUATION: Crossref/PubMed tag all of these as generic \"journal-article\", so Perspective vs Review vs Analysis vs Comment cannot be told apart from those APIs. Flagship-Nature DOIs with the d41586 prefix are magazine/front-half content (News, Comment, News & Views, Feature) and are NOT peer-reviewed Perspectives; only s41586-prefixed DOIs are the back-half peer-reviewed content (Articles, Reviews, Perspectives, Analyses).",
+  "articles": [
+   {
+    "title": "Scientific discovery in the age of artificial intelligence",
+    "authors": "Hanchen Wang, Tianfan Fu, Yuanqi Du, Wenhao Gao, Kexin Huang, Ziming Liu, Payal Chandak, Shengchao Liu, Peter Van Katwyk, Andreea Deac, Anima Anandkumar, Karianne Bergen, Carla P. Gomes, Shirley Ho, Pushmeet Kohli, Joan Lasenby, Jure Leskovec, Tie-Yan Liu, Arjun Manrai, Debora Marks, Bharath Ramsundar, Le Song, Jimeng Sun, Jian Tang, Petar Velickovic, Max Welling, Linfeng Zhang, Connor W. Coley, Yoshua Bengio, Marinka Zitnik",
+    "year": "2023",
+    "doi": "10.1038/s41586-023-06221-2",
+    "url": "https://www.nature.com/articles/s41586-023-06221-2",
+    "openAccess": false,
+    "pdfUrl": "https://www.semanticscholar.org/paper/Scientific-discovery-in-the-age-of-artificial-Wang-Fu/f08060425aa8a212d74185ee23a08329b89abcd2",
+    "topicRelevance": "high",
+    "oneLineThesis": "AI (self-supervised, geometric and generative deep learning) is becoming a general engine of scientific discovery across domains, reshaping how hypotheses are generated, experiments designed, and large datasets interpreted. [Article-type note: labelled a Review Article in Nature v620, but functions as the field-defining forward-looking overview of AI-for-science.]"
+   },
+   {
+    "title": "Artificial intelligence and illusions of understanding in scientific research",
+    "authors": "Lisa Messeri, M. J. Crockett",
+    "year": "2024",
+    "doi": "10.1038/s41586-024-07146-0",
+    "url": "https://www.nature.com/articles/s41586-024-07146-0",
+    "openAccess": false,
+    "pdfUrl": "https://static1.squarespace.com/static/538ca3ade4b090f9ef331978/t/65f071f8fd3e3b478a4f4b86/1710256633821/Messeri&Crockett_2024_Nature.pdf",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Adopting AI tools across the research pipeline risks creating illusions of understanding and scientific monocultures, narrowing the questions, methods and viewpoints science explores. [Confirmed Perspective, Nature v627.]"
+   },
+   {
+    "title": "Foundation models for generalist medical artificial intelligence",
+    "authors": "Michael Moor, Oishi Banerjee, Zahra Shakeri Hossein Abad, Harlan M. Krumholz, Jure Leskovec, Eric J. Topol, Pranav Rajpurkar",
+    "year": "2023",
+    "doi": "10.1038/s41586-023-05881-4",
+    "url": "https://www.nature.com/articles/s41586-023-05881-4",
+    "openAccess": false,
+    "pdfUrl": "https://www.semanticscholar.org/paper/Foundation-models-for-generalist-medical-artificial-Moor-Banerjee/9faa2b0e5cb93f20df0555c3c350fab0b2eccf3a",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Large self-supervised foundation models (generalist medical AI) will move medicine from narrow single-task models to flexible multimodal systems that need little task-specific labelled data. [Confirmed Perspective, Nature v616.]"
+   },
+   {
+    "title": "Deep learning and process understanding for data-driven Earth system science",
+    "authors": "Markus Reichstein, Gustau Camps-Valls, Bjorn Stevens, Martin Jung, Joachim Denzler, Nuno Carvalhais, Prabhat",
+    "year": "2019",
+    "doi": "10.1038/s41586-019-0912-1",
+    "url": "https://www.nature.com/articles/s41586-019-0912-1",
+    "openAccess": false,
+    "pdfUrl": "https://pure.mpg.de/pubman/item/item_3029184_9/component/file_3282959/BGC3001P.pdf",
+    "topicRelevance": "high",
+    "oneLineThesis": "Hybrid modelling that fuses deep learning with physical process understanding is the path forward for data-driven Earth-system science, including climate and the energy-relevant geophysical predictions underpinning renewables. [Confirmed Perspective, Nature v566; foundational for AI weather/climate-energy work.]"
+   },
+   {
+    "title": "Artificial intelligence tools expand scientists' impact but contract science's focus",
+    "authors": "Qianyue Hao, Fengli Xu, Yong Li, James Evans",
+    "year": "2026",
+    "doi": "10.1038/s41586-025-09922-y",
+    "url": "https://www.nature.com/articles/s41586-025-09922-y",
+    "openAccess": false,
+    "pdfUrl": "https://arxiv.org/pdf/2412.07727",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Across 41.3M papers, AI-augmented research raises individual output, citations and leadership but collectively concentrates science in data-rich areas, shrinking diversity and collaboration. [Article-type note: a research Article (Nature v649), not a Perspective, but a thesis-driven analysis of AI's systemic effect on science.]"
+   },
+   {
+    "title": "Using life cycle assessment to drive innovation for sustainable cool clouds",
+    "authors": "Husam Alissa, Teresa Nick, Ashish Raniwala, Alberto Arribas Herranz, Kali Frost, Ioannis Manousakis, Kari Lio, Brijesh Warrier, Vaidehi Oruganti, T. J. DiCaprio, Kathryn Oseen-Senda, Bharath Ramakrishnan, Naval Gupta, Ricardo Bianchini, Jim Kleewein, Christian Belady, Marcus Fontoura, Julie Sinistore, Mukunth Natarajan, Lauren Johnson, VeeAnder Mealing, Praneet Arshi, Madeline Frieze",
+    "year": "2025",
+    "doi": "10.1038/s41586-025-08832-3",
+    "url": "https://www.nature.com/articles/s41586-025-08832-3",
+    "openAccess": false,
+    "pdfUrl": "https://www.nature.com/articles/s41586-025-08832-3.pdf",
+    "topicRelevance": "high",
+    "oneLineThesis": "Life-cycle assessment shows advanced data-centre cooling (cold plates, immersion) can cut greenhouse-gas emissions 15-21%, energy 15-20% and water 31-52%, a route to sustainable cloud/AI compute. [Article-type note: published as an Analysis in Nature v641, not a Perspective, but directly on AI data-centre energy.]"
+   },
+   {
+    "title": "Probabilistic weather forecasting with machine learning (GenCast)",
+    "authors": "Ilan Price, Alvaro Sanchez-Gonzalez, Ferran Alet, Tom R. Andersson, Andrew El-Kadi, Dominic Masters, Timo Ewalds, Jacklynn Stott, Shakir Mohamed, Peter Battaglia, Remi Lam, Matthew Willson",
+    "year": "2024",
+    "doi": "10.1038/s41586-024-08252-9",
+    "url": "https://www.nature.com/articles/s41586-024-08252-9",
+    "openAccess": true,
+    "pdfUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11666454/pdf/41586_2024_Article_8252.pdf",
+    "topicRelevance": "medium",
+    "oneLineThesis": "A diffusion-based ML ensemble (GenCast) beats the leading operational ensemble on 97.2% of targets and better predicts extremes and wind-power production at a fraction of the compute. [Article-type note: a research Article (Nature v637), open access (CC BY 4.0); included for AI-energy/renewables relevance, not as a Perspective.]"
+   },
+   {
+    "title": "Strategies for climate-resilient global wind and solar power systems",
+    "authors": "Authors per Nature record (s41586-025-09266-7)",
+    "year": "2025",
+    "doi": "10.1038/s41586-025-09266-7",
+    "url": "https://www.nature.com/articles/s41586-025-09266-7",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "Climate change intensifies wind/solar supply-demand imbalances and raises hourly system costs, but well-designed climate-resilient strategies can substantially offset that risk in decarbonised grids. [Article-type note: likely a research Article in Nature; high climate-energy-systems relevance. Author list to be confirmed on the Nature landing page.]"
+   },
+   {
+    "title": "Will AI accelerate or delay the race to net-zero emissions?",
+    "authors": "Amy Luers, Jonathan Koomey, Eric Masanet, Owen Gaffney, Felix Creutzig, Juan Lavista Ferres, Eric Horvitz",
+    "year": "2024",
+    "doi": "10.1038/d41586-024-01137-x",
+    "url": "https://www.nature.com/articles/d41586-024-01137-x",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "AI's net climate effect (its own data-centre energy/emissions vs. its mitigation potential) is undetermined and governance choices will decide whether AI speeds or slows the path to net zero. [Article-type note: a Nature Comment (d41586 prefix), NOT a peer-reviewed Perspective; included because it is the flagship-journal opinion piece most squarely on AI + energy + climate.]"
+   },
+   {
+    "title": "Net zero needs AI - five actions to realize its promise",
+    "authors": "Authors per Nature record (d41586-025-02641-4)",
+    "year": "2025",
+    "doi": "10.1038/d41586-025-02641-4",
+    "url": "https://www.nature.com/articles/d41586-025-02641-4",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "Reaching net-zero by 2050 is unrealistic without AI, and five concrete actions are needed to harness AI for decarbonisation while containing its own energy footprint. [Article-type note: a Nature Comment (d41586 prefix), NOT a peer-reviewed Perspective; flagship-journal opinion directly on AI + energy.]"
+   },
+   {
+    "title": "A foundation model for the Earth system (Aurora)",
+    "authors": "Authors per Nature record (s41586-025-09005-y), Microsoft Research team",
+    "year": "2025",
+    "doi": "10.1038/s41586-025-09005-y",
+    "url": "https://www.nature.com/articles/s41586-025-09005-y",
+    "openAccess": false,
+    "pdfUrl": "https://arxiv.org/pdf/2405.13063",
+    "topicRelevance": "medium",
+    "oneLineThesis": "A single large foundation model trained on >1M hours of geophysical data outperforms operational systems for weather, air quality, ocean waves and cyclones, signalling general-purpose AI for Earth-system (incl. renewable-energy-relevant) forecasting. [Article-type note: a research Article in Nature; arXiv preprint 2405.13063 is the open PDF.]"
+   }
+  ],
+  "notes": "SCOPE / METHOD: The Nature type-filter listing pages (https://www.nature.com/nature/articles?type=perspective&year=YYYY) and all nature.com article/author pages sit behind an idp.nature.com cookie-authorization redirect that loops for automated fetching, so I could not scrape the official Perspective index directly. I instead enumerated and verified candidates via web search plus the Crossref REST API (journal ISSN 0028-0836 = flagship Nature) and OA mirrors (PMC, arXiv, Semantic Scholar, institutional repositories). Every DOI/year/volume below was cross-checked against Crossref and/or PubMed/ADS.\n\nCRITICAL CAVEAT ON ARTICLE TYPE: Crossref and PubMed label all of these \"journal-article\" and do not expose Nature's editorial subtype, so I could not programmatically confirm \"Perspective\" vs \"Review\" vs \"Analysis\" vs \"Comment\" for every item. Where I could verify the label from a reliable secondary source I noted it inline:\n - CONFIRMED PERSPECTIVES (flagship Nature): \"Artificial intelligence and illusions of understanding in scientific research\" (s41586-024-07146-0); \"Foundation models for generalist medical artificial intelligence\" (s41586-023-05881-4); \"Deep learning and process understanding for data-driven Earth system science\" (s41586-019-0912-1).\n - LABELLED REVIEW (functions as the forward-looking field overview): \"Scientific discovery in the age of artificial intelligence\" (s41586-023-06221-2).\n - RESEARCH ARTICLES / ANALYSIS (included for topic fit, NOT Perspectives, flagged in each thesis): GenCast (s41586-024-08252-9, Article, OA); data-centre cooling LCA (s41586-025-08832-3, Analysis); AI-tools-expand-impact (s41586-025-09922-y, Article); Aurora Earth-system foundation model (s41586-025-09005-y, Article); climate-resilient wind/solar (s41586-025-09266-7, Article).\n - NATURE COMMENTS, NOT peer-reviewed Perspectives (d41586 prefix = magazine/front-half), but the flagship-journal pieces most squarely on AI+energy+climate: \"Will AI accelerate or delay the race to net-zero emissions?\" (d41586-024-01137-x) and \"Net zero needs AI - five actions\" (d41586-025-02641-4).\n\nKEY FINDING ON THE EXACT TOPIC (AI + stranded power + data centres + compute): The flagship Nature journal has, to date, published essentially NO dedicated peer-reviewed Perspective whose central thesis is AI data-centre electricity demand / grid stress / stranded power. That literature lives in the Nature sub-journals, which fall outside this \"main/flagship journal\" task but are the right next stop: Nature Energy \"AI data centres as grid-interactive assets\" (10.1038/s41560-025-01927-1); Nature Reviews Electrical Engineering \"AI data centres step up as flexible grid assets\" (10.1038/s44287-025-00255-6); Nature Reviews Clean Technology \"Energy and physical resource impacts of quantum computing merit greater attention\" (10.1038/s44359-026-00156-3) and \"Energy system science must look beyond net zero\" (10.1038/s44359-026-00170-5); Nature Reviews Materials \"Machine learning for a sustainable energy future\" (10.1038/s41578-022-00490-5); Nature Climate Change \"Aligning artificial intelligence with climate change mitigation\" (10.1038/s41558-022-01377-7). Recommend a follow-up pass over those titles if sub-journal Perspectives are acceptable.\n\nUNVERIFIED FIELDS: For four entries I could not fully confirm the author list without loading the (blocked) Nature landing page - \"Strategies for climate-resilient global wind and solar power systems\" (s41586-025-09266-7), \"A foundation model for the Earth system / Aurora\" (s41586-025-09005-y), and the two d41586 Comments. DOIs, titles and years for these are verified; the author lists should be confirmed on the Nature landing page before citing. The \"openAccess\" flag is reliably TRUE only for GenCast (CC BY 4.0 via PMC); the others are subscription on Nature but have free author/preprint/repository PDFs where a pdfUrl is given.\n\nHOUSE-STYLE SOURCING: The Perspective spec was assembled from Nature's \"Other types of submissions\" and \"Formatting guide\" pages (accessed via search snippets, since the live pages are behind the same auth redirect) plus a third-party Nature formatting summary. Note a genuine discrepancy in word limits across sources: Nature's flagship guide budgets Reviews+Perspectives together (~6,000 words is typical for published pieces), while one summary lists a tighter ~3,000-word / ~30-ref Perspective format; the operative number is set per-article on commissioning, so confirm directly with the editor."
+ },
+ {
+  "journal": "Nature Energy (journal code: nenergy; ISSN 2058-7546)",
+  "houseStyle": "Official Nature Energy \"Perspective\" specification, taken verbatim from the Nature Energy Content Types page (nature.com/nenergy/content) on 2026-05-30.\n\nDEFINITION: \"A Perspective is intended to provide a forum for authors to discuss models and ideas from a personal viewpoint. They are more forward looking and/or speculative than Reviews and may take a narrower field of view. They may be opinionated but should remain balanced and are intended to stimulate discussion and new approaches.\" Perspectives are peer reviewed and carry received/accepted dates.\n\nWORD LIMIT: Up to 3,000 words of main text. (Note: the 6,000-word figure that some secondary sources cite is the limit for Review Articles, NOT Perspectives — do not confuse the two.)\n\nABSTRACT: A single unreferenced paragraph. Following Nature-portfolio long-form convention, keep it to roughly 150 words. It should be accessible to a broad, cross-disciplinary energy readership (no undefined jargon/abbreviations) and frame the central argument rather than merely summarize a field.\n\nREFERENCES: Up to 50 (this is the Perspective cap; Reviews allow up to 100). For long-form manuscripts (Articles, Reviews, Perspectives, Progress Articles) the TITLES of cited articles are required in the reference list. Citation should be selective; for particularly important studies (no more than ~10% of all references) authors are encouraged to add short annotations explaining why these are key contributions.\n\nDISPLAY ITEMS: Up to 6 items (figures and/or tables). Illustrations / conceptual schematics are strongly encouraged — a well-designed conceptual figure that crystallizes the thesis is valued.\n\nWHAT EDITORS LOOK FOR: A clear, forward-looking, thesis-driven viewpoint (not a neutral literature survey); a genuine argument or new framing that stimulates discussion and new approaches; balance and fairness even when opinionated (engage counter-arguments); broad significance to the energy community spanning technology, policy, economics and social science; timeliness; and accessibility to a multidisciplinary readership. Nature Energy is a single-topic Nature-branded journal covering energy research across natural sciences, engineering and social sciences, so cross-cutting systems-level or policy-relevant framings are well suited to the Perspective format.\n\nFORMAT NOTES: Main-research-relevant supplementary information is permitted; competing-interests, data-availability and author-contribution statements required at submission of the final version. Title should be concise. All Perspectives undergo peer review.",
+  "articles": [
+   {
+    "title": "Informed investments in clean energy technologies",
+    "authors": "Jessika E. Trancik, Erin Baker, Rupert Way, et al.",
+    "year": "2025",
+    "doi": "10.1038/s41560-025-01867-w",
+    "url": "https://www.nature.com/articles/s41560-025-01867-w",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "Decisions about which clean-energy technologies to fund should be guided by empirically grounded technology-cost-and-improvement models rather than ad hoc judgement, to allocate scarce investment where it most accelerates the energy transition."
+   },
+   {
+    "title": "Lessons from wholesale market success for system service procurement design in high renewable electricity markets",
+    "authors": "Muireann Á. Lynch, Valentin Bertsch",
+    "year": "2025",
+    "doi": "10.1038/s41560-024-01699-0",
+    "url": "https://www.nature.com/articles/s41560-024-01699-0",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "The design principles that made wholesale energy markets succeed should be deliberately carried over to the procurement of system services (flexibility, inertia, reserves) as power systems move to very high shares of renewables."
+   },
+   {
+    "title": "The enduring role of contracts for difference in risk management and market creation for renewables",
+    "authors": "Philipp Beiter, Jérôme Guillet, Lena Kitzing, et al.",
+    "year": "2023",
+    "doi": "10.1038/s41560-023-01401-w",
+    "url": "https://www.nature.com/articles/s41560-023-01401-w",
+    "openAccess": true,
+    "pdfUrl": "https://www.osti.gov/servlets/purl/2281535",
+    "topicRelevance": "high",
+    "oneLineThesis": "Contracts for difference remain a durable, low-cost instrument for managing investment risk and creating markets for renewables, and will stay central to renewable deployment even as power markets mature."
+   },
+   {
+    "title": "Policy credibility is a key component for an effective and efficient EU Emissions Trading System",
+    "authors": "Beatriz Gaitan, et al.",
+    "year": "2024",
+    "doi": "10.1038/s41560-024-01545-3",
+    "url": "https://www.nature.com/articles/s41560-024-01545-3",
+    "openAccess": true,
+    "pdfUrl": "https://www.nature.com/articles/s41560-024-01545-3.pdf",
+    "topicRelevance": "high",
+    "oneLineThesis": "The effectiveness and efficiency of the EU Emissions Trading System hinge less on instrument mechanics than on the long-run credibility of the policy commitment behind it."
+   },
+   {
+    "title": "The expansion of natural gas infrastructure puts energy transitions at risk",
+    "authors": "Claudia Kemfert, Fabian Präger, Hanna Brauers, et al.",
+    "year": "2022",
+    "doi": "10.1038/s41560-022-01060-3",
+    "url": "https://www.nature.com/articles/s41560-022-01060-3",
+    "openAccess": true,
+    "pdfUrl": "https://www.nature.com/articles/s41560-022-01060-3.pdf",
+    "topicRelevance": "high",
+    "oneLineThesis": "Continued build-out of natural gas infrastructure creates stranded-asset and carbon-lock-in risks that undermine, rather than bridge, the clean energy transition."
+   },
+   {
+    "title": "International relations theory on grid communities and international politics in a green world",
+    "authors": "Karen Smith Stegen",
+    "year": "2023",
+    "doi": "10.1038/s41560-023-01363-z",
+    "url": "https://www.nature.com/articles/s41560-023-01363-z",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "Cross-border electricity grid interconnection ('grid communities') will reshape geopolitics in a renewables-dominated world, and international-relations theory is needed to anticipate the new dependencies and alliances it creates."
+   },
+   {
+    "title": "Rapid fuel switching from coal to natural gas through effective carbon pricing",
+    "authors": "I. A. Grant Wilson, Iain Staffell",
+    "year": "2018",
+    "doi": "10.1038/s41560-018-0109-0",
+    "url": "https://www.nature.com/articles/s41560-018-0109-0",
+    "openAccess": true,
+    "pdfUrl": "https://research.birmingham.ac.uk/files/47119287/Wilson_Staffell_Rapid_fuel_switching_accepted.pdf",
+    "topicRelevance": "high",
+    "oneLineThesis": "A sufficiently high and credible carbon price can drive rapid coal-to-gas fuel switching in power systems, delivering near-term emissions cuts faster than capacity build-out alone."
+   },
+   {
+    "title": "The next phase of the energy transition and its implications for research and policy",
+    "authors": "Jochen Markard",
+    "year": "2018",
+    "doi": "10.1038/s41560-018-0171-7",
+    "url": "https://www.nature.com/articles/s41560-018-0171-7",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "high",
+    "oneLineThesis": "The energy transition is entering a new phase characterized by destabilization of incumbent fossil systems and whole-system integration, demanding a shift in research and policy focus from technology niches to system transformation."
+   },
+   {
+    "title": "Development transitions for fossil fuel-producing low and lower–middle income countries in a carbon-constrained world",
+    "authors": "Vivien Foster, Philipp A. Trotter, Pu Yang, et al.",
+    "year": "2024",
+    "doi": "10.1038/s41560-023-01440-3",
+    "url": "https://www.nature.com/articles/s41560-023-01440-3",
+    "openAccess": true,
+    "pdfUrl": "http://eprints.lse.ac.uk/122094/1/Development_transitions_for_fossil_fuel_producing_low_and_lower_1_middle_income_countries_in_a_carbon_constrained_world.pdf",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Fossil-fuel-dependent low- and lower-middle-income countries need tailored development pathways to avoid economic harm as global decarbonization erodes the value of their resource endowments."
+   },
+   {
+    "title": "Addressing context-specific energy modelling risks and dynamics in low- and middle-income countries",
+    "authors": "M. Daly, S. Pye, H. Waisman, et al.",
+    "year": "2026",
+    "doi": "10.1038/s41560-025-01962-y",
+    "url": "https://www.nature.com/articles/s41560-025-01962-y",
+    "openAccess": true,
+    "pdfUrl": "https://figshare.com/articles/journal_contribution/Addressing_context-specific_energy_modelling_risks_and_dynamics_in_low-_and_middle-income_countries/32113549",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Energy-system models applied to low- and middle-income countries must explicitly capture context-specific risks and socio-economic dynamics, or they will systematically misguide investment and policy."
+   },
+   {
+    "title": "Levers to address energy insecurity in the United States",
+    "authors": "Alison L. Knasin, Sanya Carley, Shelley Welton, et al.",
+    "year": "2026",
+    "doi": "10.1038/s41560-025-01959-7",
+    "url": "https://www.nature.com/articles/s41560-025-01959-7",
+    "openAccess": false,
+    "pdfUrl": "",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Energy insecurity in the US is a structural, multi-dimensional problem that requires coordinated policy levers across affordability, infrastructure and equity rather than piecemeal bill assistance."
+   },
+   {
+    "title": "The role of high-socioeconomic-status people in locking in or rapidly reducing energy-driven greenhouse gas emissions",
+    "authors": "Kristian S. Nielsen, Kimberly A. Nicholas, Paul C. Stern, et al.",
+    "year": "2021",
+    "doi": "10.1038/s41560-021-00900-y",
+    "url": "https://www.nature.com/articles/s41560-021-00900-y",
+    "openAccess": true,
+    "pdfUrl": "https://www.nature.com/articles/s41560-021-00900-y.pdf",
+    "topicRelevance": "medium",
+    "oneLineThesis": "High-socioeconomic-status individuals exert outsized leverage over energy emissions through their consumption, investments and influence, and engaging them is pivotal to either locking in or rapidly cutting emissions."
+   },
+   {
+    "title": "Africa needs context-relevant evidence to shape its clean energy future",
+    "authors": "Yacob Mulugetta, Youba Sokona, Abdulmutalib Yussuff, et al.",
+    "year": "2022",
+    "doi": "10.1038/s41560-022-01152-0",
+    "url": "https://www.nature.com/articles/s41560-022-01152-0",
+    "openAccess": true,
+    "pdfUrl": "https://www.nature.com/articles/s41560-022-01152-0.pdf",
+    "topicRelevance": "medium",
+    "oneLineThesis": "Africa's clean-energy decisions are being shaped by externally generated models and assumptions, and locally grounded, context-relevant evidence is essential to chart an equitable and effective energy future."
+   }
+  ],
+  "notes": "METHOD: The authoritative source was the Nature Energy type-filtered Perspective listing (https://www.nature.com/nenergy/articles?type=perspective), pages 1-3, which I reached by following the idp.nature.com authorize -> cookies_not_supported redirect chain (the listing 303-redirects to an auth endpoint that a plain fetch cannot satisfy directly). This gave the COMPLETE, verified set of Nature Energy Perspectives from 2018 to April 2026. OA status and OA-PDF links were cross-checked via the OpenAlex API per DOI; the house-style spec was pulled verbatim from the Nature Energy Content Types page.\n\nARTICLE TYPE CAVEAT: I returned only items confirmed as type=Perspective on the official listing. Many recent Nature Energy Perspectives are battery/solar-cell/electrocatalysis MATERIALS pieces (e.g. perovskite durability, lithium-metal designs, CO2 electrolysers, flow-battery economics) which I excluded as off-topic for an electricity-systems/AI-energy paper. The 13 returned all fall in energy systems, markets/economics, grids/geopolitics, gas infrastructure, transition policy, or energy access/equity.\n\nAI / DATA-CENTRE GAP (IMPORTANT FOR YOUR PAPER): Nature Energy has NOT yet published a Perspective specifically on AI/data-center electricity demand, stranded power, or compute-load flexibility. The closest and highest-profile item, \"AI data centres as grid-interactive assets\" (DOI 10.1038/s41560-025-01927-1, Nat. Energy vol. 11, Feb 2026), is a research ARTICLE (field demonstration on a 256-GPU cluster), NOT a Perspective, and it is closed access. Likewise \"The integration imperative in electricity grid transition\" (10.1038/s41560-025-01915-5) is an editorial/Q&A-style piece, not a peer-reviewed Perspective. This confirms a genuine open niche: a forward-looking Perspective tying AI/compute growth, stranded/under-utilized power, and grid integration would be novel for this venue. Nature Energy is an excellent target given its strong track record of systems-level and policy Perspectives.\n\nOA-PDF NOTES: 'green' OA PDFs point to author-accepted manuscripts in institutional repositories (OSTI, LSE EPrints, Birmingham, UCL Discovery, figshare) and may differ slightly from the published version of record. 'bronze' items (Kemfert 2022, Mulugetta 2022, Nielsen 2021) are free-to-read directly on nature.com with a .pdf link. For the coal-to-gas (2018) item the exact Birmingham AAM PDF path is best confirmed via the listed research.birmingham.ac.uk landing page if the direct PDF link 404s. Closed-access items (Trancik 2025, Lynch & Bertsch 2025, Smith Stegen 2023, Markard 2018, Knasin 2026) have no OA PDF.\n\nAUTHOR LISTS were taken from the Nature listing, which shows first author...last author; 'et al.' denotes additional middle authors not displayed. Verify full author strings against the DOI landing page before citing.\n\nSPEC DISCREPANCY RESOLVED: secondary sources conflated Perspective vs Review limits. Per the official Nature Energy content page, PERSPECTIVE = up to 3,000 words / up to 6 display items / up to 50 references; REVIEW = 6,000 words / up to 8 items / up to 100 references. Use the 3,000-word Perspective figure."
+ }
+]

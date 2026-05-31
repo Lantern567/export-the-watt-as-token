@@ -1,0 +1,1247 @@
+{
+ "genre": [
+  {
+   "source": "Krenn, Pollice, Guo, ... Aspuru-Guzik, \"On scientific understanding with artificial intelligence,\" Nature Reviews Physics 4, 761-769 (2022). Analyzed via arXiv full text (arXiv:2204.01467v1, CC BY 4.0). PDF: https://arxiv.org/pdf/2204.01467 ; abstract: https://arxiv.org/abs/2204.01467 . Local copies saved at D:\\onedrive\\01_科研与论文\\08_AI perspective\\ai_paper.pdf and ai_paper.txt",
+   "accessLevel": "full-text (open-access arXiv preprint, CC BY 4.0; substantively identical to the published Nature Reviews Physics Perspective)",
+   "structure": [
+    {
+     "section": "Lead / unlabeled abstract (the gray box before Section I)",
+     "purpose": "Hooks with a vivid 'oracle' thought experiment, names the central concept (scientific understanding) as the 'essential aim of science,' poses ONE sharp framing question, then gives a full roadmap-in-miniature: where we look (philosophy + anecdotes), the three-dimension framework, and the aspirational payoff ('true artificial scientists'). Functions as a self-contained pitch.",
+     "approxShare": "~2 paragraphs, ~5% of words"
+    },
+    {
+     "section": "I. Introduction",
+     "purpose": "Establishes stakes via a chain of provocative direct quotes from authorities (AI as 'new tool in the box,' 'revolutionizing science,' the chemical 'oracle'), then immediately introduces the counter-voice (skeptics who doubt AI yields understanding). States the paper's contribution (literature review + original survey of dozens of scientists' anecdotes), grounds it in a specific philosophical theory (de Regt & Dieks), previews the three dimensions, and ends with a mission statement ('put Scientific Understanding back to the limelight').",
+     "approxShare": "~12%"
+    },
+    {
+     "section": "II. Scientific Understanding",
+     "purpose": "The definitional/framework-grounding core. Walks through the philosophy of science (Hempel's dismissal -> later formalizations -> de Regt & Dieks's contextual theory), justifies the chosen theory by ONE pragmatic strength (it is operationally testable via outcomes, not methodology), and restates the criteria in a set-off block. Builds the conceptual scaffolding everything later hangs on.",
+     "approxShare": "~12%"
+    },
+    {
+     "section": "III. What Is Next? (A. Beyond Re-Discovery; B. Beyond Discovery; C. Where to go from here?)",
+     "purpose": "A 'clearing the ground' / negative-definition section: rules out what does NOT count as understanding (rediscovering known laws; black-box discovery like AlphaFold) to sharpen the target. Uses concrete foils (heliocentrism, arrow of time, AlphaFold, hypothetical best battery material) to argue prediction/discovery are not the same as understanding, funneling to the real research question.",
+     "approxShare": "~10%"
+    },
+    {
+     "section": "IV. Three Dimensions of Computer-Assisted Understanding (A. Computational microscope; B. Resource of inspiration / artificial muse; C. Agent of Understanding)",
+     "purpose": "The substantive heart (~50%). Each dimension follows a repeated template: (1) define via a metaphor (microscope / muse / agent), (2) give 2+ concrete published examples of the CURRENT state, (3) a 'The future X' subsection projecting forward with named enabling technologies, (4) explicit open challenges. Dimensions are ordered by increasing autonomy/ambition, ending with the not-yet-existent 'agent of understanding' where the authors propose formal Conditions I & II and the 'Scientific Understanding Test.'",
+     "approxShare": "~50%"
+    },
+    {
+     "section": "V. Conclusion",
+     "purpose": "Short, forward-looking close. Restates the contribution in one breath, makes a single concrete recommendation (multidisciplinary collaboration of scientists + computer scientists + philosophers), and lands a bounded-but-bold aspirational claim ('within our lifetimes').",
+     "approxShare": "~4%"
+    },
+    {
+     "section": "Acknowledgements + References (110 refs) + footnotes",
+     "purpose": "Crowdsources credibility (thanks ~40 named senior scientists, signaling the survey's reach), funding, figure credit. Five numbered footnotes carry caveats and edge-case hedges off the main line of argument.",
+     "approxShare": "~7% text; references are a large share of page count"
+    }
+   ],
+   "rhetoricalMoves": [
+    "Open with a thought experiment ('Imagine an oracle that correctly predicts...') that dramatizes the gap between prediction and understanding before any jargon appears.",
+    "Distinguish the target concept by negation: dedicate whole subsections to what does NOT count (re-discovery, black-box discovery) so the positive definition is unmistakable.",
+    "Borrow external authority for the framework: anchor the entire piece on ONE named, award-winning philosophy-of-science theory (de Regt & Dieks, Lakatos Award) and justify the choice with a single operational virtue (testability).",
+    "Coin a unifying term ('androids') and explicitly footnote why ('focusing on the operational objective rather than the methodology'), letting the argument stay method-agnostic and future-proof.",
+    "Build a taxonomy of exactly three named, metaphor-labeled dimensions (microscope / muse / agent), declared 'dimensions' (independent, non-exclusive) and ordered by escalating ambition.",
+    "Use a strict repeated template per dimension: metaphor -> current real examples -> 'the future' projection -> open challenge, so the reader internalizes the pattern.",
+    "Pair every speculative claim with a concrete published citation of the current state, then a labeled honest gap ('As of now, we are not aware of cases like that').",
+    "Formalize the most speculative part: convert hand-waving about 'true AI scientists' into stated Conditions (I, II) and a named, Turing-test-style protocol ('The Scientific Understanding Test'), giving falsifiable structure to speculation.",
+    "Stage a believer-vs-skeptic dialectic early (enthusiasts' quotes vs. 'this excitement has not been shared among all scientists') to preempt objections and signal balance.",
+    "Set off key definitions, criteria, conditions, and the test in indented blocks so the load-bearing claims are visually scannable.",
+    "Bound the boldest claim with a time horizon ('within our lifetimes') rather than leaving it open-ended, making ambition feel disciplined.",
+    "Use a first-person-plural collective voice ('We are convinced,' 'We believe,' 'We hope') to assert a position while signaling it is a perspective, not a result."
+   ],
+   "openingStrategy": "A two-move opener. Move 1 (hook): a concrete thought experiment in plain language - an 'oracle' that perfectly predicts physics experiments, chemical reactions, protein function - immediately countered with 'we would not be satisfied... We want more,' which surfaces the paper's whole thesis (prediction is not understanding) without jargon. Move 2 (frame): elevates the topic ('frequently been recognized as the essential aim of science') and poses ONE crisp organizing question ('How can advanced artificial systems contribute to scientific understanding or achieve it autonomously?'). The second paragraph is a transparent roadmap that names the methods (philosophy of science + original anecdote survey), the three-dimension framework, and the aspirational endpoint. The reader knows the thesis, structure, and stakes within ~200 words.",
+   "closingStrategy": "A compact 'restate + recommend + aspire' conclusion. It (1) reaffirms the inevitability framing ('Undoubtedly, advanced computational methods... will further revolutionize'), (2) restates the unique contribution (connecting AI to the specific aim of understanding), (3) issues ONE actionable recommendation - cross-disciplinary collaboration among natural scientists, computer scientists, and philosophers of science, mirroring the paper's own method - and (4) closes on a deliberately bold but time-bounded vision ('within our lifetimes, transform androids into true agents of understanding'). The bookend returns to the 'essential aim of science' phrase from the opening, closing the loop. Future directions are not dumped at the end; they are woven throughout Section IV, so the conclusion stays short.",
+   "figureUse": "Three figures, all conceptual/schematic rather than data plots (appropriate for a Perspective). Figure 1 is a roadmap/overview that visually encodes the entire argument: inputs (literature + philosophy of science + scientists' anecdotes) -> the three dimensions -> a future roadmap; it doubles as a visual abstract. Figures 2 and 3 are each tied to a specific dimension ('The future computational microscope,' 'The future resource of inspiration') and visualize the FUTURE/speculative vision, not existing results - e.g., Fig 2 shows two projected advances (bigger compute via GPU/TPU/OPU/quantum, and multi-sensory data representation), Fig 3 enumerates five labeled inspiration sub-modes (A-E) that map directly to the prose subsections. Figures carry the speculative load and let the text stay citation-dense. No tables; the 'data' of the field lives in the 110 references and inline examples.",
+   "toneNotes": "Confident, evangelical, but disciplined. Heavy first-person plural ('We believe,' 'We are convinced,' 'We hope,' 'We envision') asserts strong positions while marking them as opinion. Hedging is deployed precisely where claims are speculative ('could,' 'might,' 'we expect,' 'admittedly futuristic,' 'we are not aware of cases like that') and withheld where the authors are firm. Notably honest about limits: repeatedly flags the third dimension as not-yet-existing and unobserved in their survey. Balanced via an explicit skeptic voice (Hoffmann & Malrieu's 'simulation vs. understanding' tension is cited). Footnotes absorb caveats (e.g., 'we leave aside whether the explanation is true or false'; 'our test is not clear-cut'). Speculation is high but always scaffolded by either a citation, a metaphor, or a proposed test - rarely free-floating. Voice is accessible and quote-rich, almost essayistic, reflecting Nature-family Perspective register rather than a dry review.",
+   "lengthAndRefs": "~13 pages / roughly 6,000-7,000 words of main text (published as a Nature Reviews Physics Perspective, NRP 4:761-769). Abstract is a non-structured ~2-paragraph narrative lead (~250 words) that itself contains a thought experiment and a full roadmap - not a terse structured summary. 110 numbered references, very dense and current for 2022, mixing primary research (Nature/Science/PRL/PRX), philosophy-of-science books and papers (de Regt, Dieks, Hempel, Potochnik), and arXiv preprints (BERT, GPT-3, symbolic-regression work). 3 conceptual figures, 5 footnotes, 0 tables. Citation style is bracketed/numbered. Roughly half the word count is the Section IV taxonomy; references occupy a large fraction of total page count.",
+   "transferableLessons": [
+    "Open your AI+energy Perspective with a concrete thought experiment, not a literature recap - e.g., 'Imagine a grid operator that can perfectly forecast every kilowatt of demand and generation...' then immediately name what's still missing (understanding/causal control/trust) to surface your thesis in plain language.",
+    "Anchor the piece on ONE crisp organizing question and a memorable framework of 2-4 named, metaphor-labeled categories (the way 'computational microscope / muse / agent' carries the whole paper). For AI+energy, candidates might be roles like 'optimizer / forecaster / co-designer / autonomous operator,' ordered by increasing autonomy.",
+    "Define by negation: spend a short section ruling out what does NOT count (e.g., black-box load forecasting that improves accuracy but yields no operational insight, or marginal efficiency gains that don't change the system) to sharpen what your contribution targets.",
+    "Borrow external authority for your framework - cite an established theory or taxonomy from energy systems / techno-economics / sustainability science and justify your choice with one operational virtue, exactly as they leaned on de Regt & Dieks.",
+    "Consider coining and footnoting a single umbrella term so the argument stays method-agnostic and doesn't date (their 'androids' move); this future-proofs the piece against churn in specific ML methods.",
+    "Use a strict repeated template for each category: metaphor/definition -> 2-3 concrete CITED present-day examples -> a 'the future' projection naming enabling technologies -> the key open challenge. Repetition makes a long middle section easy to follow.",
+    "Pair every speculative claim with either a real citation of the current state or a proposed concrete test, and explicitly flag honest gaps ('we are not aware of cases like that'). Speculation is credible only when scaffolded.",
+    "Formalize your most speculative ambition into stated conditions or a named evaluation protocol (their 'Scientific Understanding Test'); for AI+energy you might propose explicit criteria for, say, 'an autonomous grid agent that demonstrably understands.' This converts hand-waving into something falsifiable and quotable.",
+    "Put the speculative/forward-looking vision into conceptual figures (a visual-abstract roadmap as Figure 1, plus one schematic per category) so the prose can stay citation-dense and evidence-grounded.",
+    "Stage a believer-vs-skeptic dialectic early - quote both AI enthusiasts and credible critics - to preempt the 'AI hype' objection and signal balance to reviewers.",
+    "Keep the conclusion short: restate the contribution, give ONE actionable recommendation (e.g., a specific cross-disciplinary collaboration energy modelers + ML researchers + policy/economics), and bound your boldest vision with a time horizon ('within this decade') rather than leaving it open-ended.",
+    "Use confident first-person-plural voice ('we argue,' 'we envision') to own a clear position - a Perspective is expected to take a stance, not hedge into a neutral review - while hedging precisely on genuinely uncertain claims.",
+    "Set off your key definitions, criteria, and any proposed test/metric in indented blocks so the load-bearing claims are visually scannable.",
+    "Bookend: echo a signature phrase from the opening in the conclusion (they reused 'the essential aim of science') to give the piece a sense of closure.",
+    "Budget references generously and currently (~100+), blending primary research, a domain-foundational theory, and very recent preprints, so the Perspective reads as authoritative and up-to-the-minute."
+   ]
+  },
+  {
+   "source": "PRIMARY SET (all open access; full text accessed unless noted):\n\n1. \"GREENER principles for environmentally sustainable computational science.\" Nature Computational Science 3, 514-521 (2023). Genuine Nature-portfolio PERSPECTIVE. https://www.nature.com/articles/s43588-023-00461-y — FULL TEXT ACCESSED via open-access PDF mirror https://www.green-algorithms.org/assets/publications/2023_GREENER_NatCompSci.pdf\n\n2. \"Why transparency matters for sustainable data centers and carbon-neutral artificial intelligence (AI).\" iScience (Cell Press), Oct 6, 2025. PERSPECTIVE, CC BY. FULL TEXT ACCESSED via PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC12613045/\n\n3. \"The carbon and water footprints of data centers and what this could mean for artificial intelligence.\" Patterns (Cell Press), 2025. Short-form analytical Perspective/commentary, CC BY. FULL TEXT ACCESSED via PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC12827721/\n\nCROSS-CHECK (Nature-portfolio long-form Perspective; abstract + framing accessed via arXiv preprint, full body not fully extracted): \"Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.\" Nature Methods (2026), PERSPECTIVE. https://www.nature.com/articles/s41592-026-03037-6 ; preprint https://arxiv.org/abs/2505.16619 (ABSTRACT/FRAMING ONLY).\n\nNote on Nature direct access: www.nature.com article pages redirect to an IdP auth wall for automated fetches, so the genuine Nature-portfolio Perspectives were confirmed via OA PDF mirror (GREENER) and arXiv preprint (Nature Methods); the Cell Press Perspectives were read in full via PMC.",
+   "accessLevel": "Full-text for 3 of 4 (GREENER via OA PDF mirror; iScience and Patterns via PMC). The Nature Methods Perspective was abstract-only / framing-only (preprint abstract), used as a cross-check on the long-form Nature-portfolio pattern, not for section-level extraction.",
+   "structure": [
+    {
+     "section": "Title + standfirst/teaser sentence",
+     "purpose": "Title names the contribution as a stance or framework (GREENER 'principles', 'Why transparency matters', 'what this could mean for AI') rather than a neutral topic. A one-sentence standfirst/teaser previews the thesis. Signals genre = opinion essay, not survey.",
+     "approxShare": "<1%"
+    },
+    {
+     "section": "Abstract / Summary (unstructured, ~120-200 words)",
+     "purpose": "3-4 move arc in a single paragraph: (1) state the opportunity/stakes, (2) name the problem/gap, (3) introduce the authors' framework or central claim by name, (4) state what the piece delivers (principles + best-practice guidance / a roadmap). No headings, no methods/results breakdown. iScience/Patterns add a 'Bigger Picture' box restating significance for a broad audience.",
+     "approxShare": "3-5%"
+    },
+    {
+     "section": "Introduction / opening (establishes timeliness)",
+     "purpose": "Hooks with a concrete, recent, quantified fact ('AI = 20% of data-center power by end 2024'; 'data centers could be 9% of global electricity by 2030'; 'Google AI use to exceed its current total by 2034'). Then states the gap (impacts under-quantified / under-reported / not yet standard practice) and ends with an explicit thesis sentence + a roadmap-of-the-article sentence. Establishes WHY NOW.",
+     "approxShare": "10-15%"
+    },
+    {
+     "section": "Background / scoping the problem",
+     "purpose": "One or two sections that frame the issue and define scope (e.g., 'Unveiling the hidden sustainability costs'; 'Reducing computing's environmental footprint'; separate carbon vs water sections). Marshals existing evidence to make the problem feel urgent and tractable, setting up the framework.",
+     "approxShare": "20-25%"
+    },
+    {
+     "section": "Core framework / central argument (the genre's centerpiece)",
+     "purpose": "Presents the authors' named, structured contribution: GREENER = 7 named principles each given a labeled mini-section; iScience = a phased transparency roadmap; Patterns = a bottom-up estimation method yielding ranges. Always organized, mnemonic, and reusable. This is the thesis made operational.",
+     "approxShare": "25-35%"
+    },
+    {
+     "section": "Implementation / case studies / 'what this means'",
+     "purpose": "Translates the framework into practice: concrete tactics, regional case studies, sector analogies (healthcare/finance disclosure), or quantified scenario implications. Demonstrates feasibility and broad relevance, pre-empting the 'nice idea but impractical' objection.",
+     "approxShare": "10-20%"
+    },
+    {
+     "section": "Challenges, limitations, and counterarguments",
+     "purpose": "Dedicated honest section naming opposing interests (operators' competitive/security concerns), data uncertainty, and the limits of the proposal ('transparency alone cannot solve everything'). Concedes, then reframes toward graduated/coordinated solutions. Earns credibility.",
+     "approxShare": "8-12%"
+    },
+    {
+     "section": "Roadmap / future directions / conclusion + call to action",
+     "purpose": "Phased or staged forward look (iScience: Phase 1 2025-27, Phase 2 2027-30, Phase 3 2030-35), GREENER: 'Conclusion and next steps' with institutional adoption pathways. Ends with a normative call to action framing the change as a shared professional/policy responsibility, not optional.",
+     "approxShare": "8-12%"
+    },
+    {
+     "section": "Back matter",
+     "purpose": "Declaration of interests, author bio (Cell Press short-form), 28-75 references (lighter than a Review), supplemental info. Reference count is moderate and argument-supporting, not exhaustive.",
+     "approxShare": "n/a"
+    }
+   ],
+   "rhetoricalMoves": [
+    "Open with a single recent, quantified, attention-grabbing statistic to establish 'why now' (the timeliness hook)",
+    "Name the gap explicitly: impacts are under-measured, under-reported, or not yet standard practice",
+    "Coin or deploy a named, mnemonic, structured framework (GREENER acronym; 3-phase roadmap; bottom-up estimation) so the thesis is memorable and reusable",
+    "Use 'opportunity vs risk' framing - acknowledge AI's benefits before pivoting to its costs, so the critique reads as constructive not alarmist",
+    "Quantify with explicit ranges and uncertainty bands (32.6-79.7 Mt CO2; 4-20x overstatement) rather than false-precision point estimates",
+    "Steelman the opposition: state operators' competitive/security concerns or efficiency-optimism fairly before answering them",
+    "Concede-and-reframe: admit the proposal is necessary-but-not-sufficient, then position it as a prerequisite first step",
+    "Borrow legitimacy from other domains (graduated disclosure 'modeled on healthcare and finance')",
+    "Forward-project with staged timelines and named milestones to make the future feel actionable",
+    "Close with a normative call to action that reframes the behavior change as professional/policy responsibility shared by the reader"
+   ],
+   "openingStrategy": "Every exemplar opens by establishing timeliness through a concrete, recent, quantified fact tied to a near-future inflection point (AI = 20% of data-center power by end 2024; data centers ~9% of global electricity by 2030; Google's AI electricity to exceed its current total by 2034; computational research emissions rising without sustainability practice). The hook is immediately followed by naming the gap (impacts insufficiently quantified / disclosed / standardized) and then a one-sentence explicit thesis plus a 'this Perspective will...' roadmap sentence. The opening answers WHY THIS, WHY NOW, and WHAT THE READER WILL GET, all within the first 1-2 paragraphs. Tone is urgent but measured, not catastrophist.",
+   "closingStrategy": "Conclusions are forward-looking and prescriptive rather than summarizing. The dominant device is a staged/phased roadmap with named time horizons (iScience: 2025-27 transparency, 2027-30 integration, 2030-35 net-zero AI) or an explicit 'next steps' section (GREENER) listing institutional adoption pathways. The piece ends on a normative call to action that reframes the recommended change as a shared responsibility (researchers, operators, policymakers) and a prerequisite for progress ('no straight path to transparency, but it is a prerequisite'). It concedes residual uncertainty while insisting the direction is clear and action cannot wait. Policy/disclosure mandates and collective mechanisms (consortia, public-private partnerships, reporting standards) are proposed as concrete vehicles.",
+   "figureUse": "Few, high-value display items (typically 2-3 figures, 0-1 tables; references moderate at ~28-75). Figures are conceptual/organizing rather than data-dense experimental results: (a) a hero schematic of the framework itself (the GREENER principles wheel; the data-gap taxonomy across operational/embodied/external domains); (b) a trend/projection chart establishing the urgency stat from the opening; (c) a roadmap/timeline figure visualizing the phased future-directions argument. Patterns uses data tables to present its estimation ranges transparently. Boxes are used for significance framing ('The Bigger Picture' in Cell Press) and to set off the named principles. The figures carry the argument's structure, not raw evidence.",
+   "toneNotes": "Authoritative but accessible; written for a broad cross-disciplinary readership, not specialists in one subfield. First-person and collective voice is used ('we argue', 'we propose', 'we call for') - explicitly opinion-bearing, which distinguishes Perspective from Review. Hedging is calibrated: confident on the thesis and direction, carefully hedged on numbers (consistent use of ranges, 'plausible pathways', 'significant uncertainty surrounds these figures'). Speculation about the future is permitted but always anchored to current data and labeled as projection/scenario, not prediction. Balance is achieved by genuinely conceding opposing interests and limitations before rebutting, which keeps the advocacy from reading as polemic. Normative/should-language is concentrated in the opening thesis and the closing call to action.",
+   "lengthAndRefs": "Short-to-mid length for the genre: GREENER (Nature Comp Sci Perspective) ~3,500-4,200 words with ~75 references and 2-3 figures; iScience Perspective ~8,500-9,000 words, ~30 references, 3 figures (incl. roadmap); Patterns short-form analytical piece ~5,500 words, 28 references, 5 data tables, 0 figures. Nature Methods long-form Perspective ~24 manuscript pages, 2 figures. Abstract is a single unstructured paragraph (~120-200 words) with no IMRaD sub-labels; Cell Press adds a 'Bigger Picture' significance box. Reference counts (28-75) are deliberately lighter than a Review and serve to support the argument rather than comprehensively survey. Nature-portfolio Perspectives typically run ~2,000-5,000 words of main text with 30-80 references and up to ~3-4 display items.",
+   "transferableLessons": [
+    "Lead with one recent, quantified, near-future statistic that makes 'why now' undeniable, then immediately name the gap and state your thesis in one sentence - all within the first two paragraphs.",
+    "Make the abstract a single unstructured paragraph with a 4-move arc (stakes -> gap -> your named framework -> what the piece delivers); do NOT write an IMRaD abstract.",
+    "Build the whole essay around ONE named, mnemonic, structured framework (an acronym, a typology, or a phased roadmap). The framework is the deliverable and should get its own clearly labeled centerpiece section with parallel sub-parts.",
+    "Use the opportunity-then-risk framing: credit AI's benefits before critiquing its costs so your argument reads as constructive stewardship, not doom.",
+    "Quantify with explicit ranges and named uncertainty rather than point estimates; this is what earns trust in a forward-looking piece. State assumptions and where the numbers come from.",
+    "Devote a real, honest section to challenges, opposing interests, and the limits of your own proposal; then reframe ('necessary but not sufficient', 'a prerequisite') instead of dismissing - concession is a credibility-builder, not a weakness.",
+    "Borrow legitimacy by analogy to mature domains (e.g., disclosure norms in finance/healthcare) when proposing new norms.",
+    "End with a STAGED roadmap with concrete time horizons and named milestones, not a summary; conclusions must be prescriptive and forward-looking.",
+    "Close with a normative call to action that assigns shared responsibility across stakeholders (researchers, industry, policymakers) and names concrete vehicles (reporting standards, consortia, mandates).",
+    "Use first-person collective voice ('we argue/propose/call for') to mark the genre as opinion - this is the explicit license a Perspective gives you that a Review does not.",
+    "Keep display items few and conceptual: a hero framework schematic, an urgency/projection chart, and a roadmap timeline; let figures carry the argument's structure rather than raw data.",
+    "Keep references moderate and argument-serving (~30-75), and main text tight (~2,000-9,000 words depending on venue); a Perspective persuades, it does not exhaustively survey.",
+    "Choose a venue-appropriate length: Nature-portfolio Perspectives (e.g., Nature Computational Science) tend shorter and more principle-focused (~3,500-4,500 words); Cell Press Perspectives (iScience) allow a longer, roadmap-heavy treatment.",
+    "Pick a title that announces a stance or framework ('Why X matters', 'GREENER principles for...', 'what this could mean for...') rather than a neutral topic label."
+   ]
+  },
+  {
+   "source": "Official Nature-portfolio author guidelines for the PERSPECTIVE article type, fetched from the journals' own \"Content types\" / \"For authors\" pages (May 2026):\n(1) Nature (main) - \"Other types of submissions\" + \"Formatting guide\": https://www.nature.com/nature/for-authors/other-subs and https://www.nature.com/nature/for-authors/formatting-guide\n(2) Nature Energy - Content Types: https://www.nature.com/nenergy/content\n(3) Nature Sustainability - Content Types: https://www.nature.com/natsustain/content\n(4) Nature Computational Science - Content Types: https://www.nature.com/natcomputsci/content\n(5) Nature Climate Change - Content Types: https://www.nature.com/nclimate/content\n(6) Nature Reviews journals (family) - official \"Article format guide: Perspective\" PDF: https://www.nature.com/documents/natrev-articleformatguide-perspective.pdf\nNote: the www.nature.com content pages are gated behind a cookie/IDP redirect that defeats the markdown fetcher; the HTML was retrieved directly via curl and parsed. The Nature Reviews PDF was read as a PDF. All numbers below are quoted from those primary sources.",
+   "accessLevel": "full-text (official author-guideline / content-type pages and the Nature Reviews Perspective format-guide PDF; all open-access author resources, not paywalled)",
+   "structure": [
+    {
+     "section": "Nature (main journal)",
+     "purpose": "DEFINITION: 'Perspective articles are intended to provide a forum for authors to discuss models and ideas from a personal viewpoint. They are more forward looking and/or speculative than Reviews and may take a narrower field of view. They may be opinionated but should remain balanced and are intended to stimulate discussion and new experimental approaches.' Perspectives follow the SAME formatting as Reviews. WORD LIMIT: guideline 5,000 words (Reviews/Perspectives 'should not generally be more than 9 pages'; 5000 words + 4 display items + <=150 refs = ~9 pages). ABSTRACT: 200-word maximum preface that sets the stage and ends with a summary sentence (also used on PubMed/Medline, so include key words). REFERENCES: no more than 150. DISPLAY ITEMS: ~4 moderate display items (figures/tables/boxes); explanatory boxes welcomed. COMMISSIONED/PEER-REVIEW: most commissioned but unsolicited accepted via a synopsis (300-500 word background outline); peer-reviewed AND substantially edited by Nature's editors. DISTINCTIVE: Highlighted references - one bold sentence beneath each of the most important/relevant 5-10% of references explaining significance.",
+     "approxShare": "Highest-prestige, broadest target; ~5,000 words / 200-word preface / <=150 refs / ~4 display items"
+    },
+    {
+     "section": "Nature Energy",
+     "purpose": "DEFINITION (identical core template): 'A Perspective is intended to provide a forum for authors to discuss models and ideas from a personal viewpoint. They are more forward looking and/or speculative than Reviews and may take a narrower field of view. They may be opinionated but should remain balanced and are intended to stimulate discussion and new approaches. Perspectives may also advocate a controversial position or present a speculative hypothesis. Two articles advocating opposite sides in a research controversy are normally published as Perspectives.' WORD LIMIT: up to 3,000 words. ABSTRACT: not separately specified in the content-type entry (follows journal's standard short unreferenced abstract per AIP/formatting page). REFERENCES: up to 50. DISPLAY ITEMS: up to 6 items (figures and/or tables). COMMISSIONED/PEER-REVIEW: peer reviewed; include received/accepted dates (no explicit invite-only statement in the Perspective entry). DISTINCTIVE: explicitly frames Perspectives as the home for controversy/speculative-hypothesis and paired opposing-side debates.",
+     "approxShare": "Strong topical fit (energy); short format - up to 3,000 words / up to 50 refs / up to 6 display items"
+    },
+    {
+     "section": "Nature Sustainability",
+     "purpose": "DEFINITION (same template, plus controversy clause): same wording as Nature Energy, including 'Perspectives may also advocate a controversial position or present a speculative hypothesis. Two articles advocating opposite sides in a research controversy are normally published as Perspectives.' WORD LIMIT: main text up to 5,000 words. ABSTRACT: a 'Preface' up to 100 words, unreferenced. REFERENCES: up to 60. DISPLAY ITEMS: up to 6 items (figures and/or tables). COMMISSIONED/PEER-REVIEW: 'Most Perspective articles are invited by the editors, though we are open to consider proposals.' Unsolicited proposals require a 1-2 page SYNOPSIS via the online system (Synopsis-Perspective option) outlining topics, organization, an example figure (even a sketch), key recent publications, the stated contribution (new model/conceptual framework), and full author list. Peer reviewed; include received/accepted dates. DISTINCTIVE: formal synopsis/proposal gate before full submission.",
+     "approxShare": "Strong topical fit (sustainability/clean-energy systems); roomier - up to 5,000 words / 100-word preface / up to 60 refs / up to 6 display items"
+    },
+    {
+     "section": "Nature Computational Science",
+     "purpose": "DEFINITION (more technical, review-flavored): 'A Perspective is a new format for scholarly reviews and discussions of the primary research literature that are too technical for a Comment but do not meet the criteria for a Review - either because the scope is too narrow, or because the author is advocating a controversial position or a speculative hypothesis or discussing work primarily from one group. Two reviews advocating opposite sides in a research controversy are normally published as Perspectives.' Also offers a 'Historical Perspective' sub-format. WORD LIMIT: up to 4,000 words. ABSTRACT: not separately specified in the content-type entry (standard short unreferenced abstract per AIP/formatting). REFERENCES: up to 100. DISPLAY ITEMS: not specified in the Perspective entry (defer to AIP/formatting guidance). COMMISSIONED/PEER-REVIEW: peer reviewed; include received/accepted dates. DISTINCTIVE: leans scholarly/literature-grounded rather than pure opinion; expects citation of key references.",
+     "approxShare": "Strong methodological fit (the AI/compute side); up to 4,000 words / up to 100 refs"
+    },
+    {
+     "section": "Nature Climate Change",
+     "purpose": "DEFINITION (review-flavored): 'A Perspective is a format for scholarly reviews and discussions of the primary research literature that are too technical for a Commentary but do not meet the criteria for a Review - either because the scope is too narrow, or because the author is advocating a controversial position or a speculative hypothesis or discussing work primarily from one group. Two reviews advocating opposite sides in a research controversy are normally published as Perspectives.' WORD LIMIT: main text 3,000-5,000 words. ABSTRACT: not separately itemized in the Perspective entry (standard short unreferenced abstract per AIP/formatting). REFERENCES: up to 100. DISPLAY ITEMS: not specified in the Perspective entry. COMMISSIONED/PEER-REVIEW: peer reviewed; include received/accepted dates. DISTINCTIVE: Citations should be selective and for particularly important studies (<=10% of references) authors are encouraged to provide short annotations explaining why they are key contributions (highlighted-reference analogue).",
+     "approxShare": "Topical fit (climate framing of clean power); 3,000-5,000 words / up to 100 refs / annotated key citations"
+    },
+    {
+     "section": "Nature Reviews journals (family - e.g. Nat Rev Clean Technol, Nat Rev Electr Eng, Nat Rev Earth Environ)",
+     "purpose": "DEFINITION (from the official Perspective format-guide PDF): a Perspective is a scholarly, forward-looking discussion; format mirrors a Review but more opinionated/narrower. ABSTRACT: unstructured abstract, ideally 200 words maximum (minimal specialist detail, NO references, NO display-item citations). WORD LIMIT: 'follow word count recommendations as discussed with the editor' (no fixed cap; negotiated). REFERENCES: approximately 25 references per 1,000 words (i.e., scales with length). DISPLAY ITEMS: <=5 display items (tables, figures and boxes); boxes ideally 200-500 words; original display items preferred and schematics redrawn by in-house art editors. COMMISSIONED/PEER-REVIEW: effectively commission-led (file must be discussed with the editor) and peer-reviewed. DISTINCTIVE: MANDATORY/optional Key Points box (4-6 bullets, <=30 words each) - required on Nat Rev Bioeng, optional on many incl. Nat Rev Clean Technol, Nat Rev Electr Eng, Nat Rev Earth Environ; optional Glossary (one-sentence definitions); concluding summary section; continuous line numbers; structured manuscript checklist.",
+     "approxShare": "Most heavily editor-mediated and design-intensive; length editor-negotiated / ~25 refs per 1,000 words / <=5 display items / Key Points box"
+    }
+   ],
+   "rhetoricalMoves": [
+    "Shared template: Nature, Nature Energy, and Nature Sustainability use nearly identical 'personal viewpoint / more forward-looking and/or speculative than Reviews / may be opinionated but should remain balanced' language - so a Perspective is explicitly the portfolio's home for a thesis-driven opinion essay, not a neutral survey.",
+    "Controversy clause: Nature Energy and Nature Sustainability add 'Perspectives may also advocate a controversial position or present a speculative hypothesis. Two articles advocating opposite sides in a research controversy are normally published as Perspectives' - directly licenses a provocative 'export tokens not electrons' thesis.",
+    "Review-flavored variant: Nature Computational Science and Nature Climate Change cast the Perspective as a 'scholarly review/discussion of the primary research literature' that is too narrow or too controversial for a Review - so these expect more literature grounding and citation than a pure op-ed.",
+    "Commissioning reality: across the portfolio most Perspectives are commissioned/invited; unsolicited submissions are accepted but typically gated by a pre-submission synopsis (Nature: 300-500 word background outline; Nature Sustainability: explicit 1-2 page Synopsis-Perspective with an example figure and stated contribution).",
+    "Distinctive add-ons differ by venue: Nature requires bold one-sentence 'highlighted references' on the top 5-10% of citations; Nature Climate Change uses an annotated-key-citation analogue (<=10%); Nature Reviews uses a Key Points bullet box (4-6 bullets, <=30 words) plus optional Glossary and editor-redrawn conceptual figures.",
+    "Length/reference envelopes vary widely: shortest is Nature Energy (3,000 words / 50 refs), then Nat Comput Sci (4,000 / 100), then Nature, Nature Sustainability and Nature Climate Change (~5,000 words; 150 / 60 / 100 refs respectively); Nature Reviews has no fixed word cap (editor-negotiated, ~25 refs per 1,000 words)."
+   ],
+   "openingStrategy": "Across all six venues the Perspective opening is expected to be an editor-facing, timeliness-driven hook: state why the topic matters and why it is timely now, then end the opening with a guiding paragraph that previews the article's argument. Nature/Nature Sustainability formalize this as a short preface (Nature 200-word preface ending in a summary sentence; Nature Sustainability 100-word unreferenced preface), and Nature Reviews requires an unstructured <=200-word abstract with no references that introduces the main themes for a broad readership. For an unsolicited 'export tokens not electrons' Perspective, the opening must be reverse-engineered into a pre-submission synopsis/outline that names the single central claim and its novelty.",
+   "closingStrategy": "BEST TARGET = Nature Sustainability, with Nature Energy as the strong runner-up and Nature Computational Science as the methodological alternative. Reasoning: (1) Topical home - the thesis ('stranded clean electricity should be exported as AI compute/tokens rather than as electrons') is fundamentally a sustainability/energy-systems and infrastructure-siting argument, which sits squarely in Nature Sustainability's and Nature Energy's scope. (2) Genre fit - both journals' Perspective definitions explicitly invite a forward-looking, opinionated, even controversial/speculative thesis and even pair opposing-side Perspectives, which matches a deliberately provocative claim. (3) Format headroom - Nature Sustainability allows up to 5,000 words, 6 display items and 60 references, enough room to build the techno-economic + policy + computational argument and to carry conceptual figures (e.g., a tokens-vs-electrons system diagram, a stranded-curtailment map, a cost-per-delivered-value comparison); Nature Energy is tighter (3,000 words / 50 refs / 6 items), better if the argument can be made crisply and energy-centrically. (4) If the paper's center of gravity is the AI/compute economics and modeling rather than energy policy, Nature Computational Science (4,000 words / 100 refs) is the better methodological venue. (5) Nature (main) is the highest-prestige stretch target (5,000 words, <=150 refs, highlighted references) but commissioning-dominated and demands the broadest cross-disciplinary significance; a Nature Reviews journal (e.g., Nat Rev Clean Technol / Nat Rev Electr Eng) is essentially commission-only and design-heavy, so realistic only via a pre-pitch to an editor. Recommended path: pitch a 1-2 page synopsis to Nature Sustainability first (it has the most explicit unsolicited-proposal route and the best topic+genre+length fit).",
+   "figureUse": "Conceptual/display-item norms by venue: Nature allows ~4 moderate display items including explanatory boxes and welcomes them; Nature Energy and Nature Sustainability allow up to 6 figures/tables (Nature Energy strongly encourages illustrations); Nature Computational Science and Nature Climate Change do not cap display items in the Perspective entry (defer to AIP/formatting). Nature Reviews caps at <=5 display items (figures/tables/boxes), strongly prefers ORIGINAL items, redraws schematics in-house, and allows 200-500-word explanatory Boxes plus a Key Points box. For an 'export compute not electrons' Perspective the highest-leverage display items are conceptual: a schematic contrasting the electron-export vs token-export value chains, a map/bar chart of stranded/curtailed renewable energy by region, and a comparison table of transmission losses + capex vs datacenter-sited compute economics.",
+   "toneNotes": "The portfolio explicitly sanctions a first-person, opinionated, forward-looking voice ('personal viewpoint', 'may be opinionated', 'forward looking and/or speculative', 'may advocate a controversial position or present a speculative hypothesis') - but every venue couples this with 'should remain balanced', 'briefly indicate opposing viewpoints', and 'should not be focused on the author's own work'. So the required register is confident-but-balanced advocacy: a clear thesis, acknowledged counterarguments (e.g., grid-export and interconnection counter-cases), and accessible language with specialist terms defined. The review-flavored venues (Nat Comput Sci, Nat Clim Change) expect the opinion to be anchored in the primary literature rather than asserted, and Nature emphasizes accessibility for nonspecialists. All Perspectives are peer-reviewed, so the speculative claim must be defensible, not merely rhetorical.",
+   "lengthAndRefs": "Comparison of caps (word limit / abstract / references / display items): Nature ~5,000 words, 200-word preface, <=150 refs, ~4 display items, highlighted-reference sentences on top 5-10%. Nature Energy up to 3,000 words, up to 50 refs, up to 6 figures/tables. Nature Sustainability up to 5,000 words, 100-word unreferenced preface, up to 60 refs, up to 6 figures/tables. Nature Computational Science up to 4,000 words, up to 100 refs (display items unspecified in entry). Nature Climate Change 3,000-5,000 words, up to 100 refs, annotated key citations on <=10% (display items unspecified in entry). Nature Reviews family: word count editor-negotiated (no fixed cap), ~25 refs per 1,000 words, <=5 display items (figs/tables/boxes), ideally 200-word unstructured abstract, plus Key Points box (4-6 bullets, <=30 words each) and optional Glossary. All Perspectives are peer-reviewed; nearly all are commission-led with an unsolicited-proposal/synopsis route.",
+   "transferableLessons": [
+    "Pick the venue by scope first, then format headroom: for 'stranded clean power as AI tokens', Nature Sustainability (5,000 words / 60 refs / 6 items) and Nature Energy (3,000 words / 50 refs / 6 items) are the natural homes; Nature Computational Science is the alternative if the AI/compute modeling is the core.",
+    "Lead with the unsolicited-proposal route, not the full manuscript: budget a 1-2 page synopsis (Nature Sustainability explicitly requires Synopsis-Perspective with topics, organization, an example figure even as a sketch, key recent refs, and a one-line statement of the novel contribution; Nature wants a 300-500 word background outline). Editors gate these formats.",
+    "Frame the thesis to match the journal's own license for controversy: cite that Perspectives 'may advocate a controversial position or present a speculative hypothesis' - the 'export compute not electrons' claim is exactly the kind of provocative-but-balanced thesis these formats invite.",
+    "Stay within the tight reference budget by using highlighted/annotated references: Nature wants bold one-sentence significance notes on the top 5-10% of refs; Nature Climate Change wants short annotations on <=10%; plan citations selectively rather than exhaustively.",
+    "Design 2-4 original conceptual figures up front (value-chain schematic, stranded-energy map, electrons-vs-tokens cost/loss comparison) - display-item caps are 4-6 across these venues and original conceptual figures are preferred; if targeting a Nature Reviews journal, expect in-house redrawing and a mandatory/optional Key Points box (4-6 bullets, <=30 words).",
+    "Keep the front matter short and keyword-rich: a 100-200 word unreferenced preface/abstract that states the single central claim and ends with a summary sentence (Nature notes the preface is indexed on PubMed/Medline).",
+    "Write balanced advocacy in accessible, non-jargon prose, explicitly engaging counterarguments (grid interconnection, transmission build-out, datacenter water/siting limits) - all Perspectives are peer-reviewed and 'should remain balanced' and 'not be focused on the author's own work'."
+   ]
+  }
+ ],
+ "facts": [
+  {
+   "topic": "Yarlung Tsangpo (Yarlung Zangbo) / Medog lower-reaches mega hydropower project, Tibet: specifications, power-evacuation difficulty, and west-China stranded clean power context",
+   "findings": [
+    {
+     "claim": "Planned total installed capacity of the Yarlung Zangbo / Medog project (world's largest hydropower facility on completion)",
+     "value": "60 (some sources cite a 60–70 range)",
+     "unit": "GW (gigawatts)",
+     "year": "2025",
+     "source": "Wikipedia (Medog Hydropower Station); China State Council / english.www.gov.cn; Enerdata",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Medog_Hydropower_Station",
+     "confidence": "high"
+    },
+    {
+     "claim": "Expected annual electricity generation (about 3x the Three Gorges Dam; enough for ~300 million people / roughly the entire UK)",
+     "value": "300 (300 billion kWh)",
+     "unit": "TWh per year",
+     "year": "2025",
+     "source": "Chinese government (english.www.gov.cn); Wikipedia; Xinhua via multiple outlets",
+     "sourceUrl": "https://english.www.gov.cn/news/202507/19/content_WS687b6a8ac6d0868f4e8f4486.html",
+     "confidence": "high"
+    },
+    {
+     "claim": "Total planned investment (figure most consistently cited; early reports said >1 trillion yuan / ~US$137bn, later official figure 1.2 trillion yuan / ~US$167–170bn)",
+     "value": "1.2 trillion yuan (~US$167 billion); some sources 1 trillion yuan (~US$137 billion)",
+     "unit": "RMB / USD",
+     "year": "2025",
+     "source": "Chinese government announcement (Li Qiang ceremony); Reuters/Xinhua reporting; CRU Group",
+     "sourceUrl": "https://english.www.gov.cn/news/202507/19/content_WS687b6a8ac6d0868f4e8f4486.html",
+     "confidence": "high"
+    },
+    {
+     "claim": "Approval date by the Chinese government",
+     "value": "December 25, 2024",
+     "unit": "date",
+     "year": "2024",
+     "source": "Radio Free Asia; Wikipedia",
+     "sourceUrl": "https://www.rfa.org/english/tibet/2024/12/27/tibet-china-approves-mega-dam-construction/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Construction start date (groundbreaking ceremony in Nyingchi led by Premier Li Qiang)",
+     "value": "July 19, 2025",
+     "unit": "date",
+     "year": "2025",
+     "source": "Chinese government (english.www.gov.cn); Wikipedia",
+     "sourceUrl": "https://english.www.gov.cn/news/202507/19/content_WS687b6a8ac6d0868f4e8f4486.html",
+     "confidence": "high"
+    },
+    {
+     "claim": "Project structure: a cascade of five hydropower stations developed by Power Construction Corp of China (PowerChina); commercial operation expected ~2033 (some estimates 2035–2040 for full build-out)",
+     "value": "5 cascade stations; completion ~2033",
+     "unit": "stations / year",
+     "year": "2025",
+     "source": "Wikipedia; ourchinastory.com; CRU Group",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Medog_Hydropower_Station",
+     "confidence": "high"
+    },
+    {
+     "claim": "Location: Medog County, Nyingchi (Nyingtri) Prefecture, Tibet Autonomous Region, near the border with India's Arunachal Pradesh, at the Yarlung Tsangpo Great Bend around Namcha Barwa",
+     "value": "Medog County, Nyingchi Prefecture, TAR",
+     "unit": "location",
+     "year": "2025",
+     "source": "Wikipedia; The Diplomat",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Medog_Hydropower_Station",
+     "confidence": "high"
+    },
+    {
+     "claim": "Terrain / hydraulic head: the river drops ~2,000 m (some sources 2,000–2,350 m) over a ~50 km span at the Great Bend, exploited by drilling four ~20 km tunnels through Namcha Barwa mountain. Water-energy density ~7x Three Gorges; canyon ~3x deeper than the Grand Canyon",
+     "value": "~2,000 (range 2,000–2,350) drop over ~50 km; four ~20 km tunnels",
+     "unit": "meters elevation drop",
+     "year": "2025",
+     "source": "Wikipedia; Baiguan/The Diplomat analysis",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Medog_Hydropower_Station",
+     "confidence": "high"
+    },
+    {
+     "claim": "WHY power is hard to use locally — local demand gap: Tibet is vast and sparsely populated with installed capacity only ~3–3.5 GW and 2024 generation only ~12–13 TWh, i.e. local demand is far below the project's ~300 TWh/yr output, so most power must be exported east",
+     "value": "Tibet capacity ~3–3.5 GW / generation ~12–13 TWh vs project ~300 TWh/yr",
+     "unit": "GW / TWh",
+     "year": "2024-2025",
+     "source": "Baiguan analysis; ourchinastory.com; tourtraveltibet.com overview of TAR electricity",
+     "sourceUrl": "https://www.baiguan.news/p/china-yarlung-tsangpo-medog-hydropower-project-li-qiang-three-gorges-infrastructure-stimulus-tibet-electricity-output-uhv-transmission-green-energy-transition-ai-data-centers-geopolitics-india-brahmaputra-water-security",
+     "confidence": "medium"
+    },
+    {
+     "claim": "WHY power is hard to evacuate — distance to load centers: eastern China consumption centers are >2,000 km away, requiring new ultra-high-voltage (UHVDC, e.g. ±800kV up to ±1100kV) lines under the West-East Power Transmission program; the existing central-Tibet 500kV interconnection already required 2,738 km of lines and is called the world's hardest grid project",
+     "value": ">2,000 km to eastern load centers; UHVDC ±800–1100kV needed",
+     "unit": "km / kV",
+     "year": "2025",
+     "source": "smartelecmfg analysis; SASAC/China Daily (central Tibet grid 2,738 km); CRU Group",
+     "sourceUrl": "https://www.smartelecmfg.com/Protection-Relay/news/comprehensive-analysis-of-the-yarlung-zangbo-river-hydropower-station/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "WHY hard — remoteness: the Yarlung Tsangpo Grand Canyon is one of the most inaccessible places on Earth; road access only arrived with the Paizhen–Medog highway in 2022, and an estimated 40 million tons of cement must be hauled in",
+     "value": "Road access since 2022; ~40 million tons cement to transport",
+     "unit": "year / tons",
+     "year": "2022-2025",
+     "source": "Baiguan / The Diplomat analysis",
+     "sourceUrl": "https://thediplomat.com/2025/02/whats-driving-chinas-controversial-mega-dam-in-tibet/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "WHY hard — seismicity: site sits on the Indus–Yarlung suture / Eastern Himalayan Syntaxis near Namcha Barwa, one of the world's most seismically active zones; the 2017 Ms 6.9 Milin/Nyingchi quake triggered >1,820 landslides and 7 dammed (barrier) lakes in the Tsangpo gorge. Tunnels are reportedly designed to withstand magnitude up to 8.5",
+     "value": "Ms 6.9 (2017) caused >1,820 landslides + 7 dammed lakes; design to M8.5",
+     "unit": "earthquake magnitude / count",
+     "year": "2017-2025",
+     "source": "Springer Landslides journal (Milin earthquake); Baiguan/The Diplomat (M8.5 design)",
+     "sourceUrl": "https://link.springer.com/article/10.1007/s10346-019-01168-w",
+     "confidence": "high"
+    },
+    {
+     "claim": "Context — China national renewable curtailment rose sharply: H1 2025 solar curtailment 6.6% (vs 3.9% H1 2024) and wind 5.7% (vs 3.0%); national curtailment cap was relaxed from 5% to 10%",
+     "value": "Solar 6.6% (was 3.9%); wind 5.7% (was 3.0%)",
+     "unit": "% curtailment, H1",
+     "year": "2025",
+     "source": "China National New Energy Consumption Monitoring & Early Warning Centre, via Power Technology",
+     "sourceUrl": "https://www.power-technology.com/news/china-renewable-energy-curtailment/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Context — west-China stranded clean power is acute regionally: Tibet wind curtailment hit 30.2% (from 2.3%) and solar 33.9% (from 5.1%) in H1 2025; Qinghai solar curtailment 15.2% (from 8.8%); biggest volume losses in Xinjiang, Inner Mongolia, Gansu, Qinghai",
+     "value": "Tibet wind 30.2% / solar 33.9%; Qinghai solar 15.2%",
+     "unit": "% curtailment, H1 2025",
+     "year": "2025",
+     "source": "Power Technology citing China National New Energy Consumption Monitoring & Early Warning Centre",
+     "sourceUrl": "https://www.power-technology.com/news/china-renewable-energy-curtailment/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Context — economic value of curtailed/wasted renewable generation; absent curtailment and other losses, H1 2025 wind+solar output would have been ~13% higher",
+     "value": "~17 (lost generation value)",
+     "unit": "US$ billion",
+     "year": "2025",
+     "source": "Power Technology; Ember China Energy Transition Review 2025",
+     "sourceUrl": "https://www.power-technology.com/news/china-renewable-energy-curtailment/",
+     "confidence": "medium"
+    }
+   ],
+   "caveats": "Numbers vary by source and report date. (1) Installed capacity is most often given as 60 GW but some outlets cite up to 70 GW; annual generation of ~300 TWh is consistent across sources. (2) Investment: early (Dec 2024) reports said \"over 1 trillion yuan (~US$137bn)\"; the July 2025 groundbreaking figure is widely reported as 1.2 trillion yuan (~US$167–170bn). USD conversions differ with exchange-rate assumptions. (3) Completion year of ~2033 is an estimate; full multi-station build-out may extend to 2035–2040. (4) The >2,000 km distance to eastern load centers and the specific UHV line plan (±800kV vs ±1100kV) come from analytical/industry sources, not an official transmission plan, which has not been publicly detailed — hence medium confidence. Tibet's local capacity/generation figures (~3–3.5 GW / ~12–13 TWh) are approximate and drawn from secondary overviews. (5) Curtailment statistics trace to China's National New Energy Consumption Monitoring and Early Warning Centre as relayed by Power Technology, Ember, and Carbon Brief; the US$17bn lost-value figure is an estimate and varies by methodology. (6) Several useful primary pages (e.g., the 2026 Diplomat piece, power-technology) intermittently returned 403/paywall, so some figures were corroborated via search snippets rather than full-text fetch. (7) The project is geopolitically sensitive (downstream Brahmaputra concerns in India/Bangladesh) and official Chinese disclosures are limited, so some technical details remain unconfirmed by independent verification."
+  },
+  {
+   "topic": "Economics of long-distance electricity transmission, focused on China's UHVDC west-to-east lines (distance, losses, capital cost, levelized cost adder, converter stations, and utilization effects)",
+   "findings": [
+    {
+     "claim": "Typical UHVDC west-to-east line distances range from ~1,400 km to ~3,300 km. Examples (all ±800 kV unless noted): Yunnan-Guangdong 1,438 km; Xiangjiaba-Shanghai 1,907 km; Jinping-Southern Jiangsu 2,059 km; Hami-Zhengzhou 2,210 km; Gansu-Zhejiang 2,370 km; Changji-Guquan (Zhundong-South Anhui, ±1,100 kV) 3,293-3,324 km (world's longest).",
+     "value": "~1,400-3,300 (most major lines 2,000-3,300)",
+     "unit": "km",
+     "year": "2010-2019",
+     "source": "Wikipedia: Ultra-high-voltage electricity transmission in China",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Ultra-high-voltage_electricity_transmission_in_China",
+     "confidence": "high"
+    },
+    {
+     "claim": "Changji-Guquan is the world's first ±1,100 kV UHVDC line: 3,324 km, rated 12,000 MW (12 GW), rated current 5,455 A. It gives ~50% more capacity than ±800 kV links. ABB/Hitachi supplied converter equipment under a contract of over USD 300 million (one supplier's scope).",
+     "value": "3,324 km / 12,000 MW / ±1,100 kV",
+     "unit": "km, MW, kV",
+     "year": "2019",
+     "source": "NS Energy / ABB news / Power-technology (Changji-Guquan project)",
+     "sourceUrl": "https://www.nsenergybusiness.com/projects/changji-guquan-uhvdc-transmission-project/",
+     "confidence": "high"
+    },
+    {
+     "claim": "UHVDC line losses are commonly cited at roughly 3-3.5% per 1,000 km for ±800 kV class; some sources quote 2-3% per 1,000 km for the highest-voltage UHV lines. Higher voltage (1,100 kV) lowers current and loss for the same power.",
+     "value": "~3-3.5 (range 2-3.5)",
+     "unit": "% per 1,000 km (line losses)",
+     "year": "2018-2022",
+     "source": "Pictet Asset Management / saurenergy / allpcb (HVDC AC vs DC loss summaries)",
+     "sourceUrl": "https://am.pictet.com/us/en/mega/2022/china-uhvdc",
+     "confidence": "medium"
+    },
+    {
+     "claim": "For the Xiangjiaba-Shanghai ±800 kV line (~1,907-2,000 km), total transmission losses were reported as under 7%, materially lower than the prior 500 kV system. This is the headline end-to-end transmission figure (line plus a few percent for the two converter stations).",
+     "value": "<7 (over ~2,000 km)",
+     "unit": "% total transmission loss",
+     "year": "2010",
+     "source": "ABB / Power Technology (China Leads the Way in Low-Loss Power)",
+     "sourceUrl": "https://www.power-technology.com/features/feature56293/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Implied total losses over a typical 2,000-3,000 km UHVDC corridor: roughly 6-10% end-to-end. This combines ~3-3.5%/1,000 km line loss (so ~6-10% over 2,000-3,000 km) plus ~0.6-0.7% per converter station (two stations). Note a US 500 kV HVDC modeling study (lower voltage) found ~12.9% loss over 1,000 miles (~1,600 km), illustrating how lower voltage sharply raises losses.",
+     "value": "~6-10 end-to-end over 2,000-3,000 km (vs ~13% for 500 kV/1,600 km)",
+     "unit": "% total transmission loss",
+     "year": "2021",
+     "source": "iScience / NREL 'Cost of long-distance energy transmission by different carriers' (PMC8661478)",
+     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8661478/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Total installed capital cost of a recent ±800 kV UHVDC project (Gansu-Zhejiang): RMB 35.3 billion (~USD 4.82 billion) for 8,000 MW capacity over 2,370 km. This implies ~USD 603 per kW of capacity for the whole link (line + both converter stations), or ~USD 0.25/W per 1,000 km.",
+     "value": "~603 ($4.82B / 8 GW); ~0.25 $/W per 1,000 km",
+     "unit": "$/kW total (line + stations)",
+     "year": "2023",
+     "source": "Transformer Magazine (China begins work on $4.82B transmission line)",
+     "sourceUrl": "https://transformer-magazine.com/tm-news/china-begins-work-on-4-82-b-transmission-line/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Converter (terminal) stations are roughly one-third of total UHVDC project cost; a pair can reach on the order of USD 1 billion. For the Changji-Guquan ±1,100 kV link, the Changji converter station alone had a total investment of RMB 8.05 billion (~USD 1.2 billion) on a 630-acre site. ABB's single-supplier converter equipment scope for that link exceeded USD 300 million.",
+     "value": "~1/3 of project cost; Changji station RMB 8.05B (~$1.2B); ABB scope >$300M",
+     "unit": "$ (per station / supplier scope)",
+     "year": "2016-2019",
+     "source": "ABB news / NS Energy / Transformer Magazine",
+     "sourceUrl": "https://new.abb.com/news/detail/13922/abb-wins-orders-of-over-300-million-for-worlds-first-1100-kv-uhvdc-power-link-in-china",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Benchmark converter station unit cost from a 3,000 MW ±500 kV LCC-HVDC study: ~USD 301 million per terminal, i.e. ~USD 100/kW per station (~USD 200/kW for the pair). LCC-HVDC (used in China's UHVDC) has the lowest converter cost of HVDC types due to cheap thyristors.",
+     "value": "~301 ($/station for 3 GW); ~100 $/kW per station",
+     "unit": "$M per terminal / $/kW",
+     "year": "2022",
+     "source": "ResearchGate / MDPI Processes (HVDC LCC cost breakdown, 3,000 MW ±500 kV)",
+     "sourceUrl": "https://www.researchgate.net/figure/Cost-break-down-HVDC-LCC-Overhead-transmission-line-for-3-000-MW-of-500-kV-for-600-km_fig3_358460206",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Levelized transmission cost adder for long-distance HVDC: a peer-reviewed estimate puts it at ~USD 41.5/MWh per 1,000 miles (~USD 0.041/kWh per ~1,600 km), i.e. roughly USD 0.025-0.03/kWh per 1,000 km. Industry analysis cites ~2-7 cents/kWh per 1,000 km, and that a 3-10 cents/kWh transport spread is needed for a 10% IRR on a ~1,000-mile cable.",
+     "value": "~0.025-0.04 per 1,000 km (industry 2-7 cents/1,000 km)",
+     "unit": "$/kWh transmission adder",
+     "year": "2021",
+     "source": "iScience/NREL (PMC8661478) and Thunder Said Energy HVDC economics",
+     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8661478/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "For China specifically, sending power east via UHV (vs shipping coal east to burn it) is estimated to lower delivered cost by ~0.03-0.08 yuan/kWh (~0.4-1.1 US cents/kWh), indicating the transmission adder is small relative to generation cost and competitive with coal-by-rail logistics.",
+     "value": "0.03-0.08 yuan/kWh saving (~0.4-1.1 US cents)",
+     "unit": "yuan/kWh",
+     "year": "2022",
+     "source": "Power Engineering International (UHV transmission goes the distance in China)",
+     "sourceUrl": "https://www.powerengineeringint.com/world-regions/asia/uhv-transmission-goes-the-distance-in-china/",
+     "confidence": "low"
+    },
+    {
+     "claim": "Capacity factor / utilization is the dominant driver of per-kWh transmission cost: because the line capex is fixed, halving utilization roughly doubles the per-kWh cost. China's first three UHV lines (commissioned 2009-2012) reached only 21% to 56% utilization of design capacity in 2014, well below the ~80-100% assumed in cost models, which inflates real per-kWh transmission cost and revenue recovery for grid owners.",
+     "value": "21-56 (early UHV lines, 2014)",
+     "unit": "% of design capacity (utilization)",
+     "year": "2014",
+     "source": "South China Morning Post (China's under-utilised ultra-high-voltage power lines)",
+     "sourceUrl": "https://www.scmp.com/business/article/1912878/chinas-under-utilised-ultra-high-voltage-power-lines-no-silver-bullet-rid",
+     "confidence": "high"
+    },
+    {
+     "claim": "Cost models for HVDC transmission typically assume 100% utilization, which the authors note is 'unlikely for real-world application' - so published levelized adders (e.g. ~4 cents/kWh per 1,000 miles) are lower bounds; at 50% utilization the effective per-kWh transmission cost roughly doubles. UHVDC becomes economic only beyond ~1,000 km, with ~1,500-1,600 km cited as the breakeven vs lower-voltage HVDC.",
+     "value": "100% utilization assumed (vs ~50% real) → ~2x per-kWh cost; economic >1,000 km",
+     "unit": "% utilization / km breakeven",
+     "year": "2021",
+     "source": "iScience/NREL (PMC8661478) and Thunder Said Energy",
+     "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8661478/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Renewable content and curtailment context: only ~one-fifth of electricity carried on China's UHV lines was wind/solar (share roughly flat since 2021); the 14th Five-Year Plan required new UHV corridors to carry at least 50% renewables. Low renewable share and variability constrain utilization and the clean-energy value of the lines.",
+     "value": "~20 (renewable share of UHV throughput); 50% policy minimum for new lines",
+     "unit": "% renewable share",
+     "year": "2024",
+     "source": "Dialogue Earth (Done right, China's UHV grid can help phase out coal)",
+     "sourceUrl": "https://dialogue.earth/en/energy/done-right-chinas-uhv-grid-can-help-phase-out-coal-rather-than-lock-it-in/",
+     "confidence": "medium"
+    }
+   ],
+   "caveats": "Several precise figures are derived or approximate. (1) Loss rates: a frequently quoted \"1.5% per 1,000 km\" for Changji-Guquan appears in one secondary source and conflicts with the more standard 3-3.5%/1,000 km for ±800 kV; I treat the 3-3.5% range as the reliable engineering figure and 2-3% as the optimistic UHV claim. The \"<7% over 2,000 km\" for Xiangjiaba-Shanghai is a well-cited ABB-origin figure but blends line and converter losses. (2) Capital cost: $603/kW for Gansu-Zhejiang is my own division of the reported $4.82B total by 8 GW capacity (whole-link, including both converter stations); it is not a normalized $/kW-km from the source. The cleaner US-study figures ($1,502/mile-MW capital; $41.5/MWh-1,000mi levelized) are for a ±500 kV system and over-state losses relative to ±800/1,100 kV UHV, so they bracket rather than match Chinese UHVDC. (3) Converter station costs mix sources: the ~$100/kW LCC benchmark is from a 500 kV study; the Changji station's RMB 8.05B is a single-terminal Chinese figure and includes site/land. (4) The per-kWh levelized adder (2-7 cents/1,000 km) is broad and IRR/utilization-dependent; the China-specific 0.03-0.08 yuan/kWh is a coal-substitution saving estimate, not a strict levelized transmission tariff, hence low confidence. (5) Utilization figures (21-56%) are from 2014 for the earliest lines; utilization has reportedly improved since but remains a known weak point, and current line-by-line capacity factors were not obtained from a primary source (Dialogue Earth and MDPI full texts returned HTTP 403). The central economic point is robust across sources: UHVDC line capex is largely fixed, so the per-kWh transmission cost scales roughly inversely with utilization/capacity factor."
+  },
+  {
+   "topic": "LCOE of large hydropower; scale of stranded/curtailed renewable energy worldwide; and computing (esp. Bitcoin mining) as a flexible, location-agnostic, interruptible load to monetize stranded/curtailed power",
+   "findings": [
+    {
+     "claim": "Global weighted-average LCOE of newly commissioned hydropower in 2024",
+     "value": "0.057 (~57)",
+     "unit": "USD/kWh ($/MWh)",
+     "year": "2024",
+     "source": "IRENA, Renewable Power Generation Costs in 2024",
+     "sourceUrl": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+     "confidence": "high"
+    },
+    {
+     "claim": "Global weighted-average LCOE of newly commissioned hydropower in 2023 (fell 7% from USD 0.061/kWh in 2022)",
+     "value": "0.057 (~57)",
+     "unit": "USD/kWh ($/MWh)",
+     "year": "2023",
+     "source": "IRENA, Renewable Power Generation Costs in 2023 (Executive Summary)",
+     "sourceUrl": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+     "confidence": "high"
+    },
+    {
+     "claim": "Weighted-average LCOE of large hydropower added over the past decade in China and Brazil (well below global average; China's low-cost resource and scale drive down the global figure)",
+     "value": "0.040 (~40)",
+     "unit": "USD/kWh ($/MWh)",
+     "year": "2023",
+     "source": "IRENA, Renewable Power Generation Costs in 2023",
+     "sourceUrl": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Global weighted-average total installed cost of new hydropower projects (2022 figure; basis for 2023 decline)",
+     "value": "3053",
+     "unit": "USD/kW",
+     "year": "2022",
+     "source": "IRENA, Renewable Power Generation Costs in 2023 (Executive Summary)",
+     "sourceUrl": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+     "confidence": "medium"
+    },
+    {
+     "claim": "China was the largest hydropower market in 2023, accounting for ~44% of global hydropower additions, driving down the global weighted-average cost",
+     "value": "44",
+     "unit": "% of global hydropower additions",
+     "year": "2023",
+     "source": "IRENA, Renewable Power Generation Costs in 2023",
+     "sourceUrl": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Comparison LCOEs 2024: onshore wind cheapest renewable, then solar PV, then hydropower (hydro is the most expensive of the three mature renewables but provides storage/flexibility)",
+     "value": "onshore wind 0.034 (~34); solar PV 0.043 (~43); hydropower 0.057 (~57)",
+     "unit": "USD/kWh ($/MWh)",
+     "year": "2024",
+     "source": "IRENA, Renewable Power Generation Costs in 2024",
+     "sourceUrl": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+     "confidence": "high"
+    },
+    {
+     "claim": "Lazard LCOE+ reference points for context (US, unsubsidized): combined-cycle gas turbine rose to $76/MWh in 2024; nuclear ~$182/MWh",
+     "value": "gas CCGT ~76; nuclear ~182",
+     "unit": "USD/MWh",
+     "year": "2024",
+     "source": "Lazard, Levelized Cost of Energy+ (LCOE+) June 2024 (v17.0)",
+     "sourceUrl": "https://www.lazard.com/media/xemfey0k/lazards-lcoeplus-june-2024-_vf.pdf",
+     "confidence": "medium"
+    },
+    {
+     "claim": "China national renewable curtailment: solar curtailment rate H1 2025 vs H1 2024 (NEA data via Bloomberg); wind curtailment also rose. National utilization floor relaxed from 95% to 90% (curtailment ceiling raised from 5% to 10%) in 2025.",
+     "value": "solar 6.6% (H1 2025) vs 3.9% (H1 2024); wind 5.7% (H1 2025) vs 3.0% (H1 2024)",
+     "unit": "% of available generation curtailed",
+     "year": "2025",
+     "source": "Power Technology / Bloomberg (citing China NEA)",
+     "sourceUrl": "https://www.power-technology.com/news/china-renewable-energy-curtailment/",
+     "confidence": "high"
+    },
+    {
+     "claim": "West China extreme regional curtailment: Tibet wind curtailment 30.2% (2025, from 2.3% in 2024), Tibet solar 33.9% (from 5.1%); Qinghai solar 15.2% (from 8.8%). Western provinces with the largest projects can exceed 30%.",
+     "value": "Tibet wind 30.2%, Tibet solar 33.9%, Qinghai solar 15.2%",
+     "unit": "% curtailment rate",
+     "year": "2025",
+     "source": "Power Technology (citing China NEA)",
+     "sourceUrl": "https://www.power-technology.com/news/china-renewable-energy-curtailment/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Estimated scale of recoverable curtailed/under-utilized renewable energy in China: nationwide inter-provincial coordination could raise effective renewable penetration by ~99.88 TWh, equal to ~9.1% of total solar+wind generation (proxy for the magnitude of stranded/curtailed potential).",
+     "value": "~100",
+     "unit": "TWh/yr (recoverable renewable energy)",
+     "year": "2024",
+     "source": "Bloomberg coverage of China grid coordination study",
+     "sourceUrl": "https://www.bloomberg.com/news/articles/2025-08-05/china-s-record-renewables-buildout-is-wasting-power-as-grid-lags",
+     "confidence": "low"
+    },
+    {
+     "claim": "ERCOT (Texas) wind and solar curtailment due to grid congestion in 2024 (West zone: 3.1 TWh wind + 2.2 TWh solar curtailed)",
+     "value": ">8",
+     "unit": "TWh/yr curtailed",
+     "year": "2024",
+     "source": "Modo Energy, The Curtailment Crisis: Saving wind and solar investments in ERCOT",
+     "sourceUrl": "https://modoenergy.com/research/en/ercot-curtailment-crisis-solar-wind-data-battery-colocated-trends-maps-texas",
+     "confidence": "medium"
+    },
+    {
+     "claim": "ERCOT curtailment rates 2022: 5% of available wind and 9% of available utility-scale solar curtailed; projected to rise to ~13% (wind) and ~19% (solar) by 2035; congestion and supply-demand mismatch are the main drivers",
+     "value": "wind 5%, solar 9% (2022); projected wind 13%, solar 19% (2035)",
+     "unit": "% of available generation curtailed",
+     "year": "2022",
+     "source": "U.S. Energy Information Administration (EIA), Today in Energy",
+     "sourceUrl": "https://www.eia.gov/todayinenergy/detail.php?id=57100",
+     "confidence": "high"
+    },
+    {
+     "claim": "Chile renewable curtailment (vertimiento): ~1.5 TWh solar curtailed in 2023, rising to 5.9 TWh of solar+wind in 2024 (~121% increase). Driven by Atacama oversupply and limited north-to-south transmission.",
+     "value": "1.5 (2023) rising to 5.9 (2024)",
+     "unit": "TWh/yr curtailed",
+     "year": "2024",
+     "source": "pv magazine International / Ember",
+     "sourceUrl": "https://www.pv-magazine.com/2025/10/07/chile-loses-562-million-to-rising-solar-and-wind-curtailment/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Chile cumulative curtailment value: ~11,900 GWh (~11.9 TWh) of renewable electricity curtailed Jan 2022-May 2025, representing an estimated US$562 million in lost revenue",
+     "value": "~11.9 TWh; US$562 million lost revenue",
+     "unit": "TWh cumulative; USD lost",
+     "year": "2025",
+     "source": "pv magazine International (citing Chilean market data / Ember)",
+     "sourceUrl": "https://www.pv-magazine.com/2025/10/07/chile-loses-562-million-to-rising-solar-and-wind-curtailment/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Concept/precedent: Bitcoin mining as a location-agnostic, interruptible, price-responsive load that acts as a 'buyer of last resort' for stranded/curtailed power; Proof-of-Work has no data-locality requirement so it can co-locate at flare sites or stranded wind/solar farms and consume only otherwise-wasted energy.",
+     "value": "qualitative concept (interruptible, location-agnostic load)",
+     "unit": "concept",
+     "year": "2025",
+     "source": "Bitcoin Magazine / VALR / industry analyses",
+     "sourceUrl": "https://bitcoinmagazine.com/business/five-factors-making-bitcoin-miners-unique",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Peer-reviewed precedent (Texas): modeling study found Bitcoin mining could absorb the large majority of curtailed Texas wind energy and turn it into profit. Reported result: ~93% of curtailed wind energy utilized to generate ~$239 million profit (using 2020-2021 ERCOT curtailment data).",
+     "value": "~93% of curtailed wind captured; ~$239 million profit",
+     "unit": "% utilized; USD profit",
+     "year": "2022",
+     "source": "Niaz, Liu, You, 'Can Texas mitigate wind and solar curtailments by leveraging bitcoin mining?', Journal of Cleaner Production, Vol. 364 (2022), DOI 10.1016/j.jclepro.2022.132700",
+     "sourceUrl": "https://www.sciencedirect.com/science/article/abs/pii/S0959652622022983",
+     "confidence": "medium"
+    },
+    {
+     "claim": "ERCOT controllable/flexible-load precedent: large flexible load program established in 2022; nearly all operational large flexible load (>75 MW rated) is Bitcoin mining. Miners curtail >95% of usage during peak/scarcity and are paid demand-response credits.",
+     "value": "program since 2022; flexible loads >75 MW; >95% curtailment during peaks",
+     "unit": "MW threshold; % curtailed",
+     "year": "2023",
+     "source": "Hashrate Index / Baker Botts (ERCOT large-load analysis)",
+     "sourceUrl": "https://hashrateindex.com/blog/bitcoin-mining-controllable-load-resource/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Real-world monetization precedent: Texas paid Bitcoin miner Riot Platforms ~$31.7 million in August 2023 to curtail (~$24.2M power-curtailment credits + ~$7.4M demand-response), illustrating revenue from acting as an interruptible load during grid stress.",
+     "value": "~31.7",
+     "unit": "USD million (single month)",
+     "year": "2023",
+     "source": "CNBC (citing Riot Platforms / ERCOT)",
+     "sourceUrl": "https://www.cnbc.com/2023/09/06/texas-paid-bitcoin-miner-riot-31point7-million-to-shut-down-in-august.html",
+     "confidence": "high"
+    },
+    {
+     "claim": "Flared-gas precedent (Crusoe Energy 'Digital Flare Mitigation'): scaled to >250 MW across 7 US states and Argentina; deployed >110 mobile generation systems; abated >39 billion cubic feet of gas; ~99% methane combustion vs open flares; division sold to NYDIG in March 2025.",
+     "value": ">250 MW; >39 Bcf gas abated; ~99% methane reduction",
+     "unit": "MW capacity; Bcf gas; % methane reduction",
+     "year": "2025",
+     "source": "Crusoe Energy newsroom / Contrary Research / DCD",
+     "sourceUrl": "https://research.contrary.com/company/crusoe",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Generalization of flexible load beyond crypto: utilities could add ~126 GW of new (AI/cloud/computing) load with minimal grid expansion if loads accept curtailment averaging ~1%/yr (short-duration, <~50 hours/yr) - supporting computing as a broadly flexible, interruptible load.",
+     "value": "~126",
+     "unit": "GW new load addable at ~1% curtailment tolerance",
+     "year": "2025",
+     "source": "Duke University Nicholas Institute 'Rethinking Load Growth' (cited via IEA/industry coverage)",
+     "sourceUrl": "https://www.renewableenergyworld.com/power-grid/grid-modernization/as-ai-and-data-center-power-demand-skyrockets-flexible-load-integration-becomes-a-critical-strategy-for-utilities/",
+     "confidence": "medium"
+    }
+   ],
+   "caveats": "Definitions and confidence: (1) LCOE — IRENA's global hydro figure (USD 0.057/kWh = ~$57/MWh in both 2023 and 2024) is high-confidence from the primary source's executive summary text; the China/Brazil large-hydro figure of ~USD 0.040/kWh (~$40/MWh) is medium-confidence because I extracted it from a search synthesis of the full IRENA report rather than reading the report table directly (IRENA PDFs would not parse via fetch). Note IRENA LCOE excludes integration/grid costs; Lazard's US figures use different financing/scope and are not directly comparable to IRENA's global weighted averages. (2) Curtailment — China rates are well-sourced as percentages, but a robust national absolute-TWh figure for curtailed renewables in 2024 was not found in a single authoritative primary source; the ~100 TWh 'recoverable' figure is a study-derived proxy (low confidence) and conflates curtailment with broader under-utilization. China also has a separate hydropower-curtailment problem (transmission-constrained spillage in Yunnan/Sichuan in wet years, documented academically e.g. Renewable Energy 2018), distinct from the 2022 drought-driven hydro *shortage* — I did not find a clean recent TWh number for hydro spillage specifically. ERCOT 2024 '>8 TWh' is from Modo Energy (analyst, medium confidence); EIA 2022 percentages are high confidence. Chile figures come from pv magazine/Ember (medium). (3) Computing-as-flexible-load — the Texas Bitcoin study's headline numbers (~93% of curtailed wind utilized; ~$239M profit) come from a peer-reviewed paper (J. Cleaner Production 2022) but the exact figures were captured from search summaries because ScienceDirect full text was paywalled/403; treat the specific $239M/93% as medium confidence pending full-text verification. Crusoe operational metrics are company-reported (medium). Many crypto-mining 'green'/grid-benefit claims originate from industry-aligned sources and are contested (e.g., MIT CEEPR and other work questions net climate benefit); the physical fact that mining is interruptible and location-agnostic is well established, but the magnitude of net benefit is disputed. Dates: searches run May 2026; some 2025/2026 figures reflect partial-year or preliminary data."
+  },
+  {
+   "topic": "Stranded hydropower exported as \"canned/congealed electricity\": aluminum smelting (Iceland, Norway, Quebec, US Pacific Northwest) as the 20th-century precedent for AI tokens as 21st-century embodied electricity",
+   "findings": [
+    {
+     "claim": "Primary aluminum smelting (Hall-Heroult electrolysis) is extremely electricity-intensive: roughly 13-16 kWh of electricity per kg of aluminum; best modern smelters ~13 kWh/kg, world average closer to 15 kWh/kg.",
+     "value": "13-16 (best ~13, world avg ~15)",
+     "unit": "kWh per kg aluminum",
+     "year": "2024",
+     "source": "Wikipedia (Aluminium smelting) citing 14-16 MWh/tonne; Alcoa figures via MrReid.org / Stanford PH240",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Aluminium_smelting",
+     "confidence": "high"
+    },
+    {
+     "claim": "Expressed per tonne, the canonical figure is 14-16 MWh (14,000-16,000 kWh) of electrical energy per tonne of primary aluminum; a commonly cited US/industry value is ~14,800 kWh per metric ton, and the International Aluminium Institute tracks AC/DC power per tonne with global averages declining toward ~14,000 kWh/t.",
+     "value": "14,000-16,000 (≈14,800 typical)",
+     "unit": "kWh per tonne aluminum",
+     "year": "2024",
+     "source": "International Aluminium Institute (Primary Aluminium Smelting Power Consumption); Wikipedia; industry sources",
+     "sourceUrl": "https://international-aluminium.org/statistics/primary-aluminium-smelting-power-consumption/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Electricity is the dominant cost in aluminum smelting, typically cited as ~40% of total production cost (range ~20-40% across sources and regions). This is why aluminum is nicknamed 'congealed electricity'.",
+     "value": "~40 (range 20-40)",
+     "unit": "percent of production cost from electricity",
+     "year": "2025",
+     "source": "The Conversation ('congealed electricity'); Fastmarkets / discoveryalert; ArcticToday/Yale E360 (20-40%)",
+     "sourceUrl": "https://theconversation.com/making-aluminium-uses-10-of-australias-electricity-will-tax-incentives-help-smelters-go-green-247794",
+     "confidence": "high"
+    },
+    {
+     "claim": "Aluminum is explicitly nicknamed 'congealed electricity' because power is ~40% of its production cost and smelting is so energy-intensive it has historically driven dedicated power plant construction. (This is the direct precedent for the 'canned electricity' framing.)",
+     "value": "congealed electricity (qualitative)",
+     "unit": "framing/nickname",
+     "year": "2025",
+     "source": "The Conversation (Australia aluminium tax incentives article)",
+     "sourceUrl": "https://theconversation.com/making-aluminium-uses-10-of-australias-electricity-will-tax-incentives-help-smelters-go-green-247794",
+     "confidence": "high"
+    },
+    {
+     "claim": "Smelters are deliberately sited at sources of cheap, often stranded, hydroelectric power because the process uses huge continuous power and smelting is 'economical only if there are inexpensive sources of electricity'; plants locate close to large (often hydro) power stations to hold down cost.",
+     "value": "siting at cheap/stranded hydro (qualitative)",
+     "unit": "rationale",
+     "year": "2024",
+     "source": "Wikipedia (Aluminium smelting)",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Aluminium_smelting",
+     "confidence": "high"
+    },
+    {
+     "claim": "Economic value density of aluminum as 'canned electricity': at ~14,500 kWh/tonne embodied and an LME aluminum price of ~$2,600/tonne (2025), the product is worth only about $0.18 per kWh of embodied electricity. (Range: ~$0.14-0.20/kWh across $2,100-2,900/t and 14,000-16,000 kWh/t.)",
+     "value": "~0.18 (range 0.14-0.20)",
+     "unit": "USD of product per kWh of electricity embodied",
+     "year": "2025",
+     "source": "Author calculation from LME aluminium price (alcircle/AluminiumChina) and IAI/Wikipedia energy intensity",
+     "sourceUrl": "https://www.alcircle.com/news/lme-aluminium-price-trend-historical-context-2025-market-dynamics-2026-price-outlook-116657",
+     "confidence": "high"
+    },
+    {
+     "claim": "LME primary aluminum cash price was ~$2,300/tonne (2024 average) and rose to ~$2,640-2,900/tonne through 2025 - the numerator for the value-per-kWh calculation.",
+     "value": "2,300 (2024 avg) to 2,640-2,900 (2025)",
+     "unit": "USD per tonne aluminum",
+     "year": "2024-2025",
+     "source": "AL Circle / AluminiumChina (LME aluminium price trend)",
+     "sourceUrl": "https://www.alcircle.com/news/lme-aluminium-price-trend-historical-context-2025-market-dynamics-2026-price-outlook-116657",
+     "confidence": "high"
+    },
+    {
+     "claim": "Iceland: built large hydro/geothermal to export stranded energy as aluminum because it has no grid interconnection to Europe. First smelter opened ~1969 (Straumsvik, ISAL, by Swiss Alusuisse), tied to a 210 MW hydro plant on the Thjorsa; Karahnjukar (690 MW, 2007-09) was built specifically to power an Alcoa smelter.",
+     "value": "1969 first smelter; 690 MW Karahnjukar dam for one smelter",
+     "unit": "dates / MW",
+     "year": "1969-2009",
+     "source": "Wikipedia (Energy in Iceland); Yale E360; ArcticToday",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Energy_in_Iceland",
+     "confidence": "high"
+    },
+    {
+     "claim": "Iceland's aluminum smelters consume the majority of national electricity - about 70% of generation circa 2005-2013 and roughly 64% of demand in more recent (2023) data; ~13 TWh of ~17 TWh total. Power-intensive industry (mostly aluminum) is the de facto export channel for otherwise stranded electricity.",
+     "value": "~64-72 (≈13 of 17 TWh)",
+     "unit": "percent of Iceland electricity to aluminum/power-intensive industry",
+     "year": "2005-2023",
+     "source": "Wikipedia (Energy in Iceland / Electricity sector in Iceland)",
+     "sourceUrl": "https://en.wikipedia.org/wiki/Electricity_sector_in_Iceland",
+     "confidence": "high"
+    },
+    {
+     "claim": "US Pacific Northwest: aluminum was the first major industrial customer of Columbia River hydropower. Bonneville Power Administration signed its first contract with Alcoa in Dec 1939 (smelter near Vancouver, WA, opened 1940). Industry grew to 10 smelters, ~11,000 jobs, consuming 3,150 average MW.",
+     "value": "1939 first contract; 10 smelters; 3,150 avg MW; ~11,000 jobs",
+     "unit": "dates / count / MW",
+     "year": "1939-1950s",
+     "source": "Northwest Power and Conservation Council (Columbia River History: Aluminum)",
+     "sourceUrl": "https://www.nwcouncil.org/reports/columbia-river-history/aluminum/",
+     "confidence": "high"
+    },
+    {
+     "claim": "By the mid-20th century the Pacific Northwest produced ~40% of US aluminum (and 6-7% of world capacity), enabled by Bonneville hydro rates roughly half what competitors paid (e.g. New Kensington, PA private utilities charged industry at least double BPA rates in 1940).",
+     "value": "~40% of US output; rates ~half of competitors'",
+     "unit": "percent / relative price",
+     "year": "1940-1950s",
+     "source": "Northwest Power and Conservation Council; BPA history (HistoryLink / nwcouncil)",
+     "sourceUrl": "https://www.nwcouncil.org/reports/columbia-river-history/aluminum/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Pacific Northwest smelters declined as cheap power vanished: BPA raised rates ~250% between 1979 and 1983; by the 2000-2001 West Coast energy crisis all 10 smelters were shut down or at minimal production. Demonstrates the model collapses when the underlying electricity stops being cheap/stranded.",
+     "value": "~250% rate rise (1979-83); all 10 idled by 2001",
+     "unit": "percent / count",
+     "year": "1979-2001",
+     "source": "Northwest Power and Conservation Council (Columbia River History: Aluminum)",
+     "sourceUrl": "https://www.nwcouncil.org/reports/columbia-river-history/aluminum/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Quebec: Alcan acquired Saguenay River hydro sites as the foundation of its smelting empire; by the 1970s Alcan owned 6 hydro stations (~2,015 MW avg) and was the only producer in the world able to expand capacity 30% without raising power costs. Cheap, plentiful hydro is described as Quebec's permanent competitive advantage in aluminum.",
+     "value": "6 hydro stations; ~2,015 MW; +30% expansion without higher power cost",
+     "unit": "count / MW / percent",
+     "year": "1970s",
+     "source": "The Globe and Mail (Quebec aluminum); Hydro-Quebec / Alcan (Wikipedia, Canadian Encyclopedia)",
+     "sourceUrl": "https://www.theglobeandmail.com/report-on-business/industry-news/energy-and-resources/quebec-needs-to-move-beyond-simply-smelting-aluminum/article4200636/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Norway (Norsk Hydro): aluminum smelting grew directly out of harnessing waterfalls - Hydro's Sam Eyde bought the Rjukan waterfall in 1902. Today Hydro runs ~40 hydro plants delivering ~13.7 TWh/yr, dedicated largely to smelting; Norway supplies ~40% of Europe's aluminum with a carbon footprint ~75% below the global average.",
+     "value": "Rjukan waterfall 1902; ~40 plants; 13.7 TWh/yr; 40% of EU aluminum",
+     "unit": "dates / count / TWh / percent",
+     "year": "1902-2024",
+     "source": "Norsk Hydro ('Power of power' history; Norway operations); Wikipedia (Norsk Hydro)",
+     "sourceUrl": "https://www.hydro.com/en/global/energy/energy-in-hydro/the-power-of-power-hydro-energys-history/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Remote stranded-hydro smelters are built where electricity literally cannot be sold to a grid: e.g. Rio Tinto's Kitimat (BC) is powered by the dedicated Kemano hydro plant (Nechako reservoir, 16 km tunnel, ~1,000 MW, 80 km line to the smelter) - power monetized only by converting it to shippable metal.",
+     "value": "Kemano ~1,000 MW dedicated; 16 km tunnel; 80 km transmission line",
+     "unit": "MW / km",
+     "year": "1950s-present",
+     "source": "CIM Magazine (Rio Tinto Kitimat); Bechtel (Kitimat modernization)",
+     "sourceUrl": "https://magazine.cim.org/en/operations/less-is-more/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Threshold economics confirming the 'export-stranded-power-as-metal' logic: viable smelting generally needs electricity below ~$40/MWh on 10+ year contracts; regional power tariffs ~$20/MWh (Middle East), $35-40/MWh (US/Europe), ~$55/MWh (China) per CRU - so only places with cheap/stranded power can profitably 'can' electricity into aluminum.",
+     "value": "<$40/MWh viability; $20-55/MWh regional spread",
+     "unit": "USD per MWh",
+     "year": "2024-2025",
+     "source": "CRU via Light Metal Age / discoveryalert (US aluminum smelting economics)",
+     "sourceUrl": "https://www.lightmetalage.com/news/industry-news/smelting/the-shift-toward-renewable-power-in-aluminum-smelting/",
+     "confidence": "medium"
+    }
+   ],
+   "caveats": "Value-per-kWh ($0.18/kWh) is my own arithmetic (LME price / energy intensity), not a directly published statistic; it varies with metal price ($2,100-2,900/t) and intensity (14,000-16,000 kWh/t), giving roughly $0.13-0.21/kWh. Note this is GROSS value embodied, not margin - the smelter pays for the power, alumina, anodes, labor, so net value-added per kWh is far lower. The electricity cost share '~40%' is a widely repeated industry rule of thumb (range 20-40% by region/price era) rather than a single audited figure; I could not access the live IAI data tables (definition pages only) or the paywalled ArcticToday article, so the precise current global average energy intensity (~14,000 kWh/t) is taken from secondary sources and Wikipedia's 14-16 MWh/t range rather than a fetched primary IAI value. Iceland's industry-share figures span 64-72% depending on year and whether measured against generation or demand. The AI-token analogy half of the framing (tokens as 21st-century 'canned electricity') is the user's thesis: I gathered the aluminum precedent rigorously, but a clean apples-to-apples 'USD of AI output per kWh' figure is genuinely uncertain - rough public estimates suggest frontier LLM inference can embody electricity at a vastly higher value density than aluminum (often cited as dollars-to-hundreds-of-dollars of service value per kWh vs aluminum's ~$0.18/kWh), but those AI numbers are model-, price-, and use-case-dependent and were not the focus of these aluminum-specific sources. Treat the AI value-density comparison as directional, not precisely sourced. Several supporting figures (Norsk Hydro plant counts, Kemano specs) come from company/secondary sources and may reflect slightly different base years."
+  },
+  {
+   "topic": "AI datacenter energy economics and energy cost per token of frontier LLM inference",
+   "findings": [
+    {
+     "claim": "Datacenter-level energy per output token, optimized production frontier inference (Epoch AI bottom-up estimate, GPT-4o-class MoE ~100B active params, H100, 500 output tokens, 10% utilization, 70% power, datacenter overhead folded into 1500W/GPU). 0.3 Wh/query = 0.6 mWh/token = ~2.2 J/output token; equivalently ~0.6 Wh per 1000 tokens and ~1.7 million output tokens/kWh.",
+     "value": "~2.2 (≈2.0-2.4)",
+     "unit": "Joules per output token (datacenter level)",
+     "year": "2025",
+     "source": "Epoch AI (Gradient Updates: How much energy does ChatGPT use?)",
+     "sourceUrl": "https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use",
+     "confidence": "high"
+    },
+    {
+     "claim": "Per-query energy for optimized frontier-scale inference (>200B-param model, H100 8-10 GPU nodes, 500 input + 300 output tokens, PUE modeled log-normal P5-P95 1.05-1.40, node power 0.7x of 11.3-14.1 kW max). Peer-reviewed bottom-up median 0.34 Wh/query (IQR 0.18-0.67); on a 300-output-token basis this is ~1.1 mWh/token ≈ ~4 J/output token (includes 500-token input prefill).",
+     "value": "0.34 (IQR 0.18-0.67)",
+     "unit": "Wh per query (≈ 4 J per output token incl. prefill)",
+     "year": "2026",
+     "source": "Joule / Microsoft Research (Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute)",
+     "sourceUrl": "https://arxiv.org/abs/2509.20241",
+     "confidence": "high"
+    },
+    {
+     "claim": "Defensible RANGE for datacenter-level energy per output token across model sizes, batching, and prompt regimes: best-case well-batched serving ~0.7-2.4 J/token (≈1.7-5 million tokens/kWh); typical mixed production ~2-10 J/token; worst-case large-context/low-batch or reasoning ~20-70+ J/token. Aggregate frontier upper-bound estimates of 40-60 kWh per million tokens imply ~17,000-25,000 tokens/kWh.",
+     "value": "~0.7-70 J/token; ~17,000 to ~5,000,000",
+     "unit": "Joules per output token; tokens per kWh",
+     "year": "2025",
+     "source": "Arthur Clune (per-token energy costs) + Antarctica.io One-Token Model + Epoch AI",
+     "sourceUrl": "https://clune.org/posts/per-token-energy-costs-again/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Energy per token is highly sensitive to batching and prompt size. On 4xH100, large 16k-input prompts cost ~36-72 J/token at batch 1 (10-20 kWh/M tokens) but drop to ~9.6-19 J/token at batch 8; a single H100 at batch 512 (small prompt) reaches ~2,174 tokens/sec at ~0.69 J/token. Demonstrates a 25-100x spread driven by batch size and context length.",
+     "value": "0.69 to 72",
+     "unit": "Joules per token (batch- and prompt-dependent)",
+     "year": "2025",
+     "source": "Arthur Clune (Another look at per-token energy costs)",
+     "sourceUrl": "https://clune.org/posts/per-token-energy-costs-again/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "GPU output throughput for Llama 2 70B under batched serving (MLPerf Inference v4.1, offline): NVIDIA DGX H100 (8 GPUs) delivered 24,525 tokens/sec total, i.e. ~3,066 output tokens/sec per H100. H200 systems reach ~33,000 tokens/sec (8 GPUs), ~40% higher than H100.",
+     "value": "~3,066 per H100 (DGX 8-GPU: 24,525); H200 8-GPU ~33,000",
+     "unit": "output tokens/sec",
+     "year": "2024",
+     "source": "NVIDIA / MLCommons MLPerf Inference v4.1",
+     "sourceUrl": "https://developer.nvidia.com/blog/nvidia-blackwell-platform-sets-new-llm-inference-records-in-mlperf-inference-v4-1/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Single-GPU LLM serving throughput ranges widely: ~250-300 tokens/sec for interactive single-stream 13B-70B serving, up to thousands of tokens/sec aggregate under large batches (e.g. Mixtral 8x7B reached ~21,000 tokens/sec at batch 1024 with FP8; GPT-OSS-120B ~1,009 tokens/sec on one H100 via vLLM). Throughput depends on batch size, quantization (FP8), and engine (vLLM/TensorRT-LLM).",
+     "value": "~250-300 (single-stream) to >20,000 (large-batch aggregate)",
+     "unit": "output tokens/sec per GPU",
+     "year": "2024",
+     "source": "NVIDIA Technical Blog (TensorRT-LLM, Mixtral 8x7B) / BytePlus (GPT-OSS-120B vLLM)",
+     "sourceUrl": "https://developer.nvidia.com/blog/achieving-high-mixtral-8x7b-performance-with-nvidia-h100-tensor-core-gpus-and-tensorrt-llm/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "GPU power (TDP): NVIDIA H100 SXM5 = 700 W; H100 PCIe = 350 W; H100 NVL = 350-400 W/GPU. H200 SXM = 700 W (same power envelope as H100 SXM, higher memory/bandwidth). Full DGX/HGX node max power draw ~11.3-14.1 kW for 8-10 H100 (incl. CPUs, networking, NVSwitch); per-GPU all-in (server+overhead) commonly modeled at ~1,400-1,700 W.",
+     "value": "700 (SXM); 350 (PCIe); node ~11.3-14.1 kW",
+     "unit": "Watts (per GPU TDP) / kW (per node)",
+     "year": "2024",
+     "source": "NVIDIA H100/H200 datasheets; Joule/Microsoft Research node modeling",
+     "sourceUrl": "https://www.nvidia.com/en-us/data-center/h100/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Datacenter PUE: industry average ~1.54-1.56 (Uptime Institute 2024-2025 surveys). Hyperscalers achieve 1.09-1.20. Google reported a fleet-wide trailing-12-month PUE of 1.09 in 2024.",
+     "value": "1.54-1.56 (industry avg); 1.09-1.20 (hyperscale)",
+     "unit": "PUE ratio",
+     "year": "2024",
+     "source": "Uptime Institute Global Data Center Survey 2024 / Statista 2025",
+     "sourceUrl": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2024.GlobalDataCenterSurvey.Report.pdf",
+     "confidence": "high"
+    },
+    {
+     "claim": "Achievable PUE in cold/high-latitude climates: Google's lowest trailing-12-month campus PUE was 1.09 (Hamina, Finland and Belgium), aided by ~2C average ambient and seawater free-cooling. Cold-climate free-air cooling can run 8-10 months/year (vs 3-4 months in temperate climates). The Climate Neutral Data Centre Pact set a 1.3 annual PUE target for new facilities in cool climates by 2025.",
+     "value": "~1.09-1.10 (cold-climate hyperscale); 1.3 (cool-climate target)",
+     "unit": "PUE ratio",
+     "year": "2024",
+     "source": "Google Data Centers (Efficiency / Hamina); Climate Neutral Data Centre Pact",
+     "sourceUrl": "https://datacenters.google/efficiency/",
+     "confidence": "high"
+    },
+    {
+     "claim": "AI datacenter capex: ~$38 million per MW one-time ($38 billion for a 1 GW facility) for a typical US facility using NVIDIA GB200 NVL72 servers. Annualized total cost of ownership ~$8.5 million/MW/yr ($8.5 billion/yr for 1 GW), assuming 5-yr server and 14-yr facility lifespans.",
+     "value": "~$38 million/MW capex; ~$8.5 million/MW/yr TCO",
+     "unit": "USD per MW",
+     "year": "2025",
+     "source": "Epoch AI (Total cost of ownership of a one-gigawatt AI data center)",
+     "sourceUrl": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+     "confidence": "high"
+    },
+    {
+     "claim": "Cost-structure share of an AI datacenter (annualized TCO of a 1 GW facility, ~$8.5 billion/yr): servers & networking (chips/GPUs) ~$5.0 billion = ~60%; facility & infrastructure ~$2.6 billion = ~29%; energy/electricity only ~$0.6 billion = ~7%; other OpEx ~4%. Hardware vastly dominates; electricity is a minor (~7%) share. (Industry-wide, McKinsey estimates ~60% of total AI datacenter investment flows to chip/compute hardware makers.)",
+     "value": "Hardware/servers ~60%; facility ~29%; electricity ~7%",
+     "unit": "share of annualized total cost",
+     "year": "2025",
+     "source": "Epoch AI cost breakdown; McKinsey (The cost of compute)",
+     "sourceUrl": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+     "confidence": "high"
+    },
+    {
+     "claim": "Test-time scaling (reasoning) sharply raises per-query energy: queries ~15x longer than typical lift median energy ~13x to 3.91-4.32 Wh (IQR ~2.2-7.4 Wh). Conversely, non-production / academic estimates can overstate real per-query energy by 4-20x versus production-scale serving.",
+     "value": "median 3.91-4.32 Wh (reasoning); overstatement 4-20x",
+     "unit": "Wh per query; multiplier",
+     "year": "2026",
+     "source": "Joule / Microsoft Research (Energy Use of AI Inference)",
+     "sourceUrl": "https://arxiv.org/abs/2509.20241",
+     "confidence": "high"
+    }
+   ],
+   "caveats": "Major assumption dependencies: (1) Energy-per-token figures depend heavily on whether they count GPU-only vs full-node vs datacenter (PUE-adjusted) energy, and on output-only vs input+output tokens. The Epoch AI ~2.2 J/token and Joule ~0.34 Wh/query figures are bottom-up estimates for optimized production serving of MoE models with ~100B active parameters; smaller dense models (7B-70B) and worst-case low-batch/long-context serving can be 10-100x different, so the tokens/kWh range (~17,000 to ~5,000,000) is genuinely wide and not a single number. (2) These are estimates/benchmarks, not metered production telemetry from frontier labs (which is largely undisclosed); the Joule paper explicitly notes that prior non-production estimates overstated energy by 4-20x. (3) GPU throughput numbers (e.g., 3,066 tok/s/H100 on Llama-2-70B) are MLPerf offline-scenario, FP8/optimized; real interactive serving with latency SLAs yields lower per-GPU throughput and thus higher J/token. (4) The 0.3 Wh ChatGPT figure was corroborated by OpenAI and Google leadership but remains an external estimate. (5) Capex/cost-share figures are from Epoch AI's GB200-based model for a US facility; actual $/MW varies materially with location, power deals, chip generation (Blackwell vs Hopper), and server lifespan assumptions (3-yr life raises TCO to ~$12B/GW/yr; 7-yr lowers it to ~$7B/GW/yr). The ~7% electricity share is an annualized-cost share and is sensitive to electricity price (modeled near $0.15/kWh) and utilization; at very high power prices or low hardware cost it would rise. (6) The Joule/arXiv PDF could not be parsed directly; its numbers were taken from the abstract and a literature-review summary, and minor version differences exist between the arXiv preprint (median 0.34 Wh, test-time 4.32 Wh) and the published Joule abstract (median 0.31 Wh, test-time 3.91 Wh)."
+  },
+  {
+   "topic": "Global scale of AI token consumption and AI compute energy outlook (2024–2030)",
+   "findings": [
+    {
+     "claim": "Google processes over 3.2 quadrillion tokens per month across all its surfaces (Gemini, Search/AI Overviews, YouTube, Workspace, Cloud APIs, multimodal), a ~7x jump year-over-year, announced by CEO Sundar Pichai at Google I/O 2026 (May 2026).",
+     "value": "3.2 quadrillion (3.2e15)",
+     "unit": "tokens/month",
+     "year": "2026",
+     "source": "Google (Sundar Pichai I/O 2026 keynote, blog.google)",
+     "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Google's monthly token throughput trajectory across its surfaces: ~9.7 trillion/month (May 2024), ~480 trillion/month (May 2025), >3.2 quadrillion/month (May 2026) — roughly 330x growth over two years.",
+     "value": "9.7e12 → 4.8e14 → 3.2e15",
+     "unit": "tokens/month (2024→2025→2026)",
+     "year": "2024-2026",
+     "source": "Google I/O 2026 keynote (via blog.google); cross-reported by Cryptobriefing/Shacknews",
+     "sourceUrl": "https://cryptobriefing.com/google-3-2-quadrillion-tokens-monthly/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Earlier in the cycle (Sept/Oct 2025), Google reported processing 1.3 quadrillion tokens/month across all services, showing the steep mid-2025 to mid-2026 ramp toward 3.2 quadrillion.",
+     "value": "1.3 quadrillion (1.3e15)",
+     "unit": "tokens/month",
+     "year": "2025",
+     "source": "PYMNTS (citing Google)",
+     "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/openai-bests-google-in-race-for-consumer-ai-token-consumption/",
+     "confidence": "medium"
+    },
+    {
+     "claim": "OpenAI's API platform processes over 6 billion tokens per minute, announced by Sam Altman at DevDay on Oct 6, 2025 — up ~20x in under two years (from ~300 million tokens/min). This equals ~8.64 trillion tokens/day, ~259 trillion/month, ~3.15 quadrillion/year.",
+     "value": "6 billion (6e9)",
+     "unit": "tokens/minute (≈8.64e12/day; ≈3.15e15/year)",
+     "year": "2025",
+     "source": "OpenAI DevDay 2025 (Sam Altman keynote), reported via TechCrunch/The Neuron and Tibor Blaho",
+     "sourceUrl": "https://www.theneuron.ai/explainer-articles/everything-openai-released-on-devday-2025-explained/",
+     "confidence": "high"
+    },
+    {
+     "claim": "Industry-wide estimate: the total LLM API market processes approximately 50 trillion tokens/day, or ~1.5 quadrillion tokens/month (multi-source analysis of provider API telemetry, enterprise surveys, platform data; published Nov 19, 2025). This implies ~18 quadrillion tokens/year for the API market.",
+     "value": "50 trillion/day; 1.5 quadrillion/month (5e13/day; 1.5e15/month)",
+     "unit": "tokens/day and tokens/month (API market)",
+     "year": "2025",
+     "source": "Fireworks.ai ('State of Agent Environments')",
+     "sourceUrl": "https://fireworks.ai/blog/state-of-agent-environments",
+     "confidence": "medium"
+    },
+    {
+     "claim": "OpenRouter empirical usage study analyzed over 100 trillion tokens of real-world LLM interactions over a 13-month rolling period ending Nov 2025 (single aggregator platform); useful as a lower-bound real-usage dataset and for usage-mix shifts (open-source share rose to ~1/3; reasoning models exceeded 50% of usage by late 2025).",
+     "value": "100 trillion (1e14)",
+     "unit": "tokens over ~13 months (single platform)",
+     "year": "2025",
+     "source": "OpenRouter 'State of AI 2025' / arXiv 2601.10088",
+     "sourceUrl": "https://openrouter.ai/state-of-ai",
+     "confidence": "high"
+    },
+    {
+     "claim": "Derived annual global token estimate (method below): API-market floor ~18 quadrillion tokens/yr (Fireworks 50T/day x 365); broader all-surface estimate is materially higher — Google's surfaces alone imply ~38 quadrillion/yr (3.2e15 x 12). A reasonable 2025–2026 global all-provider, all-surface band is ~20–50+ quadrillion tokens/year and rising several-fold annually.",
+     "value": "~18 quadrillion (API-only) to ~40–50+ quadrillion (all-surface)",
+     "unit": "tokens/year (global)",
+     "year": "2025-2026",
+     "source": "Derived from Fireworks.ai (API market) and Google I/O 2026 (all surfaces)",
+     "sourceUrl": "https://fireworks.ai/blog/state-of-agent-environments",
+     "confidence": "low"
+    },
+    {
+     "claim": "Frontier-model output pricing (premium tier) spans roughly $25–$180 per million output tokens; e.g., Claude Opus 4.6 at $5 input / $25 output, GPT-5.4 Pro at $30 input / $180 output per million tokens (2026).",
+     "value": "$25–$180 (output); $5–$30 (input)",
+     "unit": "USD per million tokens (frontier models)",
+     "year": "2026",
+     "source": "IntuitionLabs / TLDL LLM API pricing comparisons; provider pricing pages",
+     "sourceUrl": "https://intuitionlabs.ai/articles/llm-api-pricing-comparison-2025",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Mid-tier model pricing roughly $3–$15 per million output tokens; e.g., GPT-5.4 $2.50/$15, Claude Sonnet 4.6 $3/$15, Gemini 2.5 Pro ~$1.25 input per million tokens (2026).",
+     "value": "$3–$15 (output); ~$1.25–$3 (input)",
+     "unit": "USD per million tokens (mid-tier)",
+     "year": "2026",
+     "source": "IntuitionLabs / TLDL LLM API pricing comparisons",
+     "sourceUrl": "https://www.tldl.io/resources/llm-api-pricing-2026",
+     "confidence": "medium"
+    },
+    {
+     "claim": "Cheap/budget model pricing is roughly $0.40–$3 per million output tokens, with input as low as $0.10–$0.14 per million; e.g., DeepSeek-V3 $0.14 input / $0.28 output, Gemini 2.0 Flash $0.10 input / $0.40 output, Gemini 2.5 Flash-Lite $0.10 input per million tokens. Industry prices fell sharply (some report ~80% drops 2025→2026).",
+     "value": "$0.40–$3 (output); $0.10–$0.14 (input)",
+     "unit": "USD per million tokens (budget models)",
+     "year": "2025-2026",
+     "source": "DeepSeek API docs; Google Gemini API pricing; pricepertoken/TLDL",
+     "sourceUrl": "https://api-docs.deepseek.com/quick_start/pricing",
+     "confidence": "high"
+    },
+    {
+     "claim": "IEA: global data-centre electricity consumption was ~415 TWh in 2024 (~1.5% of global electricity) and is projected to roughly double to ~945 TWh by 2030 in the Base Case (~just under 3% of global electricity). Source: IEA 'Energy and AI' report, April 2025.",
+     "value": "415 (2024) → ~945 (2030)",
+     "unit": "TWh/year (global data centres)",
+     "year": "2024-2030",
+     "source": "IEA, 'Energy and AI' (Apr 2025), Executive summary / Energy demand from AI",
+     "sourceUrl": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+     "confidence": "high"
+    },
+    {
+     "claim": "IEA: electricity use by AI-optimised (accelerated) servers is projected to grow ~30% per year in the Base Case and to more than quadruple by 2030; AI is the single largest driver of data-centre demand growth. US and China account for ~80% of global data-centre demand growth to 2030 (US +~240 TWh / +130%; China +~175 TWh / +170%).",
+     "value": "~30%/yr accelerated-server growth; >4x AI demand by 2030",
+     "unit": "annual growth rate / multiple (AI servers)",
+     "year": "2024-2030",
+     "source": "IEA 'Energy and AI'; S&P Global summary",
+     "sourceUrl": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "confidence": "high"
+    },
+    {
+     "claim": "IEA high-demand ('Lift-Off') scenario: global data-centre electricity demand in 2035 could be ~45% higher than the Base Case, exceeding 1,700 TWh and reaching ~4.4% of global electricity demand.",
+     "value": ">1,700 (2035, Lift-Off)",
+     "unit": "TWh/year (global data centres)",
+     "year": "2035",
+     "source": "IEA, 'Energy and AI'",
+     "sourceUrl": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai",
+     "confidence": "high"
+    }
+   ],
+   "caveats": "Definitional inconsistency is the biggest issue. Provider token figures are not apples-to-apples: Google's 3.2 quadrillion/month is \"across all surfaces\" (includes Search/AI Overviews and heavy multimodal image/video/audio tokenization), whereas OpenAI's 6B tokens/min and the Fireworks 50T/day figure are API/inference-platform numbers. Multimodal tokens (a single image can be hundreds-to-thousands of tokens) inflate \"all-surface\" counts relative to text API traffic, so summing across providers risks both double-counting (e.g., OpenRouter routes to the same providers) and category mismatch.\n\nDate context: today is 2026-05-30. Google I/O 2026 (May 2026, 3.2 quadrillion/month) and OpenAI DevDay 2025 (Oct 6, 2025, 6B tokens/min) are the latest primary figures. The 1.3 quadrillion Google figure is an earlier-2025 number, consistent with the 480T (May 2025) → 3.2Q (May 2026) ramp.\n\nAnnual global token method: (a) API-market floor = Fireworks 50T/day x 365 ≈ 18 quadrillion/yr; (b) all-surface upper estimate anchored on Google alone (3.2e15 x 12 ≈ 38 quadrillion/yr) plus other providers suggests a 2025–2026 band of ~20–50+ quadrillion tokens/yr globally. This is a synthesis, not an official statistic — confidence is low, the band is wide, and it is growing several-fold per year (Google ~7x YoY; OpenAI ~20x in two years), so any single annual number is quickly outdated.\n\nPricing caveats: pricing changes monthly and many \"frontier\" prices were cut sharply (Anthropic Opus 4.1 $15/$75 → Opus 4.6 $5/$25; reported ~80% industry-wide drops 2025→2026). Some pricing specifics (e.g., GPT-5.4/5.2 family, Gemini 3 Flash) come from third-party aggregators (IntuitionLabs, TLDL, pricepertoken), not always confirmed against the provider's live pricing page at fetch time; treat exact per-model cents as indicative. Cached/batch/context-window tiers and per-token discounts are not reflected.\n\nEnergy caveats: IEA 'Energy and AI' (April 2025) Base Case (~945 TWh by 2030) is one scenario among several; ranges across analysts (Goldman, Morgan Stanley, McKinsey) for 2030 data-centre demand vary widely (roughly 700–1,300+ TWh). \"Data-centre\" electricity is broader than \"AI\" alone, though IEA attributes the bulk of growth to AI/accelerated servers. The IEA report predates the most recent (late-2025/2026) token-throughput surges, so actual buildout may track the upper scenarios. I could not directly fetch the IEA executive-summary or S&P pages (timeout/403); the 415 TWh (2024), 945 TWh (2030), and Lift-Off >1,700 TWh (2035) figures were confirmed from the official IEA 'Energy demand from AI' page."
+  }
+ ],
+ "verdicts": [
+  {
+   "claim": "The Yarlung Tsangpo / Medog hydropower project has a planned installed capacity of about 60 GW and expected annual generation of about 300 TWh.",
+   "verdict": "supported",
+   "bestEstimate": "Installed capacity: ~60 GW (60,000 MW) as the most-cited planned figure, though credible estimates range up to ~70-81 GW depending on how many of the cascade stations and how much of the ~70 GW technically-exploitable Great Bend potential is captured. Expected annual generation: ~300 TWh/year (300 billion kWh), i.e. roughly 3x the Three Gorges Dam (~22.5 GW / ~95-112 TWh).",
+   "reasoning": "The claim's two headline numbers are consistently reported across independent sources (Wikipedia, Power Magazine, CNN, The Diplomat, Jamestown, and Chinese-language outlets including Guancha and Xinhua-derived reporting). The project (officially the Motuo/Medog Hydropower Station on the lower Yarlung Tsangpo / Brahmaputra) broke ground 19 July 2025, costs ~RMB 1.2 trillion (~USD 167-170 bn), uses a diversion-tunnel scheme through the Great Bend with five cascade stations, and targets ~2033 first operations. Two caveats prevent a stronger 'exact' framing: (1) China has NOT published a single official, definitive total capacity number — the project is described as secretive, so '~60 GW' is the most common figure but several reputable analyses cite 'more than 60 GW' or a 60-80 GW range (e.g., Jamestown: '60-80 GW' for the lower reaches; multiple sources: 'as high as 70 GW'; the basin's main-stream theoretical potential is ~80 GW and the Great Bend's technically exploitable potential ~70 GW). So '~60 GW' is best read as a conservative/lower-bound planned figure, not a hard cap. (2) The 300 TWh/year figure traces to Chinese reporting (China Energy News 2021; Ta Kung Pao 2025) and is the widely repeated 'triple Three Gorges' number; sources do not transparently reconcile it with the exact final capacity. Internal consistency check: 300 TWh / (60 GW x 8760 h) implies a ~57% capacity factor, which is physically reasonable for a high-head diversion hydro plant (at 70 GW it implies ~49%, also reasonable). Because the claim says 'about 60 GW' and 'about 300 TWh,' it accurately reflects the dominant planned figures; it is only mildly oversimplified in that capacity could ultimately be higher (up to ~70-81 GW) and no number is officially confirmed.",
+   "sources": [
+    "Medog Hydropower Station - Wikipedia: https://en.wikipedia.org/wiki/Medog_Hydropower_Station",
+    "China Breaks Ground for World's Largest Hydropower Station - POWER Magazine: https://www.powermag.com/china-breaks-ground-for-worlds-largest-hydropower-station/",
+    "China is building the world's most powerful hydropower system deep in the Himalayas - CNN (Dec 17, 2025): https://www.cnn.com/2025/12/17/china/china-largest-hydropower-dam-intl-hnk-dst",
+    "Yarlung Tsangpo Hydropower Fuels PRC's Energy-Computing Strategy - Jamestown Foundation: https://jamestown.org/yarlung-tsangpo-hydropower-fuels-prcs-energy-computing-strategy/",
+    "What's Driving China's Mega Medog Hydropower Project? - The Diplomat: https://thediplomat.com/2026/02/whats-driving-chinas-mega-medog-hydropower-project/",
+    "China starts construction on world's largest hydropower dam in Tibet - NBC News (Xinhua-sourced): https://www.nbcnews.com/world/asia/china-starts-construction-worlds-largest-hydropower-dam-tibet-rcna219940",
+    "雅鲁藏布江下游水电站正式开工 (1.2万亿、3000亿度) - 观察者网/风闻: https://user.guancha.cn/main/content?id=1486459"
+   ]
+  },
+  {
+   "claim": "The levelized cost of electricity (LCOE) from large hydropower is roughly $30-60/MWh (0.03-0.06 USD/kWh), and far-western Chinese hydro can be at the low end.",
+   "verdict": "supported",
+   "bestEstimate": "Typical new large hydro LCOE ~$40-60/MWh (0.04-0.06 USD/kWh), with the global weighted average ~$57/MWh in 2023-2024; full project-level spread is much wider (~$20-190/MWh). Chinese large hydro averages ~$40/MWh (0.04 USD/kWh), among the lowest-cost regions globally, so the claim that far-western Chinese hydro sits at the low end is directionally correct.",
+   "reasoning": "I independently re-derived this primarily from IRENA's Renewable Power Generation Costs reports (2023 and 2024 editions) and IRENA's Hydropower Costs database, cross-checked against Chinese on-grid tariff data. Key findings: (1) IRENA's global weighted-average LCOE for newly commissioned hydropower was 0.061 USD/kWh (2022), 0.057 USD/kWh (2023, $57/MWh), and ~0.057 USD/kWh (2024). This sits at the TOP of the claimed $30-60 band, so the claim's range is slightly optimistic as a description of the global average -- $30-60 better describes low-cost regions than the world average. (2) IRENA's regional decomposition for large hydro commissioned over the past decade: China and Brazil ~0.040 USD/kWh ($40/MWh); North America ~0.080 USD/kWh ($80/MWh); Europe ~0.120 USD/kWh ($120/MWh). This strongly confirms China is among the lowest-cost hydro regions, supporting the second half of the claim. (3) Project-level range is very wide -- IRENA's cost analysis cites roughly $0.02-0.19/kWh ($20-190/MWh) at a 10% cost of capital, so $30-60/MWh captures the central/typical band but not the full distribution; remote, high-civil-works, or storage-heavy projects (including some far-western Chinese mega-dams with long transmission) can exceed $60/MWh. (4) Cross-check: Chinese hydro on-grid benchmark tariffs run ~0.2-0.4 yuan/kWh (avg ~0.29 yuan/kWh, ~$0.04/kWh), consistent with the ~$40/MWh LCOE figure. Disagreements/nuances among sources: IRENA reports the China figure as a nationwide large-hydro average, NOT a far-western-specific number -- so the specific \"far-western at the low end\" framing is plausible and directionally right but not separately documented; far-western provinces (Tibet/Yunnan/Sichuan, e.g., Jinsha, Lancang, Yarlung Tsangpo basins) host China's cheapest sites due to high head and large unit sizes, but newer remote mega-projects can carry higher capital and transmission costs. The $30-60/MWh figure also assumes a moderate discount rate (~7-10%); at higher WACC, capital-intensive hydro LCOE rises substantially. Bottom line: the claim is supported as a typical-range statement, with the caveat that the global average is near the top of the range and the very low end (~$30/MWh) applies mainly to favorable, already-developed Chinese/Brazilian sites rather than new far-western mega-projects universally.",
+   "sources": [
+    "IRENA, Renewable Power Generation Costs in 2023 (Executive Summary) - https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023_executive_summary.pdf",
+    "IRENA, Renewable Power Generation Costs in 2024 (Summary) - https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Jul/IRENA_TEC_RPGC_in_2024_Summary_2025.pdf",
+    "IRENA Hydropower Costs database/page - https://www.irena.org/costs/Power-Generation-Costs/Hydropower",
+    "IRENA, Renewable Energy Cost Analysis: Hydropower (2012, project-level range $0.02-0.19/kWh) - https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2012/RE_Technologies_Cost_Analysis-HYDROPOWER.pdf",
+    "Statista, Hydropower LCOE worldwide 2022 (~$0.061/kWh) - https://www.statista.com/statistics/799349/lcoe-of-hydropower-worldwide/",
+    "Belfer Center, China Trading Power: Yunnan electricity market (Yunnan hydro on-grid tariffs 0.235-0.33 RMB/kWh) - https://www.belfercenter.org/publication/china-trading-power-improving-environmental-and-economic-efficiency-yunnans-electricity"
+   ]
+  },
+  {
+   "claim": "UHVDC long-distance transmission loses on the order of ~1.5% per 1000 km (roughly 5-10% over 2000-3000 km) and adds on the order of $0.01-0.03/kWh in levelized transmission cost.",
+   "verdict": "partially-supported",
+   "bestEstimate": "Line losses: ~2.5-3.5% per 1000 km for typical ±800 kV UHVDC (1.5% per 1000 km is achievable ONLY at the world-leading ±1100 kV class, e.g. Changji-Guquan; general HVDC is ~3.5%/1000 km). PLUS a distance-independent converter-station loss of ~1.4-1.6% total (both ends combined, ~0.7-0.8% each). Realistic total over 2000-3000 km: roughly 6-10% (e.g. Xiangjiaba-Shanghai ±800 kV ~2000 km, ~7200 MW: under 7% total). Levelized transmission cost: ~$0.005-0.03/kWh, depending heavily on voltage, utilization and distance; ~$0.01-0.02/kWh is a fair central figure for well-utilized UHVDC, but a peer-reviewed 500 kV HVDC study reaches ~$0.026/kWh per 1000 km (~$0.04/kWh over 1000 miles).",
+   "reasoning": "I re-derived each component independently and found the claim directionally right but optimistic and conflated on the loss figure, while the cost figure is broadly defensible.\n\nLOSS PER 1000 km: The 1.5%/1000 km number is real but cherry-picked: it is the headline efficiency of the world's first and highest-voltage line, the ±1100 kV Changji-Guquan project (3324 km, 12 GW), reported as 1.5%/1000 km and \"less than 1/4 of a ±500 kV line.\" Treating this as representative of \"UHVDC\" generally is an overstatement. Independent benchmarks: Wikipedia and World Nuclear Association both cite ~3.5%/1000 km for general HVDC and 2.6% over 800 km (~3.25%/1000 km) for ±800 kV. Engineering sources put ±800 kV in a 2.5-4%/1000 km range (line only). So the typical ±800 kV UHVDC is ~2-2.5x the claimed 1.5%.\n\nOMITTED CONVERTER LOSSES: The claim's per-km framing hides a critical, distance-independent term. AC/DC converter stations lose ~0.7-0.8% per end (National Grid), i.e. ~1.4-1.6% total round-trip regardless of length. This is why short links look bad on a %/1000-km basis and why the 1.5%/1000-km figure cannot simply be multiplied by distance.\n\nTOTAL OVER 2000-3000 km: Here the claim's 5-10% band is reasonable and lands near reality, but for the right reasons only after adding converters. Xiangjiaba-Shanghai (±800 kV, ~2000 km, up to 7200 MW) is documented at under 7% total. Decomposing: ~2%/1000 km line at moderate load x2 = ~4% + ~1.5% converters ~ 5.5%, rising toward 7%+ at full load. The claim's stated 1.5%/1000 km would predict only ~3-4.5% line loss over 2000-3000 km, which would be too low without converters; the 5-10% total band quietly already absorbs the converter term the per-km figure ignored. So the two halves of the loss claim are internally inconsistent unless converter losses are folded into the second.\n\nCOST: $0.01-0.03/kWh is a defensible order-of-magnitude for levelized transmission cost. Real anchors: the peer-reviewed iScience paper (DeSantis et al. 2021) models 500 kV HVDC at ~$41.5/MWh per 1000 miles (~$0.026/kWh per 1000 km) - at/above the top of the band, and for a lower-voltage, lossy (12.9%/1000 mi) case. Clean Line Energy quoted ~$0.02/kWh all-in over 750 miles (developer claim, not peer-reviewed). Chinese ±800 kV projects (e.g. Gansu-Zhejiang, ~$4.8B, ~36 TWh/yr) imply much lower unit costs (sub-$0.01/kWh) because of very high utilization and amortization. So the band is correct but conflates per-1000-km cost with total cost: higher-voltage, well-loaded UHVDC sits at the low end (~$0.005-0.015/kWh), while lower-voltage or per-1000-km figures can exceed $0.03.\n\nWHERE SOURCES DISAGREE: Loss per 1000 km ranges from 1.5% (±1100 kV best case) to 3.5% (general HVDC) to ~8%/1000 km equivalent (heavily-loaded 500 kV in the iScience study) - a 5x spread driven by voltage and loading. Cost spans roughly $0.005 to $0.04/kWh depending on voltage, utilization, distance and whether converter capex is included. Net: the claim is right in spirit (UHVDC is low-loss and adds 1-3 cents/kWh) but the 1.5%/1000 km loss figure is best-case not typical, and it omits the ~1.5% fixed converter-station loss.",
+   "sources": [
+    "High-voltage direct current - Wikipedia (3.5%/1000 km general HVDC; 2.6% over 800 km for 800 kV): https://en.wikipedia.org/wiki/High-voltage_direct_current",
+    "World Nuclear Association, Electricity Transmission Grids (UHV: 3.5%/1000 km HVDC vs 5%/1000 km 1000 kV AC): https://world-nuclear.org/information-library/current-and-future-generation/electricity-transmission-grids",
+    "National Grid, HVDC technical information (converter station losses ~0.7-0.8% per end): https://www.nationalgrid.com/sites/default/files/documents/13784-High%20Voltage%20Direct%20Current%20Electricity%20%E2%80%93%20technical%20information.pdf",
+    "Far East Cable / TEEE - Changji-Guquan ±1100 kV (1.5% per 1000 km, 3324 km, 12 GW, <1/4 of ±500 kV): http://en.fe-cable.com/cases_cont_1183_3606.html ; https://www.teee-group.com/info/lcc-hvdc-transmission-100441417.html",
+    "DeSantis et al., 'Cost of long-distance energy transmission by different carriers,' iScience 2021 (500 kV HVDC: ~$41.5/MWh and 12.9% loss per 1000 miles): https://pmc.ncbi.nlm.nih.gov/articles/PMC8661478/",
+    "CleanEnergyGrid / Clean Line Energy (~2 cents/kWh all-in over 750 miles): https://cleanenergygrid.org/hvdc-can-connect-low-cost-wind-to-demand-centers-for-2-cents-per-kilowatt-hour/",
+    "Transformer Magazine - Gansu-Zhejiang ±800 kV project ($4.82B, ~36 TWh/yr, 2370 km): https://transformers-magazine.com/tm-news/china-begins-work-on-4-82-b-transmission-line/",
+    "Xiangjiaba-Shanghai HVDC system - Wikipedia (±800 kV, ~2000 km, up to 7200 MW, total losses under 7%): https://en.wikipedia.org/wiki/Xiangjiaba%E2%80%93Shanghai_HVDC_system"
+   ]
+  },
+  {
+   "claim": "Datacenter-level energy per LLM output token is on the order of 0.3-4 Joules/token, i.e. roughly 1-10 million output tokens per kWh, depending on model size and batching.",
+   "verdict": "partially-supported",
+   "bestEstimate": "For mainstream, well-batched, non-reasoning inference on modern hardware (2024-2025), roughly 0.3-4 J/output token at the datacenter level is a defensible central range (~0.9-12 million output tokens/kWh). GPU-only optimized figures dip to ~0.15-0.4 J/token (>=9 million tokens/kWh). BUT the claimed range understates the high end: very large frontier models at high throughput reach ~40-120 J/token (~30k-90k tokens/kWh), and reasoning/test-time-scaling workloads multiply per-token energy 10-100x. A fairer all-in range is ~0.2 J/token (best case) to ~50-100+ J/token (frontier/reasoning, with overhead).",
+   "reasoning": "I independently re-derived and cross-checked the numbers rather than trusting the claim. (1) Epoch AI (Josh You, 2025) estimates 0.3 Wh per ~500-token GPT-4o query at the cluster level (200B params/100B active MoE, H100 at 700W TDP x 70% power-util x ~1500W cluster-incl-overhead, 10% MFU). I recomputed: 0.3 Wh = 1080 J / 500 tokens = ~2.16 J/token = ~1.67 million tokens/kWh -- squarely inside the claimed range. (One auto-summary mis-stated this as 0.6 mJ/token; that is an arithmetic error -- the paper's own inputs give ~2 J/token.) (2) 'Where Do the Joules Go?' (arXiv 2601.22076) measures 0.15-0.31 J/token (Qwen3-32B) and ~0.4 J/token (Qwen3-235B FP8), GPU-only at large batch. (3) Lin 2025: 0.39 J/token (Llama3-70B FP8, 8xH100, batch 128, GPU-only). (4) Samsi 2023: ~3.5 J/token (LLaMA-65B, A100/V100) -- the historical upper bound of the claim. So the lower/middle of the claim is well supported. WHERE THE CLAIM IS OVERSIMPLIFIED / WRONG AT THE TOP END: TokenPowerBench (arXiv 2512.03024) reports 40-60 J/token for 405B-480B frontier models (Llama-3 405B, Falcon 180B, Qwen 480B) on 16xH100 under high-throughput load; Li 2023 reports ~120 J/token with realistic SLOs/overhead. Multiple sources (arXiv 2509.20241; Cell/Joule 2026) emphasize reasoning/test-time scaling multiplies per-token energy 10-100x; Epoch's own long-query estimate is 4.32 Wh (~13x baseline). SCOPE CAVEAT: the lowest figures (0.15-0.4 J/token) are GPU-only; AI accelerators are only ~50-70% of datacenter energy, and datacenter PUE adds ~10-30%, so full datacenter values are ~1.4-2x the GPU-only numbers -- which is exactly what pushes optimized cases up toward the claim's center. Net: the order-of-magnitude and the dependence on model size/batching are correct, and the range is right for typical optimized inference, but the 4 J/token ceiling is too low for frontier and reasoning workloads by 1-2 orders of magnitude.",
+   "sources": [
+    "Epoch AI -- How much energy does ChatGPT use? (Josh You, 2025): https://epoch.ai/gradient-updates/how-much-energy-does-chatgpt-use",
+    "Where Do the Joules Go? Diagnosing Inference Energy Consumption (arXiv 2601.22076): https://arxiv.org/html/2601.22076v1",
+    "TokenPowerBench: Benchmarking the Power Consumption of LLM Inference (arXiv 2512.03024): https://arxiv.org/html/2512.03024v1",
+    "Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute (arXiv 2509.20241): https://arxiv.org/abs/2509.20241",
+    "Energy use of AI inference, efficiency pathways, and test-time scaling (Cell/Joule 2026): https://www.cell.com/joule/fulltext/S2542-4351(26)00114-5",
+    "LLM Power Usage and Energy Efficiency tracker (Lin 2025; Samsi 2023; Li 2023 compiled): https://llm-tracker.info/_TOORG/Power-Usage-and-Energy-Efficiency"
+   ]
+  },
+  {
+   "claim": "Global LLM token throughput in 2025 is on the order of 10^16 to 10^17 tokens per year and growing rapidly.",
+   "verdict": "supported",
+   "bestEstimate": "Roughly 1.5 x 10^16 to 2 x 10^16 tokens/year as a late-2025 run-rate for major commercial LLM/API inference (input + output + reasoning + multimodal tokens). The true value sits near the BOTTOM of the claimed 10^16–10^17 band, not the middle. Earlier in 2025 it was lower (order 10^15/month aggregate, ~10^16/yr run-rate), so a full-year 2025 cumulative total is likely ~0.7–1.5 x 10^16 tokens, with the exit run-rate ~1.8–2.4 x 10^16/yr. Includes large measurement uncertainty (factor of ~2-3).",
+   "reasoning": "I re-derived the figure bottom-up from disclosed provider numbers, all converted to a common basis. Google (the largest single discloser): 980 trillion tokens/month in July 2025 and 1.3 quadrillion (1.3x10^15)/month by Oct 2025 -> annualized 1.2-1.6x10^16/yr ALONE. Microsoft Azure/Foundry: ~50 trillion (5x10^13)/month -> ~6x10^14/yr. OpenAI: 6 billion tokens/min disclosed at Oct 2025 DevDay; I verified 6x10^9 x 60 x 24 x 30 = 2.6x10^14/month (~260T/mo, matching Beth Kindig's independent calc) -> ~3.1x10^15/yr. A multi-source aggregate (Fireworks AI citing Menlo Ventures' 2025 Mid-Year LLM Market Update plus OpenAI/Google announcements) puts the TOTAL LLM API market at ~1.5 quadrillion tokens/month = 50 trillion/day -> ~1.8x10^16/yr. These independent lines converge on ~1.5-2x10^16 tokens/yr as a late-2025 run-rate. That lands inside the claimed 10^16-10^17 range but at its LOWER edge; nothing I found supports the upper end (10^17 ~= 100 quadrillion/yr ~= 8 quadrillion/month) for 2025 - that would require ~6x current aggregate estimates. The \"growing rapidly\" clause is strongly supported: Google alone went from 9.7T/month (Apr 2024) to 1.3 quadrillion/month (Oct 2025), ~130x in ~18 months; OpenAI cites 20x in two years; Microsoft 5x YoY. WHERE SOURCES DISAGREE / CAVEATS: (1) Scope ambiguity - Google's figure spans all surfaces (Search/AI Overviews, Gemini app, Vertex API) and is not broken down; The Decoder and Tomasz Tunguz argue it is partly \"window dressing\" because reasoning models (e.g., Gemini 2.5 Flash) emit ~17x more internal tokens per request, so token counts overstate genuine user activity. (2) \"Throughput/processed\" mostly means input+output+reasoning+multimodal tokens, NOT just generated output text - if the claim meant only generated output tokens, the figure would be several-fold lower. (3) OpenAI/Anthropic/Chinese-provider numbers are partly estimated (\"from thin air\" per Tunguz), and OpenRouter's headline \"100T\" is cumulative ~2-year PLATFORM data, not a global annual figure - easy to misread. (4) No official, audited global total exists; all aggregates are estimates with ~2-3x uncertainty. Net: the claim's order-of-magnitude and direction are correct and defensible, but it is slightly generous on the high side - a tighter statement would be \"~10^16 tokens/year in 2025, approaching ~2x10^16 by year-end.\"",
+   "sources": [
+    "The Decoder - Google boasts 1.3 quadrillion tokens each month, but the figure is mostly window dressing: https://the-decoder.com/google-boasts-1-3-quadrillion-tokens-each-month-but-the-figure-is-mostly-window-dressing/",
+    "Tomasz Tunguz - Beyond a Trillion: The Token Race (per-provider monthly figures and ~88T/day industry estimate): https://tomtunguz.com/trillion-token-race/",
+    "Fireworks AI - 50 Trillion Tokens Per Day: The State of Agent Environments (cites Menlo Ventures 2025 Mid-Year LLM Market Update; ~1.5 quadrillion tokens/month market total): https://fireworks.ai/blog/state-of-agent-environments",
+    "Nathan Lambert / Interconnects - People use AI more than you think (Google monthly token history, Microsoft & OpenAI figures): https://www.interconnects.ai/p/people-use-ai-more-than-you-think",
+    "PYMNTS - OpenAI processes 6 billion tokens per minute (DevDay Oct 2025): https://www.pymnts.com/artificial-intelligence-2/2025/openai-bests-google-in-race-for-consumer-ai-token-consumption/",
+    "Beth Kindig on X - 6B tokens/min ~= 260 trillion/month, ~1/4 of Google: https://x.com/Beth_Kindig/status/1978199380847939894",
+    "OpenRouter - State of AI 2025: 100T Token LLM Usage Study (platform-only, ~2yr cumulative, scope caveat): https://openrouter.ai/state-of-ai",
+    "Google Cloud Blog - Q2 2025 AI Hypercomputer updates / Alphabet Q2 2025 earnings (980T tokens/month): https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2025/"
+   ]
+  },
+  {
+   "claim": "Primary aluminum smelting embodies roughly 13-16 kWh of electricity per kg, and stranded hydropower has historically been monetized by siting smelters at the resource (Iceland, Norway).",
+   "verdict": "supported",
+   "bestEstimate": "Smelting (Hall-Héroult electrolysis + smelter auxiliaries, AC basis): ~13-15.5 kWh/kg for most modern smelters; global average ~14.0-14.2 kWh/kg (IAI 2018-2021). Best/newest cells ~12.5-13 kWh/kg; worst legacy smelters up to ~17-20 kWh/kg. Thermodynamic minimum ~6.2 kWh/kg. Iceland/Norway siting of smelters at hydropower: confirmed historical fact.",
+   "reasoning": "I checked both halves independently. (1) Energy intensity: Multiple sources converge on the claim's range. Wikipedia's Hall-Héroult entry gives a theoretical minimum of 6.23 kWh/kg and a typical industrial figure of 15.37 kWh/kg. The International Aluminium Institute (the authoritative industry statistician) reports a global average AC smelting power consumption of ~14,100 kWh/tonne (=14.1 kWh/kg) for recent years (Statista cites ~14,114 kWh/t for 2021; another source gives 14.2 kWh/kg world average for 2018). Industry/engineering sources state best smelters ~13 kWh/kg, world average ~15 kWh/kg, newest cells ~12.5 kWh/kg, and least-efficient up to ~20 kWh/kg. So the claim's '13-16 kWh/kg' is an accurate central band for modern primary smelting, though it slightly understates the worst legacy plants and is marginally above the very best. Two important scope caveats where a careless reader could be misled: (a) this is the electrolysis + auxiliaries (AC smelter gate) figure, NOT cradle-to-gate energy — adding alumina (Bayer) refining and anode/carbon production roughly doubles or more the total primary energy, so '13-16 kWh/kg' is correct ONLY for the smelting step, which the claim does correctly say; (b) AC vs DC basis differ by a few percent (DC excludes rectification/auxiliary losses). Sources broadly agree; the main 'disagreement' is just where one draws the efficiency distribution tails. (2) Stranded/remote hydropower monetized via co-located smelters: well documented. Norway's electrometallurgical industry, including aluminium, was built around 1900-1905 (Norsk Hydro era) on remote hydropower; Iceland followed in the 1920s-30s and built aluminium smelters explicitly to monetize otherwise-unexportable hydro/geothermal energy (ISAL/Straumsvík 1969 by Alusuisse; Alcoa Fjarðaál 2008 powered by the dedicated 690 MW Kárahnjúkar station). Iceland today devotes ~70%+ of its electricity to power-intensive industry, dominated by aluminium, each major smelter paired with hydropower. The 'monetize stranded energy by siting the load at the resource' framing is exactly the historical pattern, and is the same logic later invoked for bitcoin mining in Iceland.",
+   "sources": [
+    "International Aluminium Institute - Primary Aluminium Smelting Power Consumption / Energy Intensity (definitions + statistics portal): https://international-aluminium.org/statistics/primary-aluminium-smelting-energy-intensity/",
+    "Statista (citing IAI) - Primary aluminum smelting energy intensity, ~14,114 kWh/t (2021): https://www.statista.com/statistics/1116216/aluminum-smelting-energy-intensity/",
+    "Wikipedia - Hall-Héroult process (theoretical min 6.23 kWh/kg; typical 15.37 kWh/kg): https://en.wikipedia.org/wiki/Hall%E2%80%93H%C3%A9roult_process",
+    "MrReid.org - Electricity consumption in the production of aluminium (best ~13, average ~15 kWh/kg): http://wordpress.mrreid.org/2011/07/15/electricity-consumption-in-the-production-of-aluminium/",
+    "Askja Energy - The Hydro and Geothermal History (Norway ~1900 and Iceland 1920s-30s industrialization on hydropower): https://askjaenergy.com/iceland-renewable-energy-sources/hydro-and-geothermal-history/",
+    "Hydro (Norsk Hydro) company history - 1905: https://www.hydro.com/en/global/about-hydro/company-history/1900---1917/1905-a-little-bit-of-norway-and-more/",
+    "ArcticEcon - Aluminium Smelting in Iceland (ISAL 1969 Straumsvík; Alcoa Fjarðaál 2008 on Kárahnjúkar 690 MW): https://arcticecon.wordpress.com/2012/02/15/aluminium-smelting-in-iceland-alcoa-rio-tinto-alcan-century-aluminum-corp/",
+    "HashrateIndex - Bitcoin Mining Around the World: Iceland (~70% of electricity to aluminium; stranded-energy monetization framing): https://hashrateindex.com/blog/bitcoin-mining-around-the-world-iceland/"
+   ]
+  }
+ ],
+ "synth": {
+  "centralThesis": "Stranded clean electricity at remote mega-sites such as the ~60 GW / ~300 TWh-per-year Yarlung Tsangpo project should be exported not as electrons over lossy ultra-long-distance transmission, nor wasted as curtailment, but as AI inference (tokens) over fiber, because compute embeds energy at roughly 10 to 1,000 times the value density of either electrons or 20th-century \"canned electricity\" such as aluminum.",
+  "novelty": "Prior framings treat stranded clean power as a transmission problem (build more UHVDC) or AI's energy use as a sustainability liability (data centers as a growing load to be decarbonized). We invert both: we recast the data center as an energy-export terminal and the token as the highest-value-density carrier yet found for stranded electricity, extending the century-old \"congealed electricity\" logic of siting aluminum smelters at remote hydro (Iceland, Norway, Pacific Northwest, Quebec) into the information age. Timeliness is sharp and multi-pronged: (1) the Yarlung Tsangpo project broke ground July 2025 with no published power-evacuation plan and Tibet's local demand (~12-13 TWh) is ~4% of its output; (2) west-China curtailment spiked in H1 2025 (Tibet wind 30.2%, solar 33.9%); (3) frontier inference energy intensity is now credibly bottom-up quantified (~0.3-4 J/token, Epoch AI 2025 / Joule 2026); and (4) global token throughput just crossed ~10^16/yr and is growing several-fold annually (Google 3.2 quadrillion tokens/month, May 2026). For the first time the electricity-per-token, the stranded resource, and the global demand are all large and measured enough to compare directly, which no prior Perspective has done quantitatively.",
+  "quantitativeFramework": "See above",
+  "workedExample": "YARLUNG TSANGPO / MEDOG WORKED EXAMPLE (60 GW, 300 TWh/yr, COD ~2033).\n\nStep 0 — Site. 60 GW installed, 300 TWh/yr (3x Three Gorges), CF 57%. Busbar LCOE C_src = $0.040/kWh central (range $0.030 China-low to $0.057 global-avg/remote). Tibet local demand only ~12-13 TWh/yr, so >95% of output must leave the plateau; nearest eastern load centers are >2,000 km away. H1 2025 Tibet curtailment already 30-34%, so the counterfactual to a buyer is partly *waste*, not sale.\n\nStep 1 — Electron export (Path A). Over ~2,500 km UHVDC: losses ~8% central; levelized adder ~$0.020/kWh at design utilization, but realistically ~$0.036/kWh at ~56% utilization (the historical norm for new west-China lines feeding a variable-but-here-firm source). Delivered cost ~$0.063/kWh; the exported product is a commodity kWh worth ~$0.05-0.08 at destination. Net exportable value density: ~$0.05-0.08 per source kWh. Transmission capex for ~60 GW of evacuation: multiple +/-800-1,100 kV corridors at ~$0.6/W => order $36B+ of dedicated lines, stranded if under-utilized.\n\nStep 2 — Token export (Path B). Co-locate compute; export over fiber (energy cost of fiber transport is negligible). Useful tokens/kWh T at central epsilon=2.2 J/tok => 1.64M tokens/kWh. Electricity contributes c_elec = $0.024 per million tokens. Sold even at the cheapest 2026 budget price (~$0.40/Mtok), gross value is ~$0.66 per source kWh; at mid-tier ($15/Mtok), ~$25/kWh; at frontier ($75/Mtok), ~$123/kWh. Even net of the ~93-95% of revenue that pays for chips/facility/labor, residual value per kWh dwarfs the $0.05-0.08 of electron export.\n\nStep 3 — Total output and global share (SENSITIVITY TO epsilon, the dominant uncertainty).\n- epsilon = 0.7 J/tok (best-case batched): 1.5e18 tokens/yr => ~30-86x global throughput.\n- epsilon = 2.2 J/tok (Epoch central): 4.9e17 tokens/yr => ~10-27x global throughput.\n- epsilon = 4 J/tok (Joule median): 2.7e17 tokens/yr => ~5-15x global throughput.\n- epsilon = 40 J/tok (frontier/reasoning, pessimistic): 2.7e16 tokens/yr => ~0.5-1.5x global throughput.\nHONEST HEADLINE: \"At today's efficiencies this single site could produce on the order of the entire world's current annual token throughput, and plausibly several times it; under reasoning-heavy, large-model workloads that fall to ~once-over global demand.\" The claim survives even the pessimistic corner.\n\nStep 4 — The binding constraint (where the example breaks the naive reading). 60 GW of compute = ~40 million H100-class GPUs and ~$2.3 trillion of capex — ~14x the $167B dam itself, and a multiple of current annual global AI-accelerator output. So the site cannot be filled at once; it is a 10-20 year compute build-out, chip-supply-limited, not energy-limited. The correct reading is directional: the *marginal* economics overwhelmingly favor exporting tokens, but realized scale is gated by hardware, capital, and chip geopolitics, not by the physics of the watt.\n\nASSUMPTIONS/RANGES TO STATE: C_src optimism (remote mega-dam may exceed $0.04); epsilon spans ~100x and dominates every downstream number; global-throughput denominator is itself uncertain (~2-3x) and growing several-fold/yr; market token prices are falling ~80%/yr; transmission adder is utilization-sensitive. Present every headline as a range, never a point.",
+  "comparisonTable": "| Export carrier for 1 kWh of stranded clean energy | What physically leaves the site | Energy lost / overhead to \"package\" it | Transport medium & its loss | Gross product value per source kWh | Value-density vs raw electron | Key constraint |\n|---|---|---|---|---|---|---|\n| **Electrons (UHVDC)** | The kWh itself | Converter + line losses 6-10% over 2,000-3,000 km | +/-800-1,100 kV line; ~3-3.5%/1,000 km | ~$0.05-0.08 (delivered wholesale) | 1x (baseline) | Fixed line capex; utilization 21-56% doubles per-kWh cost; needs demand at the other end |\n| **Aluminum (Hall-Heroult)** | ~69 g of metal (14.5 kWh/kg) | Electrolysis is the use; ~40% of metal cost is power | Ship/rail metal; ~0 energy loss in transit | ~$0.14-0.20 (LME ~$2,600/t) | ~3x | Alumina/anode/labor inputs; metal price cycles; smelter collapses if power stops being cheap (PNW 1979-2001) |\n| **AI tokens (inference)** | ~1.6 million tokens (at 2.2 J/tok) | Datacenter overhead in PUE (folded into J/tok); electricity only ~4-7% of TCO | Fiber; ~0 energy loss, latency ~tens of ms/1,000 km | ~$0.7 (budget $0.40/Mtok) to ~$25 (mid $15/Mtok) to ~$123 (frontier $75/Mtok) | ~10-1,000x | Hardware/chip capex dominates (~60% of TCO); chip supply & geopolitics; latency-sensitive workloads can't relocate |",
+  "outline": [
+   {
+    "heading": "Title: Export the watt as a token",
+    "content": "Claim-forward title (<=12 words). Standfirst/teaser: stranded clean power should leave remote mega-sites as AI inference over fiber, not as electrons over wire. Signals genre = thesis-driven Perspective, not review."
+   },
+   {
+    "heading": "Abstract (~180 words, unstructured, no refs)",
+    "content": "4-move arc: (1) Stakes — the world is building ~60 GW / 300 TWh-per-yr hydro (Yarlung Tsangpo) far from any demand, while west-China curtailment hit 30%+ in 2025; the default answer is thousands of km of lossy UHVDC. (2) Claim — we argue the highest-value way to export stranded clean energy is to convert it on-site into AI tokens and ship those over fiber. (3) Case — electricity is only ~4-7% of compute cost and ~0.024 $/million tokens; a token embeds energy at 10-1,000x the value density of an electron or of aluminum, the 20th-century 'canned electricity'; at measured inference efficiencies this one site could produce on the order of, to several times, the entire world's current annual token throughput. (4) Implication — treat premier stranded-energy sites as compute terminals; the binding limit becomes chips and capital, not transmission."
+   },
+   {
+    "heading": "Introduction (no subheads)",
+    "content": "Four-move ladder. Background+anchor: the Yarlung Tsangpo project (approved Dec 2024, broke ground Jul 2025, ~$167B, 5 cascade stations, ~2033) will generate ~300 TWh/yr — ~72% of all 2024 global data-center electricity — in a seismically active gorge >2,000 km from demand, with Tibet consuming only ~12-13 TWh. Conventional framing: an evacuation problem solved by UHVDC under West-East Power Transmission. Why now: convergence of (i) groundbreaking with no published evacuation plan, (ii) 2025 curtailment spike (Tibet wind 30.2%/solar 33.9%), (iii) bottom-up inference energy now measured (~0.3-4 J/token), (iv) global throughput crossing ~10^16 tokens/yr growing several-fold annually. Claim stated explicitly ('Here we argue...'). Roadmap paragraph naming the five moves."
+   },
+   {
+    "heading": "§1 The stranded-power problem and why moving electrons is the wrong default",
+    "content": "Sub-claim: long-distance electron export is lossy, capex-heavy, demand-dependent, and chronically under-utilized. Marshal: UHVDC losses 6-10% over 2,000-3,000 km; converter stations ~1/3 of cost; the decisive point — line capex is fixed so per-kWh cost scales inversely with utilization, and China's early UHV lines ran 21-56%. Only ~20% of UHV throughput is renewable. Quantify delivered cost $0.053-0.074/kWh and note the product sold is just a commodity kWh. Bridge: there is a precedent for exporting energy as a higher-value good instead."
+   },
+   {
+    "heading": "§2 Tokens as 21st-century canned electricity (the reframing + historical analogue)",
+    "content": "Sub-claim: civilizations have always monetized stranded power by embedding it in a transportable product; tokens are the densest such product yet. Analogue: aluminum as 'congealed electricity' — 13-16 kWh/kg, ~40% of cost is power, smelters deliberately sited at stranded hydro (Iceland ~64-72% of national electricity to smelters; Norway; Quebec; Kemano/Kitimat; PNW Bonneville). Crucial cautionary half of the analogue: the PNW model collapsed when power stopped being cheap (rates +250%, all 10 smelters idled by 2001) — co-located energy-export industries live and die by cheap power, exactly the comparative advantage a stranded mega-hydro confers. Reframe the data center as an energy-export terminal. Bridge: quantify the value density that makes tokens different."
+   },
+   {
+    "heading": "§3 Why the token wins: the quantitative core",
+    "content": "Sub-claim: per source kWh, tokens are worth 10-1,000x electrons or aluminum, and electricity is a trivial share of token cost. Present the framework: tokens/kWh from epsilon (0.7-70 J/token); electricity contributes only $0.006-0.44 per million tokens vs $0.40-180/Mtok market price; electricity ~4-7% of TCO (hardware ~60%). The value-density ladder figure (electrons $0.05-0.08; aluminum $0.18; tokens $1-123). Worked Yarlung Tsangpo example with full sensitivity to epsilon: ~2.7e16 to 1.5e18 tokens/yr => ~0.5x to ~30x global throughput. State the headline as a range and flag epsilon as the dominant uncertainty. This is the evidential heart; the key figure lives here."
+   },
+   {
+    "heading": "§4 Feasibility: what would have to be true",
+    "content": "Sub-claim: the model is physically and operationally plausible for the right (latency-insensitive, batchable) workloads. Enabling conditions: cold/high-altitude free-cooling (Google Hamina PUE 1.09) suits the Tibetan plateau; fiber adds negligible energy and only tens of ms latency per 1,000 km, fine for batch inference, training, agentic/reasoning jobs, synthetic-data generation; precedent of computing as flexible/location-agnostic load (Bitcoin mining as 'buyer of last resort' for curtailed/flared energy — Crusoe >250 MW, ERCOT flexible load, Texas-wind mining studies). Honest gaps: water/cooling at altitude, seismicity (M8.5 design near a suture zone), chip logistics into one of Earth's most inaccessible regions. Bridge: but the deepest objections are economic and geopolitical."
+   },
+   {
+    "heading": "§5 Counterarguments, limits, and risks (dedicated section)",
+    "content": "Engage strongest objections in best form, concede then bound. (1) Hardware, not energy, dominates — TRUE; ~$2.3T capex / ~40M GPUs for 60 GW means the constraint is chips/capital/time, so the claim is marginal-economic and multi-decade, not a switch to flip. (2) Why not build the data center near demand? — because the comparative advantage is the cheap stranded watt and avoided transmission; near-demand siting forgoes both and competes for congested grids. (3) Latency-sensitive workloads can't relocate — concede; only the batchable fraction qualifies (but it is large and growing with reasoning/agentic jobs). (4) Firm hydro has high grid value — opportunity cost is real where a grid exists; here local demand is ~4% of output and curtailment is 30%+, so grid value is largely notional. (5) Water/cooling, seismicity, altitude. (6) Jevons/rebound — cheap tokens may expand demand, not cut energy. (7) Geopolitics of compute — concentrating frontier compute at one state-controlled trans-boundary-river site raises export-control, sovereignty, and downstream-water (Brahmaputra) concerns; the same logic applies to stranded renewables in democracies (ERCOT, Chile, Quebec, Nordics). Do not rebut to zero; show the claim survives within a bounded envelope."
+   },
+   {
+    "heading": "Conclusion / Outlook (no subheads)",
+    "content": "Restate significance: the watt's best export route is increasingly the token; premier stranded-energy resources should be planned as compute terminals alongside, or instead of, transmission. Concrete, falsifiable next steps naming actors: (i) grid planners/IRENA should publish a delivered-value-per-kWh metric comparing electron vs token vs metal export per site; (ii) operators should pilot a GW-scale curtailment-financed inference cluster at a curtailed renewable site (Texas, Chile, Qinghai) as proof; (iii) chipmakers/policymakers should treat compute-at-the-resource as a chip-allocation and export-control question; (iv) standardize a transparent J/token disclosure so the epsilon uncertainty that dominates this analysis can be closed. Bookend the opening 'export the watt as a token' phrase. Bound the boldest vision with a horizon ('within this decade')."
+   }
+  ],
+  "keyFiguresPlan": [
+   {
+    "figure": "Figure 1 (visual abstract / hero schematic): Three export pathways from one stranded-energy site",
+    "message": "A stranded watt can leave as an electron (lossy wire, low value), as a metal (canned electricity, modest value), or as a token (fiber, highest value density) — the central reframing in one image.",
+    "dataNeeded": "UHVDC loss/cost figures; aluminum kWh/kg and LME price; tokens/kWh and $/Mtok; arrows annotated with $/source-kWh value density. Mostly conceptual, schematic redrawn in-house."
+   },
+   {
+    "figure": "Figure 2: The value-density ladder ($ of exportable product per source kWh, log scale)",
+    "message": "Tokens embed energy at 10-1,000x the value density of electrons or aluminum, which is the whole quantitative case.",
+    "dataNeeded": "Electrons $0.05-0.08; aluminum $0.14-0.20; tokens $0.7-$123 across budget/mid/frontier pricing and epsilon. Bar/range chart with explicit assumption bands."
+   },
+   {
+    "figure": "Figure 3: Sensitivity of site output and global share to energy-per-token (epsilon)",
+    "message": "Across the measured 0.7-70 J/token range, this single site produces from ~0.5x to ~30x current global annual token throughput — the conclusion is robust in direction even though magnitude is epsilon-dominated.",
+    "dataNeeded": "epsilon sweep 0.7-70 J/tok; tokens/yr = 300 TWh * 3.6e6/epsilon; global denominator band 1.8e16-5e16/yr; shaded plausible region and pessimistic corner."
+   },
+   {
+    "figure": "Figure 4: Cost-structure and constraint shift (electron-limited vs chip-limited)",
+    "message": "Electricity is only ~4-7% of compute cost while chips are ~60%, so exporting tokens moves the binding constraint from transmission/energy to hardware, capital, and chip supply.",
+    "dataNeeded": "Epoch AI TCO breakdown (servers 60%, facility 29%, energy 4-7%); 60 GW => ~40M GPUs, ~$2.3T capex vs $167B dam; annotate as a stacked bar + constraint callout."
+   },
+   {
+    "figure": "Box 1 (200-500 words): The Yarlung Tsangpo / Medog project primer",
+    "message": "A self-contained briefing on the flagship case — scale, location, timeline, evacuation difficulty, curtailment context — so the main text stays argument-focused.",
+    "dataNeeded": "60 GW/300 TWh, $167B, Dec 2024 approval/Jul 2025 groundbreaking, 5 cascade stations, ~2,000 m head, M8.5 design, Tibet 12-13 TWh demand, >2,000 km to load, 2025 curtailment 30%+."
+   }
+  ],
+  "risksAndCounterarguments": [
+   "Hardware depreciation, not electricity, dominates total cost (~60% chips vs ~4-7% energy in Epoch AI's TCO), so cheap power at the source improves margins only modestly and ~$2.3T / ~40M GPUs makes filling 60 GW a multi-decade, chip-supply-limited build-out, not a near-term switch — the claim is marginal-economic and directional, not a literal 'replace the transmission line tomorrow.'",
+   "Latency-sensitive and data-locality-bound workloads (interactive chat, real-time, data-resident enterprise/regulated inference) cannot relocate to a remote plateau; only the batchable fraction (training, batch and reasoning inference, synthetic-data generation, agentic background jobs) qualifies — though that fraction is large and growing (reasoning models exceeded 50% of usage by late 2025).",
+   "Why not just build the data center near demand and import cheap power, or near chips/talent? Near-demand siting forgoes both the stranded-power discount and avoided transmission, and competes for congested grids and interconnection queues — but it wins on latency, talent, supply chain, and avoids single-site geopolitical risk.",
+   "Firm, dispatchable hydro has high grid/system value (storage, flexibility, peaking) that is wasted if dedicated to constant-baseload compute; the opportunity cost is real wherever a grid can absorb the power — here largely notional because local demand is ~4% of output and 2025 curtailment is 30%+, but it would not hold at a well-connected site.",
+   "Water and cooling at high altitude, extreme seismicity (site on the Indus-Yarlung suture, M8.5 design, 2017 Ms6.9 triggered >1,820 landslides), thin air reducing air-cooling efficiency, and the logistics of hauling millions of GPUs into one of Earth's most inaccessible regions are serious physical risks the model must survive.",
+   "Jevons/rebound: making tokens cheaper by tapping near-free stranded energy may expand total AI demand and total energy and hardware use rather than reduce footprint — the framing monetizes waste but does not by itself bound aggregate consumption.",
+   "Geopolitics of compute: concentrating frontier compute at a single state-controlled site on a contested trans-boundary river (Brahmaputra, India/Bangladesh downstream) compounds export-control, data-sovereignty, single-point-of-failure, and water-security concerns; the same token-export logic is more benign at distributed stranded-renewable sites in Texas, Chile, Quebec, and the Nordics, which should be the generalizable case rather than this one flagship.",
+   "Chip export controls and supply concentration could make it impossible to legally or physically site the required accelerators at a given resource, decoupling the energy advantage from realizable compute and undermining the model precisely where stranded power is most abundant."
+  ],
+  "openQuestions": [
+   "What is the true production-fleet energy-per-token (epsilon) for frontier and reasoning workloads, and how fast is it falling? This single parameter spans ~100x and dominates every headline number; standardized J/token disclosure is the highest-value missing data.",
+   "What share of global token demand is genuinely latency-insensitive and relocatable today, and how does that fraction evolve as agentic/reasoning/batch workloads grow relative to interactive chat?",
+   "At what delivered-power price and transmission distance does token export beat electron export on a full delivered-value-per-kWh basis, and where is the crossover for real sites (Tibet, Texas, Chile, Qinghai, Nordics)?",
+   "Can chip supply, capital, and construction logistics realistically deliver even a few GW of compute to a remote, seismically active, high-altitude site on the timescale of the dam's ~2033 commissioning, and what is the realistic ramp?",
+   "How should the grid/system value of firm hydro be priced against constant-baseload compute when local demand is negligible but could grow, and what hybrid (compute + selective electron export + storage) optimizes total value?",
+   "What governance, export-control, and trans-boundary-water frameworks are needed before concentrating frontier compute at a single state-controlled mega-site, and do distributed stranded-renewable sites avoid these risks while capturing most of the value?",
+   "Does monetizing stranded/curtailed energy as cheap tokens trigger net-positive substitution (displacing dirtier compute elsewhere) or net rebound (expanding total AI energy and hardware demand), and how would we measure the difference?",
+   "What is a defensible, regularly updated estimate of global annual token throughput (the denominator), given definitional inconsistency between API-only and all-surface multimodal counts and several-fold annual growth?"
+  ]
+ }
+}

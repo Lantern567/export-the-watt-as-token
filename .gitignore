@@ -1,0 +1,25 @@
+# Downloaded copyrighted reference papers — NOT redistributed.
+# The curated reading list with links lives in references/README.md.
+references/*.pdf
+ai_paper.pdf
+ai_paper.txt
+
+# Third-party paper full text / PDFs pulled during research (not redistributed)
+data/*.pdf
+data/AI4Science.txt
+data/bgc_extracted.txt
+
+# Transient workflow API artifacts
+data/orig_bs.json
+data/text_bs.json
+
+# OneDrive / OS cruft
+desktop.ini
+Thumbs.db
+.DS_Store
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
