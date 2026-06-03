@@ -1,0 +1,368 @@
+{
+  "basis": "bottom-up LCOT, $ per million tokens, per accelerator (facility level)",
+  "capacity_model": {
+    "accel_power_kW": 2.0,
+    "utilisation": 0.9,
+    "tokens_per_yr_formula": "P_W * 3600*8760 * util / eps_J_per_token",
+    "system_capex_USD": 50000,
+    "amort_yr": [
+      3.0,
+      5.0
+    ]
+  },
+  "annual_cost_stack_USD_per_accel": {
+    "accelerator_server_capex_amortised": 12500.0,
+    "facility_capex_opex": 6000.0,
+    "om_staff": 1400.0,
+    "networking_fibre": 350.0,
+    "energy_note": "energy = P*8760*util*$/kWh (varies by case below)"
+  },
+  "energy_cases_USD_per_MWh": {
+    "stranded": [
+      20,
+      46
+    ],
+    "conventional": [
+      60,
+      90
+    ]
+  },
+  "tiers": {
+    "budget / batched": {
+      "epsilon_J": [
+        0.3,
+        0.5
+      ],
+      "cases": {
+        "stranded": {
+          "LCOT_USD_per_Mtoken_range": [
+            0.1087,
+            0.1848
+          ],
+          "detail": [
+            {
+              "eps_J": 0.3,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 189216000000.0,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 0.10868721461187215
+            },
+            {
+              "eps_J": 0.3,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 189216000000.0,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 0.11085388127853882
+            },
+            {
+              "eps_J": 0.5,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 113529600000.0,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 0.18114535768645357
+            },
+            {
+              "eps_J": 0.5,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 113529600000.0,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 0.1847564687975647
+            }
+          ]
+        },
+        "conventional": {
+          "LCOT_USD_per_Mtoken_range": [
+            0.112,
+            0.1909
+          ],
+          "detail": [
+            {
+              "eps_J": 0.3,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 189216000000.0,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 0.1120205479452055
+            },
+            {
+              "eps_J": 0.3,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 189216000000.0,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 0.11452054794520547
+            },
+            {
+              "eps_J": 0.5,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 113529600000.0,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 0.18670091324200913
+            },
+            {
+              "eps_J": 0.5,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 113529600000.0,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 0.19086757990867578
+            }
+          ]
+        }
+      },
+      "shares_at_conventional": {
+        "chips_servers": 0.583,
+        "facility": 0.28,
+        "om_staff": 0.065,
+        "networking_fibre": 0.016,
+        "energy": 0.055,
+        "total_annual_USD": 21432.6,
+        "tokens_per_yr_mid": 141912000000.0
+      },
+      "energy_share_conventional_band": [
+        0.045,
+        0.065
+      ],
+      "LCOT_reduction_stranded_vs_conventional_pct": 3.09,
+      "LCOT_mid_USD_per_Mtoken": {
+        "conventional": 0.151,
+        "stranded": 0.1464
+      }
+    },
+    "mainstream": {
+      "epsilon_J": [
+        2.0,
+        2.0
+      ],
+      "cases": {
+        "stranded": {
+          "LCOT_USD_per_Mtoken_range": [
+            0.7246,
+            0.739
+          ],
+          "detail": [
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 0.7245814307458143
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 0.7390258751902588
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 0.7245814307458143
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 0.7390258751902588
+            }
+          ]
+        },
+        "conventional": {
+          "LCOT_USD_per_Mtoken_range": [
+            0.7468,
+            0.7635
+          ],
+          "detail": [
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 0.7468036529680365
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 0.7634703196347031
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 0.7468036529680365
+            },
+            {
+              "eps_J": 2.0,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 28382400000.0,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 0.7634703196347031
+            }
+          ]
+        }
+      },
+      "shares_at_conventional": {
+        "chips_servers": 0.583,
+        "facility": 0.28,
+        "om_staff": 0.065,
+        "networking_fibre": 0.016,
+        "energy": 0.055,
+        "total_annual_USD": 21432.6,
+        "tokens_per_yr_mid": 28382400000.0
+      },
+      "energy_share_conventional_band": [
+        0.045,
+        0.065
+      ],
+      "LCOT_reduction_stranded_vs_conventional_pct": 3.09,
+      "LCOT_mid_USD_per_Mtoken": {
+        "conventional": 0.7551,
+        "stranded": 0.7318
+      }
+    },
+    "frontier / reasoning": {
+      "epsilon_J": [
+        40.0,
+        70.0
+      ],
+      "cases": {
+        "stranded": {
+          "LCOT_USD_per_Mtoken_range": [
+            14.4916,
+            25.8659
+          ],
+          "detail": [
+            {
+              "eps_J": 40.0,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 1419120000.0,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 14.491628614916287
+            },
+            {
+              "eps_J": 40.0,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 1419120000.0,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 14.780517503805177
+            },
+            {
+              "eps_J": 70.0,
+              "price_kWh": 0.02,
+              "tokens_per_yr": 810925714.2857143,
+              "energy_annual_USD": 315.4,
+              "total_annual_USD": 20565.4,
+              "LCOT_USD_per_Mtoken": 25.3603500761035
+            },
+            {
+              "eps_J": 70.0,
+              "price_kWh": 0.046,
+              "tokens_per_yr": 810925714.2857143,
+              "energy_annual_USD": 725.3,
+              "total_annual_USD": 20975.3,
+              "LCOT_USD_per_Mtoken": 25.865905631659057
+            }
+          ]
+        },
+        "conventional": {
+          "LCOT_USD_per_Mtoken_range": [
+            14.9361,
+            26.7215
+          ],
+          "detail": [
+            {
+              "eps_J": 40.0,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 1419120000.0,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 14.936073059360734
+            },
+            {
+              "eps_J": 40.0,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 1419120000.0,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 15.269406392694064
+            },
+            {
+              "eps_J": 70.0,
+              "price_kWh": 0.06,
+              "tokens_per_yr": 810925714.2857143,
+              "energy_annual_USD": 946.1,
+              "total_annual_USD": 21196.1,
+              "LCOT_USD_per_Mtoken": 26.13812785388128
+            },
+            {
+              "eps_J": 70.0,
+              "price_kWh": 0.09,
+              "tokens_per_yr": 810925714.2857143,
+              "energy_annual_USD": 1419.1,
+              "total_annual_USD": 21669.1,
+              "LCOT_USD_per_Mtoken": 26.721461187214608
+            }
+          ]
+        }
+      },
+      "shares_at_conventional": {
+        "chips_servers": 0.583,
+        "facility": 0.28,
+        "om_staff": 0.065,
+        "networking_fibre": 0.016,
+        "energy": 0.055,
+        "total_annual_USD": 21432.6,
+        "tokens_per_yr_mid": 1032087272.7272727
+      },
+      "energy_share_conventional_band": [
+        0.045,
+        0.065
+      ],
+      "LCOT_reduction_stranded_vs_conventional_pct": 3.09,
+      "LCOT_mid_USD_per_Mtoken": {
+        "conventional": 20.7663,
+        "stranded": 20.1246
+      }
+    }
+  },
+  "key_result": {
+    "energy_share_of_TCO_pct": [
+      4.5,
+      6.5
+    ],
+    "tco_split_at_conventional": {
+      "chips_servers": 0.583,
+      "facility": 0.28,
+      "energy": 0.055,
+      "other_om_net": 0.081
+    },
+    "LCOT_reduction_stranded_vs_conventional_pct_by_tier": {
+      "budget / batched": 3.09,
+      "mainstream": 3.09,
+      "frontier / reasoning": 3.09
+    },
+    "interpretation": "Because energy is only ~4-7% of compute TCO, moving from conventional grid ($60-90/MWh) to stranded clean energy ($20-46/MWh) cuts $/Mtoken by only a single-digit %. The economic win is NOT a cheaper token: it is (i) monetising near-zero-value curtailed energy and (ii) avoiding the transmission capex needed to move that energy as electrons."
+  }
+}

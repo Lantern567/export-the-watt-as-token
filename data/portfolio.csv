@@ -1,0 +1,36 @@
+name,country,tier,etype,status,lat,lon,lcoe_lo,lcoe_hi,strandable_TWh_lo,strandable_TWh_hi,theoretical,src_row,note
+Yarlung Tsangpo / Medog,China,1,hydro,under-constr,29.77,95.0,30,60,270,300,False,37,"~300 TWh/yr, ~3x Three Gorges; Tibet uses ~12-13 TWh/yr; >2000 km to load; the extreme case"
+Gobi Desert renewable mega-bases,China,1,solar+wind,under-constr,40.5,105.0,15,30,450,900,False,33,New coordinated desert mega-base build for UHV export; ~800-900+ TWh/yr at full build
+Grand Inga (Inga III -> Grand Inga),DR Congo,1,hydro,planned,-5.52,13.62,30,50,40,370,False,38,Inga III phase ~40 TWh -> full Grand Inga theoretical ~370 TWh/yr; world-class low-cost head
+Hyrasia One / Mangystau,Kazakhstan,1,solar+wind,planned,43.2,52.0,25,45,60,120,False,35,~120 TWh/yr planned green-energy export zone
+Australian Renewable Energy Hub (Pilbara),Australia,1,solar+wind,planned,-21.0,119.0,20,40,80,90,False,32,~80-90 TWh/yr potential at full build
+Hyphen / Tsau Khaeb H2 zone,Namibia,1,solar+wind,planned,-26.65,15.16,18,35,25,35,False,29,World-class combined solar+wind; ~25-35 TWh/yr at full build
+Boegoebaai / Northern Cape H2 hub,South Africa,1,solar+wind,planned,-29.0,17.0,20,40,25,30,False,30,~25-30 TWh/yr planned
+Xlinks Morocco (Guelmim-Oued Noun),Morocco,1,solar+wind,planned,28.6,-10.5,25,45,26,30,False,24,~26-30 TWh/yr planned export
+Siberian Angara-Yenisei cascade,Russia,1,hydro,operating,57.0,95.0,10,40,20,60,False,41,"Bratsk+Krasnoyarsk+... ; large, much already feeds aluminium; surplus strandable"
+Itaipu Paraguayan surplus,Paraguay,1,hydro,operating,-25.41,-54.59,10,40,20,40,False,9,Paraguay consumes a fraction of its half; chronic exportable surplus
+Churchill Falls (+ Gull Island),Canada,1,hydro,operating,53.53,-64.0,20,50,25,35,False,8,~35 TWh/yr; long locked to Hydro-Quebec; strandable on recontracting/expansion
+Rogun HPP (Vakhsh),Tajikistan,1,hydro,under-constr,38.68,69.78,40,70,10,17,False,49,~17 TWh/yr at full build; weak local market
+Grand Ethiopian Renaissance Dam,Ethiopia,1,hydro,operating,11.21,35.09,30,60,8,16,False,43,~15.8 TWh/yr design; partly stranded pending regional evacuation
+Cahora Bassa (Zambezi),Mozambique,1,hydro,operating,-15.58,32.7,25,55,5,16,False,45,~14-16 TWh/yr; much exported to S.Africa already
+NEOM green-H2 / Oxagon,Saudi Arabia,1,solar+wind,under-constr,28.0,35.3,10,25,8,10,False,25,~8-10 TWh/yr (4 GW at high MENA capacity factors)
+HidroAysen (Baker & Pascua),Chile,1,hydro,potential,-47.8,-72.9,50,80,0,20,True,46,~18-20 TWh/yr would-be; never built; extremely remote Patagonia
+Mongolian Gobi / Gobitec,Mongolia,1,solar+wind,potential,43.5,104.5,15,35,0,2600,True,34,"~2,600 TWh/yr THEORETICAL; reported as upper-bound potential only"
+US Southwest desert solar belt,United States,1,solar,potential,35.0,-116.0,35,45,0,300,True,36,Tens-hundreds of TWh/yr additional buildable; theoretical
+Norway northern hydro surplus,Norway,1,hydro,operating,67.3,15.4,30,50,10,25,False,4,"Large legacy reservoir hydro; northern surplus, weak local load"
+Northern Sweden hydro surplus,Sweden,1,hydro,operating,65.58,22.15,30,55,8,20,False,5,SE1/SE2 chronic northern surplus
+British Columbia hydro surplus,Canada,1,hydro,operating,56.02,-122.2,30,60,5,15,False,6,Peace/Columbia heritage hydro; exportable surplus
+Manitoba Nelson River surplus,Canada,1,hydro,operating,56.3,-94.6,25,50,5,12,False,7,Nelson River; ~97% hydro; exportable surplus
+Iceland geothermal+hydro surplus,Iceland,1,geothermal,operating,64.04,-21.4,30,60,3,6,False,0,"Island, no EU cable; historically monetised via aluminium"
+Xinjiang renewable base,China,2,solar+wind,curtailed,43.8,87.6,0,30,10,18,False,12,Currently-curtailed strandable ~10-18 TWh/yr
+Inner Mongolia W&S bases,China,2,solar+wind,curtailed,40.8,109.8,0,30,10,15,False,13,Among China's largest; curtailed ~10-15 TWh/yr
+Gansu Hexi Corridor,China,2,solar+wind,curtailed,39.7,98.5,0,30,5,10,False,14,Curtailed ~5-10 TWh/yr
+Qinghai Talatan/Gonghe/Golmud,China,2,mixed-renewable,curtailed,36.2,100.6,0,25,3,8,False,15,Curtailed ~3-8 TWh/yr
+West Texas / ERCOT West,United States,2,solar+wind,curtailed,31.8,-102.4,0,35,6,10,False,16,~8 TWh/yr curtailed ERCOT-wide (mostly west)
+Atacama / N. Chile,Chile,2,solar+wind,curtailed,-23.6,-69.0,0,30,5,8,False,17,~5.9 TWh curtailed in 2024; world-record-low solar LCOE
+South Australia W&S fleet,Australia,2,solar+wind,curtailed,-33.5,138.0,0,40,4,6,False,18,~4.5 TWh large-scale W&S curtailed
+Scotland onshore+offshore wind,United Kingdom,2,wind,curtailed,56.5,-3.0,0,60,6,9,False,19,~8.3 TWh wind curtailed (constraint payments)
+California Central Valley/Mojave,United States,2,solar,curtailed,35.5,-119.0,0,40,3,4,False,20,~3.4 TWh utility solar curtailed (CAISO)
+Spain / Iberia W&S,Spain,2,solar+wind,curtailed,39.0,-5.0,0,35,2,6,False,21,Curtailment ~2% 2024 and rising
+Northern Scandinavia surplus,Sweden/Norway,2,mixed-renewable,curtailed,65.6,19.5,0,40,3,8,False,22,Persistent SE1/SE2 surplus
+Nepal Himalayan wet-season surplus,Nepal,2,hydro,curtailed,27.9,85.9,40,70,2,5,False,11,"Monsoon run-of-river surplus, limited export"

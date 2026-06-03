@@ -1,0 +1,175 @@
+{
+  "basis": "net value added per SOURCE kWh of stranded clean energy, over asset lifetime",
+  "assumptions": {
+    "busbar_USD_per_kWh": [
+      0.02,
+      0.04
+    ],
+    "onsite_elec_USD_per_kWh": 0.03
+  },
+  "electron": {
+    "gross": [
+      0.0495,
+      0.0799
+    ],
+    "cost_components": {
+      "generation": [
+        0.02,
+        0.04
+      ],
+      "transmission": [
+        0.01,
+        0.03
+      ]
+    },
+    "loss_frac": [
+      0.06,
+      0.1
+    ],
+    "total_cost": [
+      0.03,
+      0.07
+    ],
+    "net": [
+      -0.020500000000000004,
+      0.0499
+    ]
+  },
+  "aluminium": {
+    "gross": [
+      0.14375,
+      0.2
+    ],
+    "cost_components": {
+      "generation": [
+        0.02,
+        0.04
+      ],
+      "feedstock+smelter+shipping": [
+        0.07500000000000001,
+        0.15384615384615383
+      ]
+    },
+    "total_cost": [
+      0.09500000000000001,
+      0.19384615384615383
+    ],
+    "net": [
+      -0.050096153846153846,
+      0.105
+    ],
+    "kg_per_kwh": [
+      0.0625,
+      0.07692307692307693
+    ]
+  },
+  "token": {
+    "tiers": {
+      "budget / batched": {
+        "epsilon_J": 0.5,
+        "price_per_Mtoken": 0.4,
+        "tokens_per_kwh": 7200000.0,
+        "gross": 2.88,
+        "total_cost": [
+          0.41857142857142854,
+          0.76
+        ],
+        "net": [
+          2.12,
+          2.4614285714285713
+        ]
+      },
+      "mainstream": {
+        "epsilon_J": 2.0,
+        "price_per_Mtoken": 2.0,
+        "tokens_per_kwh": 1800000.0,
+        "gross": 3.6,
+        "total_cost": [
+          0.41857142857142854,
+          0.76
+        ],
+        "net": [
+          2.84,
+          3.1814285714285715
+        ]
+      },
+      "frontier / reasoning": {
+        "epsilon_J": 40.0,
+        "price_per_Mtoken": 30.0,
+        "tokens_per_kwh": 90000.0,
+        "gross": 2.7,
+        "total_cost": [
+          0.41857142857142854,
+          0.76
+        ],
+        "net": [
+          1.9400000000000002,
+          2.2814285714285716
+        ]
+      }
+    },
+    "span": {
+      "gross_coupled_tiers": [
+        2.7,
+        3.6
+      ],
+      "gross_density": [
+        0.72,
+        122.4
+      ],
+      "gross_density_note": "price sweep $0.40-68/Mtoken at efficient eps=2 J (one quantity: price)",
+      "net": [
+        1.9400000000000002,
+        3.1814285714285715
+      ],
+      "nonenergy_cost": [
+        0.3985714285714285,
+        0.72
+      ],
+      "cost_components": {
+        "generation": [
+          0.02,
+          0.04
+        ],
+        "chips+facility+labour": [
+          0.3985714285714285,
+          0.72
+        ]
+      }
+    }
+  },
+  "headline": {
+    "gross_value_density_USD_per_source_kWh": {
+      "electron": [
+        0.05,
+        0.08
+      ],
+      "aluminium": [
+        0.144,
+        0.2
+      ],
+      "token": [
+        0.72,
+        122.4
+      ]
+    },
+    "net_value_added_USD_per_source_kWh": {
+      "electron": [
+        -0.021,
+        0.05
+      ],
+      "aluminium": [
+        -0.05,
+        0.105
+      ],
+      "token": [
+        1.94,
+        3.18
+      ]
+    },
+    "token_vs_electron_x": 174.0,
+    "token_vs_aluminium_x": 93.0,
+    "note_multiple_fragile": "Net multiples are sensitive to the near-zero electron/metal net midpoints (which straddle zero); read as 'one-to-two orders of magnitude', not as exact (e.g. ~50-170x).",
+    "note_capex": "Token has the HIGHEST conversion cost per source kWh (~$0.4-0.7) and the highest capital intensity per unit power (the chip constraint, M3); it wins on NET value added, not on capex."
+  }
+}

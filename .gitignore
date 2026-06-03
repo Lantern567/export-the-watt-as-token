@@ -8,10 +8,16 @@ ai_paper.txt
 data/*.pdf
 data/AI4Science.txt
 data/bgc_extracted.txt
+data/mmc2_extracted.txt
+mmc2.pdf
 
 # Transient workflow API artifacts
 data/orig_bs.json
 data/text_bs.json
+
+# Regenerable API response caches (Open-Meteo weather, AI demand traces)
+data/cache_openmeteo/
+data/cache_traces/
 
 # OneDrive / OS cruft
 desktop.ini

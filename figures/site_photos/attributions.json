@@ -1,0 +1,112 @@
+{
+  "gobi": {
+    "label": "Gobi mega-base (solar+wind)",
+    "title": "File:Wind power plants in Xinjiang, China.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Wind_power_plants_in_Xinjiang%2C_China.jpg/960px-Wind_power_plants_in_Xinjiang%2C_China.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Wind_power_plants_in_Xinjiang,_China.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 2.0",
+    "artist": "林 慕尧 / Chris Lim from East Coast (东海岸), Singapore (新加坡)",
+    "file": "gobi.jpg"
+  },
+  "yarlung": {
+    "label": "Yarlung Tsangpo (hydro)",
+    "title": "File:Yarlung Tsangpo - Tibet - 02.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Yarlung_Tsangpo_-_Tibet_-_02.jpg/960px-Yarlung_Tsangpo_-_Tibet_-_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yarlung_Tsangpo_-_Tibet_-_02.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Carlos Delgado",
+    "file": "yarlung.jpg"
+  },
+  "grand_inga": {
+    "label": "Grand Inga (hydro)",
+    "title": "File:Inga04.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Inga04.jpg/960px-Inga04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Inga04.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY 2.5",
+    "artist": "Alaindg",
+    "file": "grand_inga.jpg"
+  },
+  "are_hub": {
+    "label": "Australian REH (solar+wind)",
+    "title": "File:Collgar Wind Farm 2011.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Collgar_Wind_Farm_2011.jpg/960px-Collgar_Wind_Farm_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Collgar_Wind_Farm_2011.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Diana House from Fremantle, Western Australia, AU",
+    "file": "are_hub.jpg"
+  },
+  "morocco": {
+    "label": "Noor / desert solar",
+    "title": "File:Noor 1 and 2 - Ouarzazate Solar Power Station (48962353822).jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Noor_1_and_2_-_Ouarzazate_Solar_Power_Station_%2848962353822%29.jpg/960px-Noor_1_and_2_-_Ouarzazate_Solar_Power_Station_%2848962353822%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Noor_1_and_2_-_Ouarzazate_Solar_Power_Station_(48962353822).jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "Richard Allaway",
+    "file": "morocco.jpg"
+  },
+  "geothermal": {
+    "label": "Iceland geothermal",
+    "title": "File:HellisheidiPowerStation01.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/HellisheidiPowerStation01.jpg/960px-HellisheidiPowerStation01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:HellisheidiPowerStation01.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY 2.0",
+    "artist": "ThinkGeoEnergy",
+    "file": "geothermal.jpg"
+  },
+  "itaipu": {
+    "label": "Itaipu (hydro)",
+    "title": "File:Itaipu Dam, aerial photograph.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Itaipu_Dam%2C_aerial_photograph.jpg/960px-Itaipu_Dam%2C_aerial_photograph.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Itaipu_Dam,_aerial_photograph.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY 4.0",
+    "artist": "acediscovery",
+    "file": "itaipu.jpg"
+  },
+  "churchill": {
+    "label": "Churchill Falls (hydro)",
+    "title": "File:Churchill fallslabrador.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Churchill_fallslabrador.jpg/960px-Churchill_fallslabrador.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Churchill_fallslabrador.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 3.0",
+    "artist": "?",
+    "file": "churchill.jpg"
+  },
+  "rogun": {
+    "label": "Rogun / Nurek (hydro)",
+    "title": "File:Nurek Dam and the Vakhsh River.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Nurek_Dam_and_the_Vakhsh_River.jpg/960px-Nurek_Dam_and_the_Vakhsh_River.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nurek_Dam_and_the_Vakhsh_River.jpg",
+    "mime": "image/jpeg",
+    "license": "CC0",
+    "artist": "Nikolamikovic82",
+    "file": "rogun.jpg"
+  },
+  "siberia": {
+    "label": "Angara-Yenisei (hydro)",
+    "title": "File:Sayano–Shushenskaya Dam1.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Sayano%E2%80%93Shushenskaya_Dam1.JPG/960px-Sayano%E2%80%93Shushenskaya_Dam1.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Sayano%E2%80%93Shushenskaya_Dam1.JPG",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 3.0",
+    "artist": "MVVAlt",
+    "file": "siberia.jpg"
+  },
+  "kazakhstan": {
+    "label": "Hyrasia / Kazakhstan (wind)",
+    "title": "File:Korday wind farm in the south- east of Kazakhstan.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Korday_wind_farm_in_the_south-_east_of_Kazakhstan.jpg/960px-Korday_wind_farm_in_the_south-_east_of_Kazakhstan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Korday_wind_farm_in_the_south-_east_of_Kazakhstan.jpg",
+    "mime": "image/jpeg",
+    "license": "CC BY-SA 4.0",
+    "artist": "МаратД",
+    "file": "kazakhstan.jpg"
+  }
+}

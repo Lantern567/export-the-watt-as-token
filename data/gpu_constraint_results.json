@@ -1,0 +1,164 @@
+{
+  "params": {
+    "accel_kW": {
+      "lo": 1.7,
+      "central": 2.0,
+      "hi": 2.7
+    },
+    "prod_2025": {
+      "lo": 4000000.0,
+      "central": 5000000.0,
+      "hi": 6000000.0
+    },
+    "prod_growth": 1.35,
+    "cost_USD": {
+      "chip": 30000,
+      "system": 50000
+    },
+    "TCO": {
+      "chips_servers": 0.6,
+      "facility": 0.29,
+      "electricity_lo": 0.04,
+      "electricity_hi": 0.07
+    },
+    "dam_cost_USD": 167000000000.0
+  },
+  "portfolio_continuous_equiv_GW": [
+    132.6,
+    257.3
+  ],
+  "fill_targets": {
+    "1": {
+      "GW": 1,
+      "accelerators": 500000.0,
+      "accelerators_millions": 0.5,
+      "capital_USD_chip": 15000000000.0,
+      "capital_USD_system": 25000000000.0,
+      "capital_x_dam_system": 0.1
+    },
+    "10": {
+      "GW": 10,
+      "accelerators": 5000000.0,
+      "accelerators_millions": 5.0,
+      "capital_USD_chip": 150000000000.0,
+      "capital_USD_system": 250000000000.0,
+      "capital_x_dam_system": 1.5
+    },
+    "60": {
+      "GW": 60,
+      "accelerators": 30000000.0,
+      "accelerators_millions": 30.0,
+      "capital_USD_chip": 900000000000.0,
+      "capital_USD_system": 1500000000000.0,
+      "capital_x_dam_system": 9.0
+    },
+    "portfolio_lo": {
+      "GW": 132.6,
+      "accelerators": 66300000.0,
+      "accelerators_millions": 66.3,
+      "capital_USD_chip": 1989000000000.0,
+      "capital_USD_system": 3315000000000.0,
+      "capital_x_dam_system": 19.9
+    },
+    "portfolio_hi": {
+      "GW": 257.3,
+      "accelerators": 128650000.0,
+      "accelerators_millions": 128.65,
+      "capital_USD_chip": 3859500000000.0,
+      "capital_USD_system": 6432500000000.0,
+      "capital_x_dam_system": 38.5
+    }
+  },
+  "deployable_by_share": {
+    "share_10pct": {
+      "deployable_GW_per_yr_2025": 1.0,
+      "years_to_fill_10GW": 10.0,
+      "years_to_fill_60GW": 60.0,
+      "years_to_fill_portfolio_lo": 132.6,
+      "years_to_fill_portfolio_hi": 257.3
+    },
+    "share_20pct": {
+      "deployable_GW_per_yr_2025": 2.0,
+      "years_to_fill_10GW": 5.0,
+      "years_to_fill_60GW": 30.0,
+      "years_to_fill_portfolio_lo": 66.3,
+      "years_to_fill_portfolio_hi": 128.7
+    },
+    "share_50pct": {
+      "deployable_GW_per_yr_2025": 5.0,
+      "years_to_fill_10GW": 2.0,
+      "years_to_fill_60GW": 12.0,
+      "years_to_fill_portfolio_lo": 26.5,
+      "years_to_fill_portfolio_hi": 51.5
+    }
+  },
+  "trajectory_20pct_share": [
+    {
+      "year": 2025,
+      "prod_accel": 5000000,
+      "deployable_GW": 2.0,
+      "cumulative_GW": 2.0
+    },
+    {
+      "year": 2026,
+      "prod_accel": 6750000,
+      "deployable_GW": 2.7,
+      "cumulative_GW": 4.7
+    },
+    {
+      "year": 2027,
+      "prod_accel": 9112500,
+      "deployable_GW": 3.65,
+      "cumulative_GW": 8.3
+    },
+    {
+      "year": 2028,
+      "prod_accel": 12301875,
+      "deployable_GW": 4.92,
+      "cumulative_GW": 13.3
+    },
+    {
+      "year": 2029,
+      "prod_accel": 16607531,
+      "deployable_GW": 6.64,
+      "cumulative_GW": 19.9
+    },
+    {
+      "year": 2030,
+      "prod_accel": 22420167,
+      "deployable_GW": 8.97,
+      "cumulative_GW": 28.9
+    },
+    {
+      "year": 2031,
+      "prod_accel": 30267226,
+      "deployable_GW": 12.11,
+      "cumulative_GW": 41.0
+    },
+    {
+      "year": 2032,
+      "prod_accel": 40860755,
+      "deployable_GW": 16.34,
+      "cumulative_GW": 57.3
+    },
+    {
+      "year": 2033,
+      "prod_accel": 55162019,
+      "deployable_GW": 22.06,
+      "cumulative_GW": 79.4
+    },
+    {
+      "year": 2034,
+      "prod_accel": 74468725,
+      "deployable_GW": 29.79,
+      "cumulative_GW": 109.2
+    },
+    {
+      "year": 2035,
+      "prod_accel": 100532779,
+      "deployable_GW": 40.21,
+      "cumulative_GW": 149.4
+    }
+  ],
+  "key_message": "Strandable resource ~132.6-257.3 GW continuous-equivalent vastly exceeds what chips can fill: at 20% of 2025 accelerator output only ~2.0 GW/yr is deployable, so a 10 GW cluster takes ~5.0 yr and the whole resource base is a multi-decade horizon. Chips, capital and logistics - not watts - pace the build-out."
+}

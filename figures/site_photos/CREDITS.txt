@@ -1,0 +1,14 @@
+Fig. 3a inset photographs (representative stranded clean-energy sites), reused under the stated licences via Wikimedia Commons:
+
+- Itaipu (hydro): 'Itaipu Dam, aerial photograph.jpg' by acediscovery (CC BY 4.0). https://commons.wikimedia.org/wiki/File:Itaipu_Dam,_aerial_photograph.jpg
+- Angara-Yenisei (hydro): 'Sayano–Shushenskaya Dam1.JPG' by MVVAlt (CC BY-SA 3.0). https://commons.wikimedia.org/wiki/File:Sayano%E2%80%93Shushenskaya_Dam1.JPG
+- Hyrasia / Kazakhstan (wind): 'Korday wind farm in the south- east of Kazakhstan.jpg' by МаратД (CC BY-SA 4.0). https://commons.wikimedia.org/wiki/File:Korday_wind_farm_in_the_south-_east_of_Kazakhstan.jpg
+- Rogun / Nurek (hydro): 'Nurek Dam and the Vakhsh River.jpg' by Nikolamikovic82 (CC0). https://commons.wikimedia.org/wiki/File:Nurek_Dam_and_the_Vakhsh_River.jpg
+- Gobi mega-base (solar+wind): 'Wind power plants in Xinjiang, China.jpg' by 林 慕尧 / Chris Lim from East Coast (东海岸), Singapore (新加坡) (CC BY-SA 2.0). https://commons.wikimedia.org/wiki/File:Wind_power_plants_in_Xinjiang,_China.jpg
+- Yarlung Tsangpo (hydro): 'Yarlung Tsangpo - Tibet - 02.jpg' by Carlos Delgado (CC BY-SA 3.0). https://commons.wikimedia.org/wiki/File:Yarlung_Tsangpo_-_Tibet_-_02.jpg
+- Australian REH (solar+wind): 'Collgar Wind Farm 2011.jpg' by Diana House from Fremantle, Western Australia, AU (CC BY-SA 2.0). https://commons.wikimedia.org/wiki/File:Collgar_Wind_Farm_2011.jpg
+- Grand Inga (hydro): 'Inga04.jpg' by Alaindg (CC BY 2.5). https://commons.wikimedia.org/wiki/File:Inga04.jpg
+- Noor / desert solar: 'Noor 1 and 2 - Ouarzazate Solar Power Station (48962353822).jpg' by Richard Allaway (CC BY 2.0). https://commons.wikimedia.org/wiki/File:Noor_1_and_2_-_Ouarzazate_Solar_Power_Station_(48962353822).jpg
+- Iceland geothermal: 'HellisheidiPowerStation01.jpg' by ThinkGeoEnergy (CC BY 2.0). https://commons.wikimedia.org/wiki/File:HellisheidiPowerStation01.jpg
+
+Submarine-fibre routes and cable landing points: TeleGeography (Submarine Cable Map).

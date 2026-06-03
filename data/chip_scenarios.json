@@ -1,0 +1,1137 @@
+{
+  "reference_AI_demand": {
+    "anchor": "IEA-2030 electricity scenario",
+    "PWh_per_yr": 1.0,
+    "continuous_GW": 114.2
+  },
+  "portfolio_continuous_equiv_GW": [
+    132.6,
+    257.3
+  ],
+  "cost_basis_USD_per_accelerator_system": 50000,
+  "accel_kW_central": 2.0,
+  "scenarios": {
+    "Constrained": {
+      "params": {
+        "growth": 1.2,
+        "share": 0.1,
+        "desc": "slow CoWoS scale-up, 10% of output to stranded sites"
+      },
+      "portfolio_fully_activated_year": 2046,
+      "trajectory": [
+        {
+          "year": 2025,
+          "deployable_GW": 1.0,
+          "cumulative_GW": 1.0,
+          "cumulative_GW_chiplimited_uncapped": 1.0,
+          "frac_portfolio_lo": 0.008,
+          "frac_portfolio_hi": 0.004,
+          "cumulative_capital_USD_system": 25000000000,
+          "frac_ref_AI_demand_served": 0.009
+        },
+        {
+          "year": 2026,
+          "deployable_GW": 1.2,
+          "cumulative_GW": 2.2,
+          "cumulative_GW_chiplimited_uncapped": 2.2,
+          "frac_portfolio_lo": 0.017,
+          "frac_portfolio_hi": 0.009,
+          "cumulative_capital_USD_system": 55000000000,
+          "frac_ref_AI_demand_served": 0.019
+        },
+        {
+          "year": 2027,
+          "deployable_GW": 1.44,
+          "cumulative_GW": 3.6,
+          "cumulative_GW_chiplimited_uncapped": 3.6,
+          "frac_portfolio_lo": 0.027,
+          "frac_portfolio_hi": 0.014,
+          "cumulative_capital_USD_system": 91000000000,
+          "frac_ref_AI_demand_served": 0.032
+        },
+        {
+          "year": 2028,
+          "deployable_GW": 1.73,
+          "cumulative_GW": 5.4,
+          "cumulative_GW_chiplimited_uncapped": 5.4,
+          "frac_portfolio_lo": 0.04,
+          "frac_portfolio_hi": 0.021,
+          "cumulative_capital_USD_system": 134200000000,
+          "frac_ref_AI_demand_served": 0.047
+        },
+        {
+          "year": 2029,
+          "deployable_GW": 2.07,
+          "cumulative_GW": 7.4,
+          "cumulative_GW_chiplimited_uncapped": 7.4,
+          "frac_portfolio_lo": 0.056,
+          "frac_portfolio_hi": 0.029,
+          "cumulative_capital_USD_system": 186040000000,
+          "frac_ref_AI_demand_served": 0.065
+        },
+        {
+          "year": 2030,
+          "deployable_GW": 2.49,
+          "cumulative_GW": 9.9,
+          "cumulative_GW_chiplimited_uncapped": 9.9,
+          "frac_portfolio_lo": 0.075,
+          "frac_portfolio_hi": 0.039,
+          "cumulative_capital_USD_system": 248248000000,
+          "frac_ref_AI_demand_served": 0.087
+        },
+        {
+          "year": 2031,
+          "deployable_GW": 2.99,
+          "cumulative_GW": 12.9,
+          "cumulative_GW_chiplimited_uncapped": 12.9,
+          "frac_portfolio_lo": 0.097,
+          "frac_portfolio_hi": 0.05,
+          "cumulative_capital_USD_system": 322897600000,
+          "frac_ref_AI_demand_served": 0.113
+        },
+        {
+          "year": 2032,
+          "deployable_GW": 3.58,
+          "cumulative_GW": 16.5,
+          "cumulative_GW_chiplimited_uncapped": 16.5,
+          "frac_portfolio_lo": 0.124,
+          "frac_portfolio_hi": 0.064,
+          "cumulative_capital_USD_system": 412477120000,
+          "frac_ref_AI_demand_served": 0.145
+        },
+        {
+          "year": 2033,
+          "deployable_GW": 4.3,
+          "cumulative_GW": 20.8,
+          "cumulative_GW_chiplimited_uncapped": 20.8,
+          "frac_portfolio_lo": 0.157,
+          "frac_portfolio_hi": 0.081,
+          "cumulative_capital_USD_system": 519972544000,
+          "frac_ref_AI_demand_served": 0.182
+        },
+        {
+          "year": 2034,
+          "deployable_GW": 5.16,
+          "cumulative_GW": 26.0,
+          "cumulative_GW_chiplimited_uncapped": 26.0,
+          "frac_portfolio_lo": 0.196,
+          "frac_portfolio_hi": 0.101,
+          "cumulative_capital_USD_system": 648967052800,
+          "frac_ref_AI_demand_served": 0.227
+        },
+        {
+          "year": 2035,
+          "deployable_GW": 6.19,
+          "cumulative_GW": 32.2,
+          "cumulative_GW_chiplimited_uncapped": 32.2,
+          "frac_portfolio_lo": 0.242,
+          "frac_portfolio_hi": 0.125,
+          "cumulative_capital_USD_system": 803760463360,
+          "frac_ref_AI_demand_served": 0.282
+        },
+        {
+          "year": 2036,
+          "deployable_GW": 7.43,
+          "cumulative_GW": 39.6,
+          "cumulative_GW_chiplimited_uncapped": 39.6,
+          "frac_portfolio_lo": 0.298,
+          "frac_portfolio_hi": 0.154,
+          "cumulative_capital_USD_system": 989512556032,
+          "frac_ref_AI_demand_served": 0.347
+        },
+        {
+          "year": 2037,
+          "deployable_GW": 8.92,
+          "cumulative_GW": 48.5,
+          "cumulative_GW_chiplimited_uncapped": 48.5,
+          "frac_portfolio_lo": 0.366,
+          "frac_portfolio_hi": 0.188,
+          "cumulative_capital_USD_system": 1212415067238,
+          "frac_ref_AI_demand_served": 0.425
+        },
+        {
+          "year": 2038,
+          "deployable_GW": 10.7,
+          "cumulative_GW": 59.2,
+          "cumulative_GW_chiplimited_uncapped": 59.2,
+          "frac_portfolio_lo": 0.446,
+          "frac_portfolio_hi": 0.23,
+          "cumulative_capital_USD_system": 1479898080686,
+          "frac_ref_AI_demand_served": 0.519
+        },
+        {
+          "year": 2039,
+          "deployable_GW": 12.84,
+          "cumulative_GW": 72.0,
+          "cumulative_GW_chiplimited_uncapped": 72.0,
+          "frac_portfolio_lo": 0.543,
+          "frac_portfolio_hi": 0.28,
+          "cumulative_capital_USD_system": 1800877696823,
+          "frac_ref_AI_demand_served": 0.631
+        },
+        {
+          "year": 2040,
+          "deployable_GW": 15.41,
+          "cumulative_GW": 87.4,
+          "cumulative_GW_chiplimited_uncapped": 87.4,
+          "frac_portfolio_lo": 0.659,
+          "frac_portfolio_hi": 0.34,
+          "cumulative_capital_USD_system": 2186053236188,
+          "frac_ref_AI_demand_served": 0.766
+        },
+        {
+          "year": 2041,
+          "deployable_GW": 18.49,
+          "cumulative_GW": 105.9,
+          "cumulative_GW_chiplimited_uncapped": 105.9,
+          "frac_portfolio_lo": 0.799,
+          "frac_portfolio_hi": 0.412,
+          "cumulative_capital_USD_system": 2648263883426,
+          "frac_ref_AI_demand_served": 0.928
+        },
+        {
+          "year": 2042,
+          "deployable_GW": 22.19,
+          "cumulative_GW": 128.1,
+          "cumulative_GW_chiplimited_uncapped": 128.1,
+          "frac_portfolio_lo": 0.966,
+          "frac_portfolio_hi": 0.498,
+          "cumulative_capital_USD_system": 3202916660111,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2043,
+          "deployable_GW": 26.62,
+          "cumulative_GW": 154.7,
+          "cumulative_GW_chiplimited_uncapped": 154.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.601,
+          "cumulative_capital_USD_system": 3868499992133,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2044,
+          "deployable_GW": 31.95,
+          "cumulative_GW": 186.7,
+          "cumulative_GW_chiplimited_uncapped": 186.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.726,
+          "cumulative_capital_USD_system": 4667199990559,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2045,
+          "deployable_GW": 38.34,
+          "cumulative_GW": 225.0,
+          "cumulative_GW_chiplimited_uncapped": 225.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.875,
+          "cumulative_capital_USD_system": 5625639988671,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2046,
+          "deployable_GW": 46.01,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 271.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2047,
+          "deployable_GW": 55.21,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 326.2,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2048,
+          "deployable_GW": 66.25,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 392.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2049,
+          "deployable_GW": 79.5,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 472.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2050,
+          "deployable_GW": 95.4,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 567.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        }
+      ]
+    },
+    "Baseline": {
+      "params": {
+        "growth": 1.35,
+        "share": 0.2,
+        "desc": "baseline CoWoS 1.35x, 20% share"
+      },
+      "portfolio_fully_activated_year": 2037,
+      "trajectory": [
+        {
+          "year": 2025,
+          "deployable_GW": 2.0,
+          "cumulative_GW": 2.0,
+          "cumulative_GW_chiplimited_uncapped": 2.0,
+          "frac_portfolio_lo": 0.015,
+          "frac_portfolio_hi": 0.008,
+          "cumulative_capital_USD_system": 50000000000,
+          "frac_ref_AI_demand_served": 0.018
+        },
+        {
+          "year": 2026,
+          "deployable_GW": 2.7,
+          "cumulative_GW": 4.7,
+          "cumulative_GW_chiplimited_uncapped": 4.7,
+          "frac_portfolio_lo": 0.035,
+          "frac_portfolio_hi": 0.018,
+          "cumulative_capital_USD_system": 117500000000,
+          "frac_ref_AI_demand_served": 0.041
+        },
+        {
+          "year": 2027,
+          "deployable_GW": 3.65,
+          "cumulative_GW": 8.3,
+          "cumulative_GW_chiplimited_uncapped": 8.3,
+          "frac_portfolio_lo": 0.063,
+          "frac_portfolio_hi": 0.032,
+          "cumulative_capital_USD_system": 208625000000,
+          "frac_ref_AI_demand_served": 0.073
+        },
+        {
+          "year": 2028,
+          "deployable_GW": 4.92,
+          "cumulative_GW": 13.3,
+          "cumulative_GW_chiplimited_uncapped": 13.3,
+          "frac_portfolio_lo": 0.1,
+          "frac_portfolio_hi": 0.052,
+          "cumulative_capital_USD_system": 331643750000,
+          "frac_ref_AI_demand_served": 0.116
+        },
+        {
+          "year": 2029,
+          "deployable_GW": 6.64,
+          "cumulative_GW": 19.9,
+          "cumulative_GW_chiplimited_uncapped": 19.9,
+          "frac_portfolio_lo": 0.15,
+          "frac_portfolio_hi": 0.077,
+          "cumulative_capital_USD_system": 497719062500,
+          "frac_ref_AI_demand_served": 0.174
+        },
+        {
+          "year": 2030,
+          "deployable_GW": 8.97,
+          "cumulative_GW": 28.9,
+          "cumulative_GW_chiplimited_uncapped": 28.9,
+          "frac_portfolio_lo": 0.218,
+          "frac_portfolio_hi": 0.112,
+          "cumulative_capital_USD_system": 721920734375,
+          "frac_ref_AI_demand_served": 0.253
+        },
+        {
+          "year": 2031,
+          "deployable_GW": 12.11,
+          "cumulative_GW": 41.0,
+          "cumulative_GW_chiplimited_uncapped": 41.0,
+          "frac_portfolio_lo": 0.309,
+          "frac_portfolio_hi": 0.159,
+          "cumulative_capital_USD_system": 1024592991406,
+          "frac_ref_AI_demand_served": 0.359
+        },
+        {
+          "year": 2032,
+          "deployable_GW": 16.34,
+          "cumulative_GW": 57.3,
+          "cumulative_GW_chiplimited_uncapped": 57.3,
+          "frac_portfolio_lo": 0.432,
+          "frac_portfolio_hi": 0.223,
+          "cumulative_capital_USD_system": 1433200538398,
+          "frac_ref_AI_demand_served": 0.502
+        },
+        {
+          "year": 2033,
+          "deployable_GW": 22.06,
+          "cumulative_GW": 79.4,
+          "cumulative_GW_chiplimited_uncapped": 79.4,
+          "frac_portfolio_lo": 0.599,
+          "frac_portfolio_hi": 0.309,
+          "cumulative_capital_USD_system": 1984820726838,
+          "frac_ref_AI_demand_served": 0.695
+        },
+        {
+          "year": 2034,
+          "deployable_GW": 29.79,
+          "cumulative_GW": 109.2,
+          "cumulative_GW_chiplimited_uncapped": 109.2,
+          "frac_portfolio_lo": 0.823,
+          "frac_portfolio_hi": 0.424,
+          "cumulative_capital_USD_system": 2729507981231,
+          "frac_ref_AI_demand_served": 0.956
+        },
+        {
+          "year": 2035,
+          "deployable_GW": 40.21,
+          "cumulative_GW": 149.4,
+          "cumulative_GW_chiplimited_uncapped": 149.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.581,
+          "cumulative_capital_USD_system": 3734835774662,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2036,
+          "deployable_GW": 54.29,
+          "cumulative_GW": 203.7,
+          "cumulative_GW_chiplimited_uncapped": 203.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.792,
+          "cumulative_capital_USD_system": 5092028295794,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2037,
+          "deployable_GW": 73.29,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 277.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2038,
+          "deployable_GW": 98.94,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 375.9,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2039,
+          "deployable_GW": 133.57,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 509.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2040,
+          "deployable_GW": 180.32,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 689.8,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2041,
+          "deployable_GW": 243.43,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 933.2,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2042,
+          "deployable_GW": 328.63,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1261.8,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2043,
+          "deployable_GW": 443.65,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1705.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2044,
+          "deployable_GW": 598.92,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 2304.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2045,
+          "deployable_GW": 808.55,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 3113.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2046,
+          "deployable_GW": 1091.54,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 4204.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2047,
+          "deployable_GW": 1473.58,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 5678.1,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2048,
+          "deployable_GW": 1989.33,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 7667.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2049,
+          "deployable_GW": 2685.59,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 10353.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2050,
+          "deployable_GW": 3625.55,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 13978.6,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        }
+      ]
+    },
+    "Accelerated": {
+      "params": {
+        "growth": 1.5,
+        "share": 0.3,
+        "desc": "packaging breakthrough 1.50x, 30% share"
+      },
+      "portfolio_fully_activated_year": 2034,
+      "trajectory": [
+        {
+          "year": 2025,
+          "deployable_GW": 3.0,
+          "cumulative_GW": 3.0,
+          "cumulative_GW_chiplimited_uncapped": 3.0,
+          "frac_portfolio_lo": 0.023,
+          "frac_portfolio_hi": 0.012,
+          "cumulative_capital_USD_system": 75000000000,
+          "frac_ref_AI_demand_served": 0.026
+        },
+        {
+          "year": 2026,
+          "deployable_GW": 4.5,
+          "cumulative_GW": 7.5,
+          "cumulative_GW_chiplimited_uncapped": 7.5,
+          "frac_portfolio_lo": 0.057,
+          "frac_portfolio_hi": 0.029,
+          "cumulative_capital_USD_system": 187500000000,
+          "frac_ref_AI_demand_served": 0.066
+        },
+        {
+          "year": 2027,
+          "deployable_GW": 6.75,
+          "cumulative_GW": 14.2,
+          "cumulative_GW_chiplimited_uncapped": 14.2,
+          "frac_portfolio_lo": 0.107,
+          "frac_portfolio_hi": 0.055,
+          "cumulative_capital_USD_system": 356250000000,
+          "frac_ref_AI_demand_served": 0.125
+        },
+        {
+          "year": 2028,
+          "deployable_GW": 10.12,
+          "cumulative_GW": 24.4,
+          "cumulative_GW_chiplimited_uncapped": 24.4,
+          "frac_portfolio_lo": 0.184,
+          "frac_portfolio_hi": 0.095,
+          "cumulative_capital_USD_system": 609375000000,
+          "frac_ref_AI_demand_served": 0.214
+        },
+        {
+          "year": 2029,
+          "deployable_GW": 15.19,
+          "cumulative_GW": 39.6,
+          "cumulative_GW_chiplimited_uncapped": 39.6,
+          "frac_portfolio_lo": 0.298,
+          "frac_portfolio_hi": 0.154,
+          "cumulative_capital_USD_system": 989062500000,
+          "frac_ref_AI_demand_served": 0.347
+        },
+        {
+          "year": 2030,
+          "deployable_GW": 22.78,
+          "cumulative_GW": 62.3,
+          "cumulative_GW_chiplimited_uncapped": 62.3,
+          "frac_portfolio_lo": 0.47,
+          "frac_portfolio_hi": 0.242,
+          "cumulative_capital_USD_system": 1558593750000,
+          "frac_ref_AI_demand_served": 0.546
+        },
+        {
+          "year": 2031,
+          "deployable_GW": 34.17,
+          "cumulative_GW": 96.5,
+          "cumulative_GW_chiplimited_uncapped": 96.5,
+          "frac_portfolio_lo": 0.728,
+          "frac_portfolio_hi": 0.375,
+          "cumulative_capital_USD_system": 2412890625000,
+          "frac_ref_AI_demand_served": 0.845
+        },
+        {
+          "year": 2032,
+          "deployable_GW": 51.26,
+          "cumulative_GW": 147.8,
+          "cumulative_GW_chiplimited_uncapped": 147.8,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.574,
+          "cumulative_capital_USD_system": 3694335937500,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2033,
+          "deployable_GW": 76.89,
+          "cumulative_GW": 224.7,
+          "cumulative_GW_chiplimited_uncapped": 224.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.873,
+          "cumulative_capital_USD_system": 5616503906250,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2034,
+          "deployable_GW": 115.33,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 340.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2035,
+          "deployable_GW": 173.0,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 513.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2036,
+          "deployable_GW": 259.49,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 772.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2037,
+          "deployable_GW": 389.24,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1161.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2038,
+          "deployable_GW": 583.86,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1745.6,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2039,
+          "deployable_GW": 875.79,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 2621.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2040,
+          "deployable_GW": 1313.68,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 3935.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2041,
+          "deployable_GW": 1970.52,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 5905.6,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2042,
+          "deployable_GW": 2955.78,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 8861.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2043,
+          "deployable_GW": 4433.68,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 13295.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2044,
+          "deployable_GW": 6650.51,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 19945.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2045,
+          "deployable_GW": 9975.77,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 29921.3,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2046,
+          "deployable_GW": 14963.66,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 44885.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2047,
+          "deployable_GW": 22445.48,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 67330.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2048,
+          "deployable_GW": 33668.22,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 100998.7,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2049,
+          "deployable_GW": 50502.34,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 151501.0,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2050,
+          "deployable_GW": 75753.5,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 227254.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        }
+      ]
+    },
+    "Export-restricted": {
+      "params": {
+        "growth": 1.35,
+        "share": 0.05,
+        "desc": "baseline output but only 5% reaches stranded sites"
+      },
+      "portfolio_fully_activated_year": 2042,
+      "trajectory": [
+        {
+          "year": 2025,
+          "deployable_GW": 0.5,
+          "cumulative_GW": 0.5,
+          "cumulative_GW_chiplimited_uncapped": 0.5,
+          "frac_portfolio_lo": 0.004,
+          "frac_portfolio_hi": 0.002,
+          "cumulative_capital_USD_system": 12500000000,
+          "frac_ref_AI_demand_served": 0.004
+        },
+        {
+          "year": 2026,
+          "deployable_GW": 0.68,
+          "cumulative_GW": 1.2,
+          "cumulative_GW_chiplimited_uncapped": 1.2,
+          "frac_portfolio_lo": 0.009,
+          "frac_portfolio_hi": 0.005,
+          "cumulative_capital_USD_system": 29375000000,
+          "frac_ref_AI_demand_served": 0.01
+        },
+        {
+          "year": 2027,
+          "deployable_GW": 0.91,
+          "cumulative_GW": 2.1,
+          "cumulative_GW_chiplimited_uncapped": 2.1,
+          "frac_portfolio_lo": 0.016,
+          "frac_portfolio_hi": 0.008,
+          "cumulative_capital_USD_system": 52156250000,
+          "frac_ref_AI_demand_served": 0.018
+        },
+        {
+          "year": 2028,
+          "deployable_GW": 1.23,
+          "cumulative_GW": 3.3,
+          "cumulative_GW_chiplimited_uncapped": 3.3,
+          "frac_portfolio_lo": 0.025,
+          "frac_portfolio_hi": 0.013,
+          "cumulative_capital_USD_system": 82910937500,
+          "frac_ref_AI_demand_served": 0.029
+        },
+        {
+          "year": 2029,
+          "deployable_GW": 1.66,
+          "cumulative_GW": 5.0,
+          "cumulative_GW_chiplimited_uncapped": 5.0,
+          "frac_portfolio_lo": 0.038,
+          "frac_portfolio_hi": 0.019,
+          "cumulative_capital_USD_system": 124429765625,
+          "frac_ref_AI_demand_served": 0.044
+        },
+        {
+          "year": 2030,
+          "deployable_GW": 2.24,
+          "cumulative_GW": 7.2,
+          "cumulative_GW_chiplimited_uncapped": 7.2,
+          "frac_portfolio_lo": 0.054,
+          "frac_portfolio_hi": 0.028,
+          "cumulative_capital_USD_system": 180480183594,
+          "frac_ref_AI_demand_served": 0.063
+        },
+        {
+          "year": 2031,
+          "deployable_GW": 3.03,
+          "cumulative_GW": 10.2,
+          "cumulative_GW_chiplimited_uncapped": 10.2,
+          "frac_portfolio_lo": 0.077,
+          "frac_portfolio_hi": 0.04,
+          "cumulative_capital_USD_system": 256148247852,
+          "frac_ref_AI_demand_served": 0.09
+        },
+        {
+          "year": 2032,
+          "deployable_GW": 4.09,
+          "cumulative_GW": 14.3,
+          "cumulative_GW_chiplimited_uncapped": 14.3,
+          "frac_portfolio_lo": 0.108,
+          "frac_portfolio_hi": 0.056,
+          "cumulative_capital_USD_system": 358300134600,
+          "frac_ref_AI_demand_served": 0.126
+        },
+        {
+          "year": 2033,
+          "deployable_GW": 5.52,
+          "cumulative_GW": 19.8,
+          "cumulative_GW_chiplimited_uncapped": 19.8,
+          "frac_portfolio_lo": 0.15,
+          "frac_portfolio_hi": 0.077,
+          "cumulative_capital_USD_system": 496205181709,
+          "frac_ref_AI_demand_served": 0.174
+        },
+        {
+          "year": 2034,
+          "deployable_GW": 7.45,
+          "cumulative_GW": 27.3,
+          "cumulative_GW_chiplimited_uncapped": 27.3,
+          "frac_portfolio_lo": 0.206,
+          "frac_portfolio_hi": 0.106,
+          "cumulative_capital_USD_system": 682376995308,
+          "frac_ref_AI_demand_served": 0.239
+        },
+        {
+          "year": 2035,
+          "deployable_GW": 10.05,
+          "cumulative_GW": 37.3,
+          "cumulative_GW_chiplimited_uncapped": 37.3,
+          "frac_portfolio_lo": 0.282,
+          "frac_portfolio_hi": 0.145,
+          "cumulative_capital_USD_system": 933708943666,
+          "frac_ref_AI_demand_served": 0.327
+        },
+        {
+          "year": 2036,
+          "deployable_GW": 13.57,
+          "cumulative_GW": 50.9,
+          "cumulative_GW_chiplimited_uncapped": 50.9,
+          "frac_portfolio_lo": 0.384,
+          "frac_portfolio_hi": 0.198,
+          "cumulative_capital_USD_system": 1273007073948,
+          "frac_ref_AI_demand_served": 0.446
+        },
+        {
+          "year": 2037,
+          "deployable_GW": 18.32,
+          "cumulative_GW": 69.2,
+          "cumulative_GW_chiplimited_uncapped": 69.2,
+          "frac_portfolio_lo": 0.522,
+          "frac_portfolio_hi": 0.269,
+          "cumulative_capital_USD_system": 1731059549830,
+          "frac_ref_AI_demand_served": 0.607
+        },
+        {
+          "year": 2038,
+          "deployable_GW": 24.73,
+          "cumulative_GW": 94.0,
+          "cumulative_GW_chiplimited_uncapped": 94.0,
+          "frac_portfolio_lo": 0.709,
+          "frac_portfolio_hi": 0.365,
+          "cumulative_capital_USD_system": 2349430392271,
+          "frac_ref_AI_demand_served": 0.823
+        },
+        {
+          "year": 2039,
+          "deployable_GW": 33.39,
+          "cumulative_GW": 127.4,
+          "cumulative_GW_chiplimited_uncapped": 127.4,
+          "frac_portfolio_lo": 0.961,
+          "frac_portfolio_hi": 0.495,
+          "cumulative_capital_USD_system": 3184231029566,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2040,
+          "deployable_GW": 45.08,
+          "cumulative_GW": 172.4,
+          "cumulative_GW_chiplimited_uncapped": 172.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.67,
+          "cumulative_capital_USD_system": 4311211889914,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2041,
+          "deployable_GW": 60.86,
+          "cumulative_GW": 233.3,
+          "cumulative_GW_chiplimited_uncapped": 233.3,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 0.907,
+          "cumulative_capital_USD_system": 5832636051384,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2042,
+          "deployable_GW": 82.16,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 315.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2043,
+          "deployable_GW": 110.91,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 426.4,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2044,
+          "deployable_GW": 149.73,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 576.1,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2045,
+          "deployable_GW": 202.14,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 778.2,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2046,
+          "deployable_GW": 272.88,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1051.1,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2047,
+          "deployable_GW": 368.39,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1419.5,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2048,
+          "deployable_GW": 497.33,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 1916.9,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2049,
+          "deployable_GW": 671.4,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 2588.3,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        },
+        {
+          "year": 2050,
+          "deployable_GW": 906.39,
+          "cumulative_GW": 257.3,
+          "cumulative_GW_chiplimited_uncapped": 3494.6,
+          "frac_portfolio_lo": 1.0,
+          "frac_portfolio_hi": 1.0,
+          "cumulative_capital_USD_system": 6432500000000,
+          "frac_ref_AI_demand_served": 1.0
+        }
+      ]
+    }
+  },
+  "summary_2050": {
+    "Constrained": {
+      "cumulative_GW_2050": 257.3,
+      "cumulative_GW_chiplimited_uncapped_2050": 567.4,
+      "portfolio_fully_activated_year": 2046,
+      "frac_portfolio_lo_2050": 1.0,
+      "frac_portfolio_hi_2050": 1.0,
+      "cumulative_capital_USD_system_2050": 6432500000000,
+      "cumulative_capital_USD_trillions_2050": 6.43,
+      "frac_ref_AI_demand_served_2050": 1.0
+    },
+    "Baseline": {
+      "cumulative_GW_2050": 257.3,
+      "cumulative_GW_chiplimited_uncapped_2050": 13978.6,
+      "portfolio_fully_activated_year": 2037,
+      "frac_portfolio_lo_2050": 1.0,
+      "frac_portfolio_hi_2050": 1.0,
+      "cumulative_capital_USD_system_2050": 6432500000000,
+      "cumulative_capital_USD_trillions_2050": 6.43,
+      "frac_ref_AI_demand_served_2050": 1.0
+    },
+    "Accelerated": {
+      "cumulative_GW_2050": 257.3,
+      "cumulative_GW_chiplimited_uncapped_2050": 227254.5,
+      "portfolio_fully_activated_year": 2034,
+      "frac_portfolio_lo_2050": 1.0,
+      "frac_portfolio_hi_2050": 1.0,
+      "cumulative_capital_USD_system_2050": 6432500000000,
+      "cumulative_capital_USD_trillions_2050": 6.43,
+      "frac_ref_AI_demand_served_2050": 1.0
+    },
+    "Export-restricted": {
+      "cumulative_GW_2050": 257.3,
+      "cumulative_GW_chiplimited_uncapped_2050": 3494.6,
+      "portfolio_fully_activated_year": 2042,
+      "frac_portfolio_lo_2050": 1.0,
+      "frac_portfolio_hi_2050": 1.0,
+      "cumulative_capital_USD_system_2050": 6432500000000,
+      "cumulative_capital_USD_trillions_2050": 6.43,
+      "frac_ref_AI_demand_served_2050": 1.0
+    }
+  }
+}

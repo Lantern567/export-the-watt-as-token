@@ -1,0 +1,120 @@
+{
+  "aggregates": {
+    "tier1_realistic_TWh": [
+      1103,
+      2147
+    ],
+    "tier1_theoretical_extra_TWh": [
+      0,
+      2920
+    ],
+    "tier2_curtailed_TWh": [
+      59,
+      107
+    ],
+    "portfolio_realistic_TWh": [
+      1162,
+      2254
+    ],
+    "portfolio_with_theoretical_TWh": [
+      1162,
+      5174
+    ],
+    "n_tier1": 23,
+    "n_tier2": 12,
+    "by_type_TWh": {
+      "hydro": [
+        428,
+        931
+      ],
+      "solar+wind": [
+        716,
+        1288
+      ],
+      "geothermal": [
+        3,
+        6
+      ],
+      "mixed-renewable": [
+        6,
+        16
+      ],
+      "wind": [
+        6,
+        9
+      ],
+      "solar": [
+        3,
+        4
+      ]
+    }
+  },
+  "demand": {
+    "elec_scenarios_PWh": {
+      "IEA_2030": 1.0,
+      "mid_10x": 10.0,
+      "extreme_100x": 100.0
+    },
+    "token_throughput_2025": {
+      "lo": 1.5e+16,
+      "hi": 2e+16,
+      "central": 1.75e+16
+    },
+    "epsilon_J_per_token": {
+      "best_batched": 0.3,
+      "central": 2.0,
+      "frontier": 70.0,
+      "lo": 0.15,
+      "hi": 120.0
+    },
+    "portfolio_realistic_PWh": [
+      1.162,
+      2.254
+    ],
+    "portfolio_vs_elec_multiple": {
+      "IEA_2030": [
+        1.162,
+        2.254
+      ],
+      "mid_10x": [
+        0.116,
+        0.225
+      ],
+      "extreme_100x": [
+        0.012,
+        0.023
+      ]
+    },
+    "portfolio_tokens_per_yr": {
+      "central_eps": [
+        2.0915999999999997e+18,
+        4.0572e+18
+      ],
+      "best_eps": [
+        1.3943999999999998e+19,
+        2.7048e+19
+      ],
+      "frontier_eps": [
+        5.975999999999999e+16,
+        1.1592e+17
+      ]
+    },
+    "portfolio_multiple_of_2025_throughput_centralEps": [
+      119.51999999999998,
+      231.84
+    ],
+    "desert_WSS_benchmark": {
+      "source": "Zhu et al., Desert power for the AI era, Nexus 2026",
+      "deliverable_PWh": [
+        1,
+        100
+      ],
+      "lcoe_USD_per_MWh": {
+        "1PWh": 39,
+        "10PWh": 46,
+        "100PWh_capex_mid": "<60"
+      },
+      "capacity_lt_68USD_GW": 10000
+    }
+  }
+}

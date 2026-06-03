@@ -1,0 +1,120 @@
+{
+  "metric_primary": "years_to_fill_60GW (lower=faster); secondary cumulative_GW_2035",
+  "method": "one-at-a-time (OAT) sensitivity around central baseline, 20% share",
+  "tornado": {
+    "baseline": {
+      "share": 0.2,
+      "prod0": 5000000.0,
+      "growth": 1.35,
+      "accel_kW": 2.0,
+      "years_to_fill_60GW": 8.12,
+      "cumulative_GW_2035": 149.4
+    },
+    "levers": [
+      {
+        "lever": "accelerator_output_2025",
+        "range_note": "4-6 M accelerators/yr (2025)",
+        "lo_value": 4000000.0,
+        "hi_value": 6000000.0,
+        "years_to_fill_60GW_lo": 8.8,
+        "years_to_fill_60GW_hi": 7.55,
+        "years_swing": 1.25,
+        "cumulative_GW_2035_lo": 119.5,
+        "cumulative_GW_2035_hi": 179.3,
+        "cumulative_GW_2035_swing": 59.8,
+        "rank_by_years_swing": 4
+      },
+      {
+        "lever": "prod_growth_CoWoS",
+        "range_note": "1.20-1.50x annual (CoWoS-paced packaging scale-up)",
+        "lo_value": 1.2,
+        "hi_value": 1.5,
+        "years_to_fill_60GW_lo": 10.65,
+        "years_to_fill_60GW_hi": 6.81,
+        "years_swing": 3.84,
+        "cumulative_GW_2035_lo": 64.3,
+        "cumulative_GW_2035_hi": 342.0,
+        "cumulative_GW_2035_swing": 277.7,
+        "rank_by_years_swing": 2
+      },
+      {
+        "lever": "allocation_share_s",
+        "range_note": "10-50% of global output routed to stranded sites",
+        "lo_value": 0.1,
+        "hi_value": 0.5,
+        "years_to_fill_60GW_lo": 10.27,
+        "years_to_fill_60GW_hi": 5.46,
+        "years_swing": 4.81,
+        "cumulative_GW_2035_lo": 74.7,
+        "cumulative_GW_2035_hi": 373.5,
+        "cumulative_GW_2035_swing": 298.8,
+        "rank_by_years_swing": 1
+      },
+      {
+        "lever": "accel_power_kW",
+        "range_note": "1.7-2.7 kW facility-level per accelerator",
+        "lo_value": 1.7,
+        "hi_value": 2.7,
+        "years_to_fill_60GW_lo": 8.6,
+        "years_to_fill_60GW_hi": 7.21,
+        "years_swing": 1.39,
+        "cumulative_GW_2035_lo": 127.0,
+        "cumulative_GW_2035_hi": 201.7,
+        "cumulative_GW_2035_swing": 74.7,
+        "rank_by_years_swing": 3
+      },
+      {
+        "lever": "portfolio_size_GW",
+        "range_note": "132.6-257.3 GW continuous-equivalent (target, not rate)",
+        "lo_value": 132.6,
+        "hi_value": 257.3,
+        "years_to_fill_60GW_lo": 8.12,
+        "years_to_fill_60GW_hi": 8.12,
+        "years_swing": 0.0,
+        "years_to_fill_portfolio_lo": 10.58,
+        "years_to_fill_portfolio_hi": 12.73,
+        "years_swing_full_portfolio": 2.15,
+        "cumulative_GW_2035_lo": 149.4,
+        "cumulative_GW_2035_hi": 149.4,
+        "cumulative_GW_2035_swing": 0.0,
+        "note": "Portfolio size sets the finish line, not the deployment RATE; it leaves both 60 GW timing and 2035 cumulative GW unchanged.",
+        "rank_by_years_swing": 5
+      },
+      {
+        "lever": "energy_available_PWh",
+        "range_note": "1.16-2.25 PWh available (= 132.6-257.3 GW continuous-equiv potential)",
+        "lo_value": 1.16,
+        "hi_value": 2.25,
+        "energy_potential_GW_lo": 132.6,
+        "energy_potential_GW_hi": 257.3,
+        "years_to_fill_60GW_lo": 8.12,
+        "years_to_fill_60GW_hi": 8.12,
+        "years_swing": 0.0,
+        "cumulative_GW_2035_lo": 132.6,
+        "cumulative_GW_2035_hi": 149.4,
+        "cumulative_GW_2035_swing": 16.8,
+        "binding": true,
+        "note": "Primary metric (years to fill 60 GW) has ZERO energy swing: 60 GW is far below even the low-end potential (132.6 GW). For the 2035 build, realised GW = min(chip-limited 149.4, energy ceiling): energy binds only marginally at the very low end (132.6 GW potential < 149.4 GW chip build), i.e. only if supply is frozen at today's named projects (~2031 crossover); above ~1.31 PWh energy is non-binding. Watts do not pace the build-out.",
+        "rank_by_years_swing": 6
+      }
+    ],
+    "ranked_by_years_swing": [
+      "allocation_share_s",
+      "prod_growth_CoWoS",
+      "accel_power_kW",
+      "accelerator_output_2025",
+      "portfolio_size_GW",
+      "energy_available_PWh"
+    ],
+    "top_lever": "allocation_share_s",
+    "energy_swing_is_zero": true
+  },
+  "shadow_price_watts_vs_chips": {
+    "baseline_deployable_GW_per_yr": 2.0,
+    "marginal_deployable_GW_per_plus1pct_output": 0.02,
+    "marginal_deployable_GW_per_plus1PWh_energy": 0.0,
+    "energy_potential_GW_per_PWh": 114.2,
+    "shadow_price_ratio_output_over_energy": "infinite (energy marginal = 0)",
+    "interpretation": "At the margin, +1% of global accelerator output yields ~0.02 extra deployable GW/yr, whereas +1 PWh of additional clean energy yields ~0 (it raises POTENTIAL by ~114.0 GW continuous but chips remain binding). The shadow price of chips is effectively infinite relative to watts: energy has zero marginal value for deployment until it stops being abundant."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "LP over average UTC day (24h) with cyclic storage, scipy.linprog/HiGHS",
+  "objective_weights": {
+    "lambda_storage": 0.02,
+    "mu_curtail": 0.01
+  },
+  "served_fraction": 1.0,
+  "unmet_fraction": 0.0,
+  "curtailment_fraction_of_clean": 0.5599214145383101,
+  "storage_peak_units": 0.0,
+  "storage_mean_units": 0.0,
+  "notes": "Optimal served fraction is an UPPER BOUND on the heuristic (perfect-foresight, frictionless storage over the average day).",
+  "solver": "scipy.optimize.linprog HiGHS",
+  "heuristic_served_fraction": 0.9991065406462963,
+  "heuristic_pct_of_optimal": 99.9
+}
